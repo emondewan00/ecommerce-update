@@ -13,7 +13,7 @@ import OfferCardFullWidth from "@/components/shared/OfferCardFullWidth";
 
 export default async function Home() {
   const session = await auth();
-  console.log(session?.user);
+  // console.log(session?.user);
   return (
     <div className="max-w-5xl mx-auto px-4 md:px-0">
       <div className="my-4 flex flex-col-reverse md:flex-row gap-4">

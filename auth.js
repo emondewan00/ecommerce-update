@@ -13,6 +13,7 @@ export const {
   session: {
     strategy: "jwt",
   },
+  trustHost: true,
   providers: [
     Credentials({
       name: "Credentials",
@@ -30,7 +31,6 @@ export const {
         try {
           await connectBD();
           const user = await UserModel.findOne({ email: credentials.email });
-          console.log(user, "user");
           if (!user) {
             return null;
           }
