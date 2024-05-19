@@ -2,15 +2,15 @@ import { FaShoppingCart, FaStar } from "react-icons/fa";
 import Rating from "react-rating";
 
 const PdDetails = ({ product }) => {
-  const { discount_price, price, rating, title, brand, category, sku, availability } =
+  const { discount_price, price, rating, name, brand, category, sku, availability } =
     product || {};
   const ratingArray = new Array(Math.round(rating)).fill(0);
 
   return (
     <div className="w-full ">
-      <h4 className="mt-2 text-xl">{title}</h4>
+      <h4 className="mt-2 text-xl">{name}</h4>
       <div className="text-sm my-2 text-yellow-400 flex gap-x-1 items-center">
-        {ratingArray.map((item, index) => (
+        {ratingArray.map((_, index) => (
           <FaStar key={index} className="text-yellow-400" />
         ))}
         <span className="ml-2 text-gray-400">{rating} Ratings </span>
