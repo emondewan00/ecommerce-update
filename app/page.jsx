@@ -1,3 +1,4 @@
+import { auth } from "@/auth";
 import Clothing from "@/components/home/Clothing";
 import Features from "@/components/home/Features";
 import HotDeals from "@/components/home/HotDeals";
@@ -11,6 +12,8 @@ import TopSell from "@/components/home/TopSell";
 import OfferCardFullWidth from "@/components/shared/OfferCardFullWidth";
 
 export default async function Home() {
+  const session = await auth();
+  console.log(session?.user);
   return (
     <div className="max-w-5xl mx-auto px-4 md:px-0">
       <div className="my-4 flex flex-col-reverse md:flex-row gap-4">
@@ -26,10 +29,10 @@ export default async function Home() {
       <TopCategories />
       <PopularDepartments />
       <Sponsors />
-      <Clothing url1="womens-dresses" url2="womens-shoes" />
-      <Clothing url1="mens-shirts" url2="mens-shoes" />
+      <Clothing category="clothing" />
+      <Clothing category={"fragrance"} />
       <OfferCardFullWidth />
-      <Clothing url1="sunglasses" url2="mens-watches" />
+      <Clothing category={"laptop"} />
       <RecentViews />
     </div>
   );

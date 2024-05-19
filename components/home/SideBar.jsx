@@ -1,8 +1,13 @@
 import Link from "next/link";
-
-const SideBar = async () => {
-  const res = await fetch("https://dummyjson.com/products/categories");
-  const categories = await res.json();
+const categories = [
+  "smartphone",
+  "laptop",
+  "fragrance",
+  "skincare",
+  "groceries",
+  "home-decor",
+];
+const SideBar = () => {
   return (
     <div className="border rounded md:min-w-60 h-fit">
       <h2 className="text-lg font-semibold py-[14px] px-5 bg-gray-100">

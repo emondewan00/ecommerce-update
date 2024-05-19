@@ -20,12 +20,12 @@ const BottomNav = () => {
   }, []);
 
   const categories = [
-    "smartphones",
-    "laptops",
-    "fragrances",
+    "smartphone",
+    "laptop",
+    "fragrance",
     "skincare",
     "groceries",
-    "home-decoration",
+    "home-decor",
   ];
   return (
     <div

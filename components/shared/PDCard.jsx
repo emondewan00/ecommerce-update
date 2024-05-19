@@ -1,50 +1,54 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
-import Rating from "react-rating";
 import ProductHover from "./ProductHover";
 const PDCard = ({ product }) => {
-  const { discountPercentage, id, thumbnail, price, rating, title } =
-    product || {};
-  const priceWithDiscount = (
-    price -
-    (price * discountPercentage) / 100
-  ).toFixed(2);
+  const {
+    _id,
+    sku,
+    image,
+    name,
+    price,
+    discount_price,
+    description,
+    category,
+    brand,
+    reviewsNumber,
+    rating,
+    availability,
+  } = product;
+  const ratingArray = new Array(Math.round(rating)).fill(0);
+  const discount = Math.round((price - discount_price) / price * 100);
   return (
-    <div className="text-center w-fit group bg-white hover:shadow-lg transition-all duration-200">
+    <div className=" w-fit group bg-white hover:shadow-lg transition-all duration-200">
       <div className="relative">
-        <Link href={`/product/${id}`}>
+        <Link href={`/product/${_id}`}>
           <Image
-            src={thumbnail}
+            src={image[0]}
             className="w-[200px] h-[180px] object-cover relative"
             width={300}
             height={300}
-            alt={title}
+            alt={name}
           />
         </Link>
         <span className="absolute top-4 left-4 bg-orange-400 text-white text-[12px] px-2 rounded-[2px] py-[1px]">
-          {discountPercentage} OFF
+          {discount}% OFF
         </span>
         <ProductHover />
       </div>
       <div className="p-1">
-        <Link href={`/product/${id}`} className=" mt-2 inline-block">
-          {title}
+        <Link href={`/product/${_id}`} className=" mt-2 inline-block">
+          {name}
         </Link>
-        <div className="text-sm my-1">
-          <Rating
-            readonly
-            placeholderRating={rating}
-            emptySymbol={<FaStar className="text-gray-400 " />}
-            placeholderSymbol={<FaStar className="text-yellow-400 " />}
-            fullSymbol={<FaStar />}
-          />
-          {/* <span className="ml-2 text-gray-400">(10)</span> */}
+        <div className="text-sm my-1 flex gap-1 items-center">
+          {ratingArray.map((_, index) => (
+            <FaStar className="text-yellow-400" key={index} />
+          ))}
+          <span>({reviewsNumber})</span>
         </div>
         <h3 className="font-bold ">
           <span className="text-[#aaa] line-through">${price}</span> - $
-          {priceWithDiscount}
+          {discount_price}
         </h3>
       </div>
     </div>

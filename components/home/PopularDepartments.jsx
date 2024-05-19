@@ -1,9 +1,10 @@
+import connectBD from "@/lib/connectDB";
 import ButtonOutline from "../shared/ButtonOutline";
 import PDCard from "../shared/PDCard";
-
+import ProductModel from "@/models/ProductModel";
 const PopularDepartments = async () => {
-  const res = await fetch("https://dummyjson.com/products?limit=10");
-  const data = await res.json();
+  await connectBD();
+  const data = await ProductModel.find({}).limit(10);
   return (
     <div className="my-20">
       <h3 className="text-xl font-bold text-center">Popular Departments</h3>
@@ -17,7 +18,7 @@ const PopularDepartments = async () => {
         <ButtonOutline text={"featured"} />
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">
-        {data.products.map((product) => (
+        {data.map((product) => (
           <PDCard key={product.id} product={product} />
         ))}
       </div>
