@@ -1,0 +1,2574 @@
+[
+  {
+    "name": "Hydrating Facial Cleanser",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&1",
+      "https://source.unsplash.com/random/360x265?skincare&2",
+      "https://source.unsplash.com/random/360x265?skincare&3",
+      "https://source.unsplash.com/random/360x265?skincare&4",
+      "https://source.unsplash.com/random/360x265?skincare&5"
+    ],
+    "price": 19.99,
+    "discount_price": 15.99,
+    "reviewsNumber": 85,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Hydrating, Gentle Cleansing",
+      "Key Ingredients": "Hyaluronic Acid, Aloe Vera",
+      "Usage": "Apply to damp skin, massage, and rinse thoroughly."
+    },
+    "description": "A gentle yet effective facial cleanser that leaves skin feeling hydrated and refreshed.",
+    "colors": ["#ffffff"],
+    "size": ["150ml"],
+    "sku": "HC123Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "Daily Moisturizer SPF 30",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&6",
+      "https://source.unsplash.com/random/360x265?skincare&7",
+      "https://source.unsplash.com/random/360x265?skincare&8",
+      "https://source.unsplash.com/random/360x265?skincare&9",
+      "https://source.unsplash.com/random/360x265?skincare&10"
+    ],
+    "price": 24.99,
+    "discount_price": 19.99,
+    "reviewsNumber": 95,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "Normal to Dry",
+      "Benefits": "Moisturizing, Sun Protection",
+      "Key Ingredients": "Hyaluronic Acid, Vitamin E, SPF 30",
+      "Usage": "Apply liberally to face and neck every morning."
+    },
+    "description": "A lightweight daily moisturizer with SPF 30 that provides hydration and sun protection.",
+    "colors": ["#ffffff"],
+    "size": ["50ml"],
+    "sku": "DMSPF301Z",
+    "soldCount": 150,
+    "quantities": 100
+  },
+  {
+    "name": "Brightening Serum",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&11",
+      "https://source.unsplash.com/random/360x265?skincare&12",
+      "https://source.unsplash.com/random/360x265?skincare&13",
+      "https://source.unsplash.com/random/360x265?skincare&14",
+      "https://source.unsplash.com/random/360x265?skincare&15"
+    ],
+    "price": 29.99,
+    "discount_price": 24.99,
+    "reviewsNumber": 80,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Brightening, Even Skin Tone",
+      "Key Ingredients": "Vitamin C, Niacinamide",
+      "Usage": "Apply a few drops to clean skin before moisturizer, morning and night."
+    },
+    "description": "A potent serum formulated with vitamin C and niacinamide to brighten and even out skin tone.",
+    "colors": ["#ffffff"],
+    "size": ["30ml"],
+    "sku": "BS123Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Retinol Night Cream",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&16",
+      "https://source.unsplash.com/random/360x265?skincare&17",
+      "https://source.unsplash.com/random/360x265?skincare&18",
+      "https://source.unsplash.com/random/360x265?skincare&19",
+      "https://source.unsplash.com/random/360x265?skincare&20"
+    ],
+    "price": 34.99,
+    "discount_price": 29.99,
+    "reviewsNumber": 90,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Anti-aging, Hydrating",
+      "Key Ingredients": "Retinol, Hyaluronic Acid",
+      "Usage": "Apply a pea-sized amount to clean, dry skin at night."
+    },
+    "description": "A rich night cream infused with retinol and hyaluronic acid to reduce signs of aging and hydrate skin overnight.",
+    "colors": ["#ffffff"],
+    "size": ["50ml"],
+    "sku": "RNC456Z",
+    "soldCount": 110,
+    "quantities": 80
+  },
+  {
+    "name": "Exfoliating Facial Scrub",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&21",
+      "https://source.unsplash.com/random/360x265?skincare&22",
+      "https://source.unsplash.com/random/360x265?skincare&23",
+      "https://source.unsplash.com/random/360x265?skincare&24",
+      "https://source.unsplash.com/random/360x265?skincare&25"
+    ],
+    "price": 22.99,
+    "discount_price": 17.99,
+    "reviewsNumber": 75,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Exfoliating, Smoothing",
+      "Key Ingredients": "Jojoba Beads, AHA, BHA",
+      "Usage": "Apply to damp skin, massage gently, and rinse thoroughly. Use 2-3 times per week."
+    },
+    "description": "A gentle yet effective facial scrub that buffs away dead skin cells and leaves skin feeling smooth and refreshed.",
+    "colors": ["#ffffff"],
+    "size": ["100ml"],
+    "sku": "EFS123Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Hyaluronic Acid Serum",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&26",
+      "https://source.unsplash.com/random/360x265?skincare&27",
+      "https://source.unsplash.com/random/360x265?skincare&28",
+      "https://source.unsplash.com/random/360x265?skincare&29",
+      "https://source.unsplash.com/random/360x265?skincare&30"
+    ],
+    "price": 27.99,
+    "discount_price": 22.99,
+    "reviewsNumber": 85,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Hydrating, Plumping",
+      "Key Ingredients": "Hyaluronic Acid, Vitamin B5",
+      "Usage": "Apply to clean skin before moisturizer, morning and night."
+    },
+    "description": "A hydrating serum enriched with hyaluronic acid and vitamin B5 to plump and hydrate the skin.",
+    "colors": ["#ffffff"],
+    "size": ["50ml"],
+    "sku": "HAS456Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "Vitamin C Brightening Cream",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&31",
+      "https://source.unsplash.com/random/360x265?skincare&32",
+      "https://source.unsplash.com/random/360x265?skincare&33",
+      "https://source.unsplash.com/random/360x265?skincare&34",
+      "https://source.unsplash.com/random/360x265?skincare&35"
+    ],
+    "price": 32.99,
+    "discount_price": 27.99,
+    "reviewsNumber": 80,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Brightening, Even Skin Tone",
+      "Key Ingredients": "Vitamin C, Hyaluronic Acid",
+      "Usage": "Apply to clean skin morning and night."
+    },
+    "description": "A luxurious cream infused with vitamin C and hyaluronic acid to brighten and even out skin tone.",
+    "colors": ["#ffffff"],
+    "size": ["50ml"],
+    "sku": "VCBC123Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Anti-Aging Eye Cream",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&36",
+      "https://source.unsplash.com/random/360x265?skincare&37",
+      "https://source.unsplash.com/random/360x265?skincare&38",
+      "https://source.unsplash.com/random/360x265?skincare&39",
+      "https://source.unsplash.com/random/360x265?skincare&40"
+    ],
+    "price": 29.99,
+    "discount_price": 24.99,
+    "reviewsNumber": 75,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Anti-aging, Hydrating",
+      "Key Ingredients": "Retinol, Peptides",
+      "Usage": "Gently pat a small amount around the eye area morning and night."
+    },
+    "description": "A nourishing eye cream formulated with retinol and peptides to reduce signs of aging and hydrate the delicate eye area.",
+    "colors": ["#ffffff"],
+    "size": ["30ml"],
+    "sku": "AAEC456Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Gentle Exfoliating Toner",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&41",
+      "https://source.unsplash.com/random/360x265?skincare&42",
+      "https://source.unsplash.com/random/360x265?skincare&43",
+      "https://source.unsplash.com/random/360x265?skincare&44",
+      "https://source.unsplash.com/random/360x265?skincare&45"
+    ],
+    "price": 21.99,
+    "discount_price": 16.99,
+    "reviewsNumber": 70,
+    "rating": 4.2,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Exfoliating, Toning",
+      "Key Ingredients": "Glycolic Acid, Witch Hazel",
+      "Usage": "Apply to a cotton pad and swipe over clean skin morning and night."
+    },
+    "description": "A gentle exfoliating toner that helps to remove dead skin cells and balance the skin's pH levels.",
+    "colors": ["#ffffff"],
+    "size": ["150ml"],
+    "sku": "GET456Z",
+    "soldCount": 80,
+    "quantities": 60
+  },
+  {
+    "name": "Daily SPF 50 Sunscreen",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&46",
+      "https://source.unsplash.com/random/360x265?skincare&47",
+      "https://source.unsplash.com/random/360x265?skincare&48",
+      "https://source.unsplash.com/random/360x265?skincare&49",
+      "https://source.unsplash.com/random/360x265?skincare&50"
+    ],
+    "price": 26.99,
+    "discount_price": 21.99,
+    "reviewsNumber": 90,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Sun Protection, Hydrating",
+      "Key Ingredients": "Zinc Oxide, Hyaluronic Acid",
+      "Usage": "Apply liberally to face and neck every morning."
+    },
+    "description": "A lightweight daily sunscreen with SPF 50 that provides broad-spectrum protection and hydration.",
+    "colors": ["#ffffff"],
+    "size": ["100ml"],
+    "sku": "DSPF501Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Anti-Acne Spot Treatment",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&51",
+      "https://source.unsplash.com/random/360x265?skincare&52",
+      "https://source.unsplash.com/random/360x265?skincare&53",
+      "https://source.unsplash.com/random/360x265?skincare&54",
+      "https://source.unsplash.com/random/360x265?skincare&55"
+    ],
+    "price": 18.99,
+    "discount_price": 14.99,
+    "reviewsNumber": 65,
+    "rating": 4.1,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "Acne-Prone",
+      "Benefits": "Spot Treatment, Blemish Control",
+      "Key Ingredients": "Salicylic Acid, Tea Tree Oil",
+      "Usage": "Apply directly to blemishes as needed."
+    },
+    "description": "An effective spot treatment formulated with salicylic acid and tea tree oil to target and minimize acne blemishes.",
+    "colors": ["#ffffff"],
+    "size": ["20ml"],
+    "sku": "AASPT456Z",
+    "soldCount": 70,
+    "quantities": 50
+  },
+  {
+    "name": "Gentle Foaming Cleanser",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&56",
+      "https://source.unsplash.com/random/360x265?skincare&57",
+      "https://source.unsplash.com/random/360x265?skincare&58",
+      "https://source.unsplash.com/random/360x265?skincare&59",
+      "https://source.unsplash.com/random/360x265?skincare&60"
+    ],
+    "price": 21.99,
+    "discount_price": 16.99,
+    "reviewsNumber": 70,
+    "rating": 4.2,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Gentle Cleansing, Refreshing",
+      "Key Ingredients": "Cucumber Extract, Aloe Vera",
+      "Usage": "Apply to damp skin, massage, and rinse thoroughly."
+    },
+    "description": "A gentle foaming cleanser that effectively removes impurities without stripping the skin's natural moisture.",
+    "colors": ["#ffffff"],
+    "size": ["150ml"],
+    "sku": "GFC123Z",
+    "soldCount": 80,
+    "quantities": 60
+  },
+  {
+    "name": "Hydrating Night Cream",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&61",
+      "https://source.unsplash.com/random/360x265?skincare&62",
+      "https://source.unsplash.com/random/360x265?skincare&63",
+      "https://source.unsplash.com/random/360x265?skincare&64",
+      "https://source.unsplash.com/random/360x265?skincare&65"
+    ],
+    "price": 29.99,
+    "discount_price": 24.99,
+    "reviewsNumber": 75,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Hydrating, Nourishing",
+      "Key Ingredients": "Shea Butter, Jojoba Oil",
+      "Usage": "Apply to clean, dry skin before bed."
+    },
+    "description": "A luxurious night cream enriched with shea butter and jojoba oil to deeply hydrate and nourish the skin while you sleep.",
+    "colors": ["#ffffff"],
+    "size": ["50ml"],
+    "sku": "HNC456Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Anti-Pollution Facial Mist",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&66",
+      "https://source.unsplash.com/random/360x265?skincare&67",
+      "https://source.unsplash.com/random/360x265?skincare&68",
+      "https://source.unsplash.com/random/360x265?skincare&69",
+      "https://source.unsplash.com/random/360x265?skincare&70"
+    ],
+    "price": 18.99,
+    "discount_price": 14.99,
+    "reviewsNumber": 65,
+    "rating": 4.1,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Refreshing, Anti-Pollution",
+      "Key Ingredients": "Green Tea Extract, Vitamin E",
+      "Usage": "Spritz onto face throughout the day as needed."
+    },
+    "description": "A refreshing facial mist infused with green tea extract and vitamin E to protect against environmental pollutants and refresh the skin.",
+    "colors": ["#ffffff"],
+    "size": ["100ml"],
+    "sku": "APFM123Z",
+    "soldCount": 70,
+    "quantities": 50
+  },
+  {
+    "name": "Anti-Aging Neck Cream",
+    "image": [
+      "https://source.unsplash.com/random/360x265?skincare&71",
+      "https://source.unsplash.com/random/360x265?skincare&72",
+      "https://source.unsplash.com/random/360x265?skincare&73",
+      "https://source.unsplash.com/random/360x265?skincare&74",
+      "https://source.unsplash.com/random/360x265?skincare&75"
+    ],
+    "price": 27.99,
+    "discount_price": 22.99,
+    "reviewsNumber": 80,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "generic",
+    "category": "skincare",
+    "details": {
+      "Skin Type": "All",
+      "Benefits": "Anti-aging, Firming",
+      "Key Ingredients": "Peptides, Hyaluronic Acid",
+      "Usage": "Apply to clean, dry skin on the neck area morning and night."
+    },
+    "description": "An advanced neck cream formulated with peptides and hyaluronic acid to firm and hydrate the delicate skin on the neck.",
+    "colors": ["#ffffff"],
+    "size": ["50ml"],
+    "sku": "AANC123Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+
+  {
+    "name": "Eau de Parfum - For Men",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&1",
+      "https://source.unsplash.com/random/360x265?fragrance&2",
+      "https://source.unsplash.com/random/360x265?fragrance&3",
+      "https://source.unsplash.com/random/360x265?fragrance&4",
+      "https://source.unsplash.com/random/360x265?fragrance&5",
+      "https://source.unsplash.com/random/360x265?fragrance&6",
+      "https://source.unsplash.com/random/360x265?fragrance&7"
+    ],
+    "price": 59.99,
+    "discount_price": 49.99,
+    "reviewsNumber": 120,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Parfum",
+      "Gender": "Men",
+      "Fragrance_Family": "Woody",
+      "Notes": "Citrus, Spice, Sandalwood"
+    },
+    "description": "A sophisticated and masculine fragrance with woody notes.",
+    "colors": ["#000000"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY001Z",
+    "soldCount": 180,
+    "quantities": 100
+  },
+  {
+    "name": "Eau de Toilette - For Women",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&8",
+      "https://source.unsplash.com/random/360x265?fragrance&9",
+      "https://source.unsplash.com/random/360x265?fragrance&10",
+      "https://source.unsplash.com/random/360x265?fragrance&11",
+      "https://source.unsplash.com/random/360x265?fragrance&12",
+      "https://source.unsplash.com/random/360x265?fragrance&13"
+    ],
+    "price": 69.99,
+    "discount_price": 59.99,
+    "reviewsNumber": 150,
+    "rating": 4.8,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Toilette",
+      "Gender": "Women",
+      "Fragrance_Family": "Floral",
+      "Notes": "Rose, Jasmine, Vanilla"
+    },
+    "description": "A delightful floral fragrance designed for modern women.",
+    "colors": ["#ff69b4"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY002Z",
+    "soldCount": 200,
+    "quantities": 120
+  },
+  {
+    "name": "Unisex Cologne Spray",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&14",
+      "https://source.unsplash.com/random/360x265?fragrance&15",
+      "https://source.unsplash.com/random/360x265?fragrance&16",
+      "https://source.unsplash.com/random/360x265?fragrance&17",
+      "https://source.unsplash.com/random/360x265?fragrance&18",
+      "https://source.unsplash.com/random/360x265?fragrance&19",
+      "https://source.unsplash.com/random/360x265?fragrance&20"
+    ],
+    "price": 49.99,
+    "discount_price": 39.99,
+    "reviewsNumber": 100,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Cologne",
+      "Gender": "Unisex",
+      "Fragrance_Family": "Fresh",
+      "Notes": "Citrus, Herbs, Musk"
+    },
+    "description": "A refreshing and versatile cologne suitable for anyone.",
+    "colors": ["#00ff00"],
+    "size": ["100ml"],
+    "sku": "XY003Z",
+    "soldCount": 150,
+    "quantities": 80
+  },
+  {
+    "name": "Eau de Parfum - For Women",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&21",
+      "https://source.unsplash.com/random/360x265?fragrance&22",
+      "https://source.unsplash.com/random/360x265?fragrance&23",
+      "https://source.unsplash.com/random/360x265?fragrance&24",
+      "https://source.unsplash.com/random/360x265?fragrance&25",
+      "https://source.unsplash.com/random/360x265?fragrance&26"
+    ],
+    "price": 79.99,
+    "discount_price": 69.99,
+    "reviewsNumber": 200,
+    "rating": 4.9,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Parfum",
+      "Gender": "Women",
+      "Fragrance_Family": "Oriental",
+      "Notes": "Vanilla, Amber, Patchouli"
+    },
+    "description": "An exotic and sensual fragrance for women.",
+    "colors": ["#ff4500"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY004Z",
+    "soldCount": 250,
+    "quantities": 150
+  },
+  {
+    "name": "Eau de Toilette - For Men",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&27",
+      "https://source.unsplash.com/random/360x265?fragrance&28",
+      "https://source.unsplash.com/random/360x265?fragrance&29",
+      "https://source.unsplash.com/random/360x265?fragrance&30",
+      "https://source.unsplash.com/random/360x265?fragrance&31"
+    ],
+    "price": 64.99,
+    "discount_price": 54.99,
+    "reviewsNumber": 140,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Toilette",
+      "Gender": "Men",
+      "Fragrance_Family": "Aromatic",
+      "Notes": "Lavender, Citrus, Woody"
+    },
+    "description": "A classic and invigorating fragrance for men.",
+    "colors": ["#000080"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY005Z",
+    "soldCount": 190,
+    "quantities": 110
+  },
+  {
+    "name": "Eau de Cologne - Unisex",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&32",
+      "https://source.unsplash.com/random/360x265?fragrance&33",
+      "https://source.unsplash.com/random/360x265?fragrance&34",
+      "https://source.unsplash.com/random/360x265?fragrance&35",
+      "https://source.unsplash.com/random/360x265?fragrance&36",
+      "https://source.unsplash.com/random/360x265?fragrance&37",
+      "https://source.unsplash.com/random/360x265?fragrance&38"
+    ],
+    "price": 39.99,
+    "discount_price": 29.99,
+    "reviewsNumber": 90,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Cologne",
+      "Gender": "Unisex",
+      "Fragrance_Family": "Citrus",
+      "Notes": "Bergamot, Lemon, Orange"
+    },
+    "description": "A light and refreshing cologne suitable for any occasion.",
+    "colors": ["#ffff00"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY006Z",
+    "soldCount": 120,
+    "quantities": 70
+  },
+  {
+    "name": "Eau de Parfum - For Men",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&39",
+      "https://source.unsplash.com/random/360x265?fragrance&40",
+      "https://source.unsplash.com/random/360x265?fragrance&41",
+      "https://source.unsplash.com/random/360x265?fragrance&42",
+      "https://source.unsplash.com/random/360x265?fragrance&43",
+      "https://source.unsplash.com/random/360x265?fragrance&44"
+    ],
+    "price": 59.99,
+    "discount_price": 49.99,
+    "reviewsNumber": 120,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Parfum",
+      "Gender": "Men",
+      "Fragrance_Family": "Woody",
+      "Notes": "Citrus, Spice, Sandalwood"
+    },
+    "description": "A sophisticated and masculine fragrance with woody notes.",
+    "colors": ["#000000"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY007Z",
+    "soldCount": 180,
+    "quantities": 100
+  },
+  {
+    "name": "Eau de Toilette - For Women",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&45",
+      "https://source.unsplash.com/random/360x265?fragrance&46",
+      "https://source.unsplash.com/random/360x265?fragrance&47",
+      "https://source.unsplash.com/random/360x265?fragrance&48",
+      "https://source.unsplash.com/random/360x265?fragrance&49",
+      "https://source.unsplash.com/random/360x265?fragrance&50",
+      "https://source.unsplash.com/random/360x265?fragrance&51"
+    ],
+    "price": 69.99,
+    "discount_price": 59.99,
+    "reviewsNumber": 150,
+    "rating": 4.8,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Toilette",
+      "Gender": "Women",
+      "Fragrance_Family": "Floral",
+      "Notes": "Rose, Jasmine, Vanilla"
+    },
+    "description": "A delightful floral fragrance designed for modern women.",
+    "colors": ["#ff69b4"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY008Z",
+    "soldCount": 200,
+    "quantities": 120
+  },
+  {
+    "name": "Unisex Cologne Spray",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&52",
+      "https://source.unsplash.com/random/360x265?fragrance&53",
+      "https://source.unsplash.com/random/360x265?fragrance&54",
+      "https://source.unsplash.com/random/360x265?fragrance&55",
+      "https://source.unsplash.com/random/360x265?fragrance&56",
+      "https://source.unsplash.com/random/360x265?fragrance&57"
+    ],
+    "price": 49.99,
+    "discount_price": 39.99,
+    "reviewsNumber": 100,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Cologne",
+      "Gender": "Unisex",
+      "Fragrance_Family": "Fresh",
+      "Notes": "Citrus, Herbs, Musk"
+    },
+    "description": "A refreshing and versatile cologne suitable for anyone.",
+    "colors": ["#00ff00"],
+    "size": ["100ml"],
+    "sku": "XY009Z",
+    "soldCount": 150,
+    "quantities": 80
+  },
+  {
+    "name": "Eau de Parfum - For Women",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&58",
+      "https://source.unsplash.com/random/360x265?fragrance&59",
+      "https://source.unsplash.com/random/360x265?fragrance&60",
+      "https://source.unsplash.com/random/360x265?fragrance&61",
+      "https://source.unsplash.com/random/360x265?fragrance&62",
+      "https://source.unsplash.com/random/360x265?fragrance&63"
+    ],
+    "price": 79.99,
+    "discount_price": 69.99,
+    "reviewsNumber": 200,
+    "rating": 4.9,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Parfum",
+      "Gender": "Women",
+      "Fragrance_Family": "Oriental",
+      "Notes": "Vanilla, Amber, Patchouli"
+    },
+    "description": "An exotic and sensual fragrance for women.",
+    "colors": ["#ff4500"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY010Z",
+    "soldCount": 250,
+    "quantities": 150
+  },
+  {
+    "name": "Eau de Toilette - For Men",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&64",
+      "https://source.unsplash.com/random/360x265?fragrance&65",
+      "https://source.unsplash.com/random/360x265?fragrance&66",
+      "https://source.unsplash.com/random/360x265?fragrance&67",
+      "https://source.unsplash.com/random/360x265?fragrance&68"
+    ],
+    "price": 64.99,
+    "discount_price": 54.99,
+    "reviewsNumber": 140,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Toilette",
+      "Gender": "Men",
+      "Fragrance_Family": "Aromatic",
+      "Notes": "Lavender, Citrus, Woody"
+    },
+    "description": "A classic and invigorating fragrance for men.",
+    "colors": ["#000080"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY011Z",
+    "soldCount": 190,
+    "quantities": 110
+  },
+  {
+    "name": "Eau de Cologne - Unisex",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&69",
+      "https://source.unsplash.com/random/360x265?fragrance&70",
+      "https://source.unsplash.com/random/360x265?fragrance&71",
+      "https://source.unsplash.com/random/360x265?fragrance&72",
+      "https://source.unsplash.com/random/360x265?fragrance&73",
+      "https://source.unsplash.com/random/360x265?fragrance&74",
+      "https://source.unsplash.com/random/360x265?fragrance&75"
+    ],
+    "price": 39.99,
+    "discount_price": 29.99,
+    "reviewsNumber": 90,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Cologne",
+      "Gender": "Unisex",
+      "Fragrance_Family": "Citrus",
+      "Notes": "Bergamot, Lemon, Orange"
+    },
+    "description": "A light and refreshing cologne suitable for any occasion.",
+    "colors": ["#ffff00"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY012Z",
+    "soldCount": 120,
+    "quantities": 70
+  },
+  {
+    "name": "Eau de Parfum - For Men",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&76",
+      "https://source.unsplash.com/random/360x265?fragrance&77",
+      "https://source.unsplash.com/random/360x265?fragrance&78",
+      "https://source.unsplash.com/random/360x265?fragrance&79",
+      "https://source.unsplash.com/random/360x265?fragrance&80",
+      "https://source.unsplash.com/random/360x265?fragrance&81"
+    ],
+    "price": 59.99,
+    "discount_price": 49.99,
+    "reviewsNumber": 120,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Parfum",
+      "Gender": "Men",
+      "Fragrance_Family": "Woody",
+      "Notes": "Citrus, Spice, Sandalwood"
+    },
+    "description": "A sophisticated and masculine fragrance with woody notes.",
+    "colors": ["#000000"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY013Z",
+    "soldCount": 180,
+    "quantities": 100
+  },
+  {
+    "name": "Eau de Toilette - For Women",
+    "image": [
+      "https://source.unsplash.com/random/360x265?fragrance&82",
+      "https://source.unsplash.com/random/360x265?fragrance&83",
+      "https://source.unsplash.com/random/360x265?fragrance&84",
+      "https://source.unsplash.com/random/360x265?fragrance&85",
+      "https://source.unsplash.com/random/360x265?fragrance&86",
+      "https://source.unsplash.com/random/360x265?fragrance&87",
+      "https://source.unsplash.com/random/360x265?fragrance&88"
+    ],
+    "price": 69.99,
+    "discount_price": 59.99,
+    "reviewsNumber": 150,
+    "rating": 4.8,
+    "availability": true,
+    "brand": "generic",
+    "category": "fragrance",
+    "details": {
+      "Type": "Eau de Toilette",
+      "Gender": "Women",
+      "Fragrance_Family": "Floral",
+      "Notes": "Rose, Jasmine, Vanilla"
+    },
+    "description": "A delightful floral fragrance designed for modern women.",
+    "colors": ["#ff69b4"],
+    "size": ["100ml", "50ml"],
+    "sku": "XY014Z",
+    "soldCount": 200,
+    "quantities": 120
+  },
+
+  {
+    "name": "Men's Casual Shirt",
+    "description": "A classic casual shirt for men, perfect for everyday wear. Made from comfortable cotton with a regular fit and long sleeves. Features a button-down collar.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&1",
+      "https://source.unsplash.com/random/360x265?clothing&2",
+      "https://source.unsplash.com/random/360x265?clothing&3",
+      "https://source.unsplash.com/random/360x265?clothing&4"
+    ],
+    "price": 39.99,
+    "discount_price": 29.99,
+    "reviewsNumber": 45,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Cotton",
+      "fit": "Regular Fit",
+      "sleeve_length": "Long Sleeve",
+      "collar_style": "Button-Down"
+    },
+    "colors": ["#ffffff", "#000000", "#3366cc"],
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "sku": "XY456Z001",
+    "soldCount": 150,
+    "quantities": 80
+  },
+  {
+    "name": "Women's Summer Dress",
+    "description": "A stylish and comfortable summer dress for women. Made from lightweight rayon with a loose fit and short sleeves. Features a flattering V-neckline.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&5",
+      "https://source.unsplash.com/random/360x265?clothing&6",
+      "https://source.unsplash.com/random/360x265?clothing&7",
+      "https://source.unsplash.com/random/360x265?clothing&8",
+      "https://source.unsplash.com/random/360x265?clothing&9"
+    ],
+    "price": 49.99,
+    "discount_price": 39.99,
+    "reviewsNumber": 60,
+    "rating": 4.8,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Rayon",
+      "fit": "Loose Fit",
+      "sleeve_length": "Short Sleeve",
+      "neckline": "V-Neck"
+    },
+    "colors": ["#ff69b4", "#008000", "#ffd700"],
+    "size": ["S", "M", "L"],
+    "sku": "XY456Z002",
+    "soldCount": 200,
+    "quantities": 100
+  },
+  {
+    "name": "Men's Formal Suit",
+    "description": "A sophisticated formal suit for men, perfect for business meetings and special occasions. Crafted from a luxurious wool blend with a slim fit jacket and flat front trousers.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&10",
+      "https://source.unsplash.com/random/360x265?clothing&11",
+      "https://source.unsplash.com/random/360x265?clothing&12",
+      "https://source.unsplash.com/random/360x265?clothing&13"
+    ],
+    "price": 199.99,
+    "discount_price": 179.99,
+    "reviewsNumber": 35,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Wool Blend",
+      "fit": "Slim Fit",
+      "jacket_style": "Single Breasted",
+      "trouser_style": "Flat Front"
+    },
+    "colors": ["#000000", "#333333", "#cccccc"],
+    "size": ["M", "L", "XL"],
+    "sku": "XY456Z003",
+    "soldCount": 120,
+    "quantities": 60
+  },
+  {
+    "name": "Women's Denim Jeans",
+    "description": "Classic denim jeans for women, perfect for casual outings. Made from durable denim fabric with a slim fit and straight leg design. Features a high-rise waist.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&14",
+      "https://source.unsplash.com/random/360x265?clothing&15",
+      "https://source.unsplash.com/random/360x265?clothing&16",
+      "https://source.unsplash.com/random/360x265?clothing&17"
+    ],
+    "price": 69.99,
+    "discount_price": 59.99,
+    "reviewsNumber": 55,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Denim",
+      "fit": "Slim Fit",
+      "leg_style": "Straight Leg",
+      "rise": "High Rise"
+    },
+    "colors": ["#0000ff", "#800080", "#ff1493"],
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "sku": "XY456Z004",
+    "soldCount": 90,
+    "quantities": 50
+  },
+  {
+    "name": "Men's Chino Pants",
+    "description": "Stylish chino pants for men, perfect for a smart casual look. Made from comfortable cotton blend fabric with a slim fit and zipper fly closure.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&18",
+      "https://source.unsplash.com/random/360x265?clothing&19",
+      "https://source.unsplash.com/random/360x265?clothing&20",
+      "https://source.unsplash.com/random/360x265?clothing&21"
+    ],
+    "price": 59.99,
+    "discount_price": 49.99,
+    "reviewsNumber": 40,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Cotton Blend",
+      "fit": "Slim Fit",
+      "pocket_style": "Slant Pocket",
+      "closure_style": "Zipper Fly"
+    },
+    "colors": ["#8b4513", "#008b8b", "#696969"],
+    "size": ["S", "M", "L", "XL"],
+    "sku": "XY456Z005",
+    "soldCount": 110,
+    "quantities": 70
+  },
+  {
+    "name": "Men's Hoodie",
+    "description": "A comfortable and stylish hoodie for men, perfect for layering. Made from a soft cotton blend with a regular fit and long sleeves. Features a hood for added warmth.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&22",
+      "https://source.unsplash.com/random/360x265?clothing&23",
+      "https://source.unsplash.com/random/360x265?clothing&24",
+      "https://source.unsplash.com/random/360x265?clothing&25"
+    ],
+    "price": 45.99,
+    "discount_price": 39.99,
+    "reviewsNumber": 70,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Cotton Blend",
+      "fit": "Regular Fit",
+      "sleeve_length": "Long Sleeve",
+      "hood": true
+    },
+    "colors": ["#333333", "#666666", "#999999"],
+    "size": ["S", "M", "L", "XL"],
+    "sku": "XY456Z006",
+    "soldCount": 180,
+    "quantities": 120
+  },
+  {
+    "name": "Women's Blouse",
+    "description": "A versatile blouse for women, perfect for both casual and formal occasions. Made from luxurious silk with a loose fit and short sleeves. Features a round neckline.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&26",
+      "https://source.unsplash.com/random/360x265?clothing&27",
+      "https://source.unsplash.com/random/360x265?clothing&28",
+      "https://source.unsplash.com/random/360x265?clothing&29"
+    ],
+    "price": 34.99,
+    "discount_price": 29.99,
+    "reviewsNumber": 50,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Silk",
+      "fit": "Loose Fit",
+      "sleeve_length": "Short Sleeve",
+      "neckline": "Round Neck"
+    },
+    "colors": ["#ff0000", "#ff9900", "#ffcc00"],
+    "size": ["S", "M", "L", "XL"],
+    "sku": "XY456Z007",
+    "soldCount": 130,
+    "quantities": 90
+  },
+  {
+    "name": "Men's Polo Shirt",
+    "description": "A classic polo shirt for men, perfect for a casual yet polished look. Made from comfortable cotton with a slim fit and short sleeves. Features a polo collar.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&30",
+      "https://source.unsplash.com/random/360x265?clothing&31",
+      "https://source.unsplash.com/random/360x265?clothing&32",
+      "https://source.unsplash.com/random/360x265?clothing&33"
+    ],
+    "price": 29.99,
+    "discount_price": 24.99,
+    "reviewsNumber": 40,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Cotton",
+      "fit": "Slim Fit",
+      "sleeve_length": "Short Sleeve",
+      "collar_style": "Polo"
+    },
+    "colors": ["#008080", "#00ffff", "#ff00ff"],
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "sku": "XY456Z008",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Women's Cardigan",
+    "description": "A cozy and stylish cardigan for women, perfect for layering in cooler weather. Made from warm wool with a regular fit and long sleeves. Features button closure.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&34",
+      "https://source.unsplash.com/random/360x265?clothing&35",
+      "https://source.unsplash.com/random/360x265?clothing&36",
+      "https://source.unsplash.com/random/360x265?clothing&37"
+    ],
+    "price": 55.99,
+    "discount_price": 49.99,
+    "reviewsNumber": 65,
+    "rating": 4.8,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Wool",
+      "fit": "Regular Fit",
+      "sleeve_length": "Long Sleeve",
+      "closure_style": "Button"
+    },
+    "colors": ["#663399", "#ff6347", "#2e8b57"],
+    "size": ["S", "M", "L"],
+    "sku": "XY456Z009",
+    "soldCount": 150,
+    "quantities": 100
+  },
+  {
+    "name": "Men's Cargo Shorts",
+    "description": "Stylish cargo shorts for men, perfect for casual outings in warm weather. Made from comfortable cotton with a regular fit and cargo pockets. Features a button closure.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&38",
+      "https://source.unsplash.com/random/360x265?clothing&39",
+      "https://source.unsplash.com/random/360x265?clothing&40",
+      "https://source.unsplash.com/random/360x265?clothing&41"
+    ],
+    "price": 39.99,
+    "discount_price": 34.99,
+    "reviewsNumber": 45,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Cotton",
+      "fit": "Regular Fit",
+      "pocket_style": "Cargo",
+      "closure_style": "Button"
+    },
+    "colors": ["#8b0000", "#ffa500", "#ffff00"],
+    "size": ["S", "M", "L", "XL"],
+    "sku": "XY456Z010",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "Women's Skirt",
+    "description": "A stylish skirt for women, perfect for both casual and semi-formal occasions. Made from durable polyester with a slim fit and knee-length design. Features a zipper closure.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&42",
+      "https://source.unsplash.com/random/360x265?clothing&43",
+      "https://source.unsplash.com/random/360x265?clothing&44",
+      "https://source.unsplash.com/random/360x265?clothing&45"
+    ],
+    "price": 29.99,
+    "discount_price": 24.99,
+    "reviewsNumber": 50,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Polyester",
+      "fit": "Slim Fit",
+      "length": "Knee Length",
+      "closure_style": "Zipper"
+    },
+    "colors": ["#4b0082", "#20b2aa", "#ffa07a"],
+    "size": ["S", "M", "L"],
+    "sku": "XY456Z011",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Men's T-Shirt",
+    "description": "A basic essential for every man's wardrobe, this t-shirt offers both comfort and style. Made from soft cotton with a regular fit and short sleeves. Features a classic round neckline.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&46",
+      "https://source.unsplash.com/random/360x265?clothing&47",
+      "https://source.unsplash.com/random/360x265?clothing&48",
+      "https://source.unsplash.com/random/360x265?clothing&49"
+    ],
+    "price": 19.99,
+    "discount_price": 15.99,
+    "reviewsNumber": 35,
+    "rating": 4.2,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Cotton",
+      "fit": "Regular Fit",
+      "sleeve_length": "Short Sleeve",
+      "neckline": "Round Neck"
+    },
+    "colors": ["#9932cc", "#ff8c00", "#a0522d"],
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "sku": "XY456Z012",
+    "soldCount": 90,
+    "quantities": 60
+  },
+  {
+    "name": "Women's Leggings",
+    "description": "Versatile leggings for women, perfect for both active and casual wear. Made from stretchy spandex with a slim fit and ankle-length design. Features an elastic waist for comfort.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&50",
+      "https://source.unsplash.com/random/360x265?clothing&51",
+      "https://source.unsplash.com/random/360x265?clothing&52",
+      "https://source.unsplash.com/random/360x265?clothing&53"
+    ],
+    "price": 24.99,
+    "discount_price": 19.99,
+    "reviewsNumber": 40,
+    "rating": 4.0,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Spandex",
+      "fit": "Slim Fit",
+      "length": "Ankle Length",
+      "waist_style": "Elastic"
+    },
+    "colors": ["#008000", "#7fffd4", "#00fa9a"],
+    "size": ["S", "M", "L", "XL"],
+    "sku": "XY456Z013",
+    "soldCount": 80,
+    "quantities": 50
+  },
+  {
+    "name": "Men's Swim Shorts",
+    "description": "Stylish swim shorts for men, perfect for poolside or beach outings. Made from a quick-drying polyester blend with a regular fit and drawstring closure. Features side pockets for convenience.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&54",
+      "https://source.unsplash.com/random/360x265?clothing&55",
+      "https://source.unsplash.com/random/360x265?clothing&56",
+      "https://source.unsplash.com/random/360x265?clothing&57"
+    ],
+    "price": 29.99,
+    "discount_price": 24.99,
+    "reviewsNumber": 35,
+    "rating": 4.1,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Polyester Blend",
+      "fit": "Regular Fit",
+      "pocket_style": "Side Pockets",
+      "closure_style": "Drawstring"
+    },
+    "colors": ["#4682b4", "#00ced1", "#87ceeb"],
+    "size": ["S", "M", "L", "XL"],
+    "sku": "XY456Z014",
+    "soldCount": 70,
+    "quantities": 50
+  },
+  {
+    "name": "Women's Tank Top",
+    "description": "A must-have staple for every woman's wardrobe, this tank top offers comfort and style. Made from soft cotton with a slim fit and sleeveless design. Features a scoop neckline.",
+    "image": [
+      "https://source.unsplash.com/random/360x265?clothing&58",
+      "https://source.unsplash.com/random/360x265?clothing&59",
+      "https://source.unsplash.com/random/360x265?clothing&60",
+      "https://source.unsplash.com/random/360x265?clothing&61"
+    ],
+    "price": 14.99,
+    "discount_price": 11.99,
+    "reviewsNumber": 30,
+    "rating": 4.0,
+    "availability": true,
+    "brand": "generic",
+    "category": "clothing",
+    "details": {
+      "material": "Cotton",
+      "fit": "Slim Fit",
+      "sleeve_length": "Sleeveless",
+      "neckline": "Scoop Neck"
+    },
+    "colors": ["#ff4500", "#008080", "#da70d6"],
+    "size": ["S", "M", "L", "XL"],
+    "sku": "XY456Z015",
+    "soldCount": 60,
+    "quantities": 40
+  },
+
+  {
+    "name": "UltraBook Pro 15",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&1",
+      "https://source.unsplash.com/random/360x265?laptop&2",
+      "https://source.unsplash.com/random/360x265?laptop&3",
+      "https://source.unsplash.com/random/360x265?laptop&4",
+      "https://source.unsplash.com/random/360x265?laptop&5"
+    ],
+    "price": 1399.99,
+    "discount_price": 1299.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "UltraBook",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB DDR4",
+      "Storage": "512GB SSD",
+      "Graphics": "NVIDIA GeForce GTX 1650",
+      "Display": "15.6\" Full HD",
+      "Battery": "Up to 10 hours",
+      "Weight": "1.5kg"
+    },
+    "description": "The UltraBook Pro 15 is a powerful and sleek laptop designed for professionals. With an Intel Core i7 processor, NVIDIA GeForce GTX 1650 graphics, and a vibrant 15.6\" Full HD display, it delivers exceptional performance and stunning visuals.",
+    "colors": ["#ffffff", "#000000", "#3366cc"],
+    "size": ["Medium"],
+    "sku": "UBP15XY123Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "ZenBook 14",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&6",
+      "https://source.unsplash.com/random/360x265?laptop&7",
+      "https://source.unsplash.com/random/360x265?laptop&8",
+      "https://source.unsplash.com/random/360x265?laptop&9",
+      "https://source.unsplash.com/random/360x265?laptop&10"
+    ],
+    "price": 1299.99,
+    "discount_price": 1199.99,
+    "reviewsNumber": 90,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "ZenBook",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i5",
+      "RAM": "8GB DDR4",
+      "Storage": "256GB SSD",
+      "Graphics": "Intel UHD Graphics",
+      "Display": "14\" Full HD",
+      "Battery": "Up to 12 hours",
+      "Weight": "1.2kg"
+    },
+    "description": "The ZenBook 14 is an ultra-portable laptop that combines elegance with performance. Featuring an Intel Core i5 processor, Intel UHD Graphics, and a stunning 14\" Full HD display, it's perfect for productivity on the go.",
+    "colors": ["#ffffff", "#000000", "#ffcc00"],
+    "size": ["Small"],
+    "sku": "ZB14XY456Z",
+    "soldCount": 150,
+    "quantities": 100
+  },
+  {
+    "name": "Swift 3",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&11",
+      "https://source.unsplash.com/random/360x265?laptop&12",
+      "https://source.unsplash.com/random/360x265?laptop&13",
+      "https://source.unsplash.com/random/360x265?laptop&14",
+      "https://source.unsplash.com/random/360x265?laptop&15"
+    ],
+    "price": 899.99,
+    "discount_price": 799.99,
+    "reviewsNumber": 80,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "Swift",
+    "category": "laptop",
+    "details": {
+      "Processor": "AMD Ryzen 7",
+      "RAM": "12GB DDR4",
+      "Storage": "512GB SSD",
+      "Graphics": "AMD Radeon Graphics",
+      "Display": "13.5\" Full HD",
+      "Battery": "Up to 8 hours",
+      "Weight": "1.3kg"
+    },
+    "description": "The Swift 3 is a stylish and lightweight laptop with powerful performance. Equipped with an AMD Ryzen 7 processor, AMD Radeon Graphics, and a crisp 13.5\" Full HD display, it's perfect for multitasking and entertainment.",
+    "colors": ["#ffffff", "#000000", "#ff0000"],
+    "size": ["Small"],
+    "sku": "S3XY789Z",
+    "soldCount": 110,
+    "quantities": 80
+  },
+  {
+    "name": "Surface Laptop 4",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&16",
+      "https://source.unsplash.com/random/360x265?laptop&17",
+      "https://source.unsplash.com/random/360x265?laptop&18",
+      "https://source.unsplash.com/random/360x265?laptop&19",
+      "https://source.unsplash.com/random/360x265?laptop&20"
+    ],
+    "price": 1599.99,
+    "discount_price": 1499.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "Surface",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB DDR4",
+      "Storage": "1TB SSD",
+      "Graphics": "Intel Iris Xe Graphics",
+      "Display": "15\" PixelSense",
+      "Battery": "Up to 10 hours",
+      "Weight": "1.5kg"
+    },
+    "description": "The Surface Laptop 4 combines performance with versatility. Featuring an Intel Core i7 processor, Intel Iris Xe Graphics, and a stunning 15\" PixelSense display, it's perfect for work, creativity, and entertainment.",
+    "colors": ["#ffffff", "#000000", "#008080"],
+    "size": ["Medium"],
+    "sku": "SL4XY1011Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "ThinkPad X1 Carbon",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&21",
+      "https://source.unsplash.com/random/360x265?laptop&22",
+      "https://source.unsplash.com/random/360x265?laptop&23",
+      "https://source.unsplash.com/random/360x265?laptop&24",
+      "https://source.unsplash.com/random/360x265?laptop&25"
+    ],
+    "price": 1799.99,
+    "discount_price": 1699.99,
+    "reviewsNumber": 90,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "ThinkPad",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB DDR4",
+      "Storage": "1TB SSD",
+      "Graphics": "Intel Iris Xe Graphics",
+      "Display": "14\" Full HD",
+      "Battery": "Up to 15 hours",
+      "Weight": "1.1kg"
+    },
+    "description": "The ThinkPad X1 Carbon is the ultimate business laptop. With an Intel Core i7 processor, Intel Iris Xe Graphics, and a durable yet lightweight design, it's built to handle any task with ease.",
+    "colors": ["#ffffff", "#000000", "#006400"],
+    "size": ["Medium"],
+    "sku": "TPX1CXY1213Z",
+    "soldCount": 150,
+    "quantities": 100
+  },
+  {
+    "name": "MacBook Pro 16",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&26",
+      "https://source.unsplash.com/random/360x265?laptop&27",
+      "https://source.unsplash.com/random/360x265?laptop&28",
+      "https://source.unsplash.com/random/360x265?laptop&29",
+      "https://source.unsplash.com/random/360x265?laptop&30"
+    ],
+    "price": 2399.99,
+    "discount_price": 2299.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "Apple",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i9",
+      "RAM": "32GB DDR4",
+      "Storage": "1TB SSD",
+      "Graphics": "AMD Radeon Pro 5600M",
+      "Display": "16\" Retina",
+      "Battery": "Up to 11 hours",
+      "Weight": "2kg"
+    },
+    "description": "The MacBook Pro 16 is a powerhouse of creativity. With an Intel Core i9 processor, AMD Radeon Pro 5600M graphics, and a stunning 16\" Retina display, it's perfect for professionals and creatives alike.",
+    "colors": ["#ffffff", "#000000", "#800080"],
+    "size": ["Large"],
+    "sku": "MBP16XY1415Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "ROG Zephyrus G14",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&31",
+      "https://source.unsplash.com/random/360x265?laptop&32",
+      "https://source.unsplash.com/random/360x265?laptop&33",
+      "https://source.unsplash.com/random/360x265?laptop&34",
+      "https://source.unsplash.com/random/360x265?laptop&35"
+    ],
+    "price": 1699.99,
+    "discount_price": 1599.99,
+    "reviewsNumber": 80,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "ROG",
+    "category": "laptop",
+    "details": {
+      "Processor": "AMD Ryzen 9",
+      "RAM": "16GB DDR4",
+      "Storage": "1TB SSD",
+      "Graphics": "NVIDIA GeForce RTX 3060",
+      "Display": "14\" QHD",
+      "Battery": "Up to 9 hours",
+      "Weight": "1.6kg"
+    },
+    "description": "The ROG Zephyrus G14 is a compact gaming powerhouse. With an AMD Ryzen 9 processor, NVIDIA GeForce RTX 3060 graphics, and a stunning 14\" QHD display, it delivers uncompromising performance in a portable package.",
+    "colors": ["#ffffff", "#000000", "#ff0000"],
+    "size": ["Medium"],
+    "sku": "ROG14XY1617Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Dell XPS 15",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&36",
+      "https://source.unsplash.com/random/360x265?laptop&37",
+      "https://source.unsplash.com/random/360x265?laptop&38",
+      "https://source.unsplash.com/random/360x265?laptop&39",
+      "https://source.unsplash.com/random/360x265?laptop&40"
+    ],
+    "price": 1999.99,
+    "discount_price": 1899.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "Dell",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i9",
+      "RAM": "32GB DDR4",
+      "Storage": "1TB SSD",
+      "Graphics": "NVIDIA GeForce GTX 1650 Ti",
+      "Display": "15.6\" 4K UHD",
+      "Battery": "Up to 8 hours",
+      "Weight": "1.8kg"
+    },
+    "description": "The Dell XPS 15 is a premium laptop designed for performance and productivity. With an Intel Core i9 processor, NVIDIA GeForce GTX 1650 Ti graphics, and a stunning 15.6\" 4K UHD display, it's perfect for demanding tasks and multimedia.",
+    "colors": ["#ffffff", "#000000", "#007fff"],
+    "size": ["Large"],
+    "sku": "DXPS15XY1819Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "Surface Laptop Go",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&41",
+      "https://source.unsplash.com/random/360x265?laptop&42",
+      "https://source.unsplash.com/random/360x265?laptop&43",
+      "https://source.unsplash.com/random/360x265?laptop&44",
+      "https://source.unsplash.com/random/360x265?laptop&45"
+    ],
+    "price": 899.99,
+    "discount_price": 799.99,
+    "reviewsNumber": 80,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "Surface",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i5",
+      "RAM": "8GB DDR4",
+      "Storage": "128GB SSD",
+      "Graphics": "Intel UHD Graphics",
+      "Display": "12.4\" PixelSense",
+      "Battery": "Up to 13 hours",
+      "Weight": "1.1kg"
+    },
+    "description": "The Surface Laptop Go is a lightweight and affordable laptop for everyday use. With an Intel Core i5 processor, Intel UHD Graphics, and a vibrant 12.4\" PixelSense display, it's perfect for work, school, and entertainment.",
+    "colors": ["#ffffff", "#000000", "#ff4500"],
+    "size": ["Small"],
+    "sku": "SLGXY2021Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "HP Spectre x360",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&46",
+      "https://source.unsplash.com/random/360x265?laptop&47",
+      "https://source.unsplash.com/random/360x265?laptop&48",
+      "https://source.unsplash.com/random/360x265?laptop&49",
+      "https://source.unsplash.com/random/360x265?laptop&50"
+    ],
+    "price": 1599.99,
+    "discount_price": 1499.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "HP",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB DDR4",
+      "Storage": "512GB SSD",
+      "Graphics": "Intel Iris Xe Graphics",
+      "Display": "13.3\" 4K UHD",
+      "Battery": "Up to 10 hours",
+      "Weight": "1.3kg"
+    },
+    "description": "The HP Spectre x360 is a versatile convertible laptop with impressive performance and stunning design. With an Intel Core i7 processor, Intel Iris Xe Graphics, and a brilliant 13.3\" 4K UHD display, it's perfect for work, creativity, and entertainment.",
+    "colors": ["#ffffff", "#000000", "#ffff00"],
+    "size": ["Medium"],
+    "sku": "HPSX360XY5152Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "Acer Predator Helios 300",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&51",
+      "https://source.unsplash.com/random/360x265?laptop&52",
+      "https://source.unsplash.com/random/360x265?laptop&53",
+      "https://source.unsplash.com/random/360x265?laptop&54",
+      "https://source.unsplash.com/random/360x265?laptop&55"
+    ],
+    "price": 1299.99,
+    "discount_price": 1199.99,
+    "reviewsNumber": 80,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "Acer",
+    "category": "laptop",
+    "details": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB DDR4",
+      "Storage": "512GB SSD",
+      "Graphics": "NVIDIA GeForce RTX 3060",
+      "Display": "15.6\" Full HD 144Hz",
+      "Battery": "Up to 6 hours",
+      "Weight": "2.3kg"
+    },
+    "description": "The Acer Predator Helios 300 is a powerful gaming laptop built for performance. With an Intel Core i7 processor, NVIDIA GeForce RTX 3060 graphics, and a high-refresh-rate 15.6\" Full HD display, it delivers smooth gaming experiences.",
+    "colors": ["#ffffff", "#000000", "#008000"],
+    "size": ["Large"],
+    "sku": "APH300XY5657Z",
+    "soldCount": 100,
+    "quantities": 70
+  },
+  {
+    "name": "Lenovo Legion 5",
+    "image": [
+      "https://source.unsplash.com/random/360x265?laptop&56",
+      "https://source.unsplash.com/random/360x265?laptop&57",
+      "https://source.unsplash.com/random/360x265?laptop&58",
+      "https://source.unsplash.com/random/360x265?laptop&59",
+      "https://source.unsplash.com/random/360x265?laptop&60"
+    ],
+    "price": 1399.99,
+    "discount_price": 1299.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "Lenovo",
+    "category": "laptop",
+    "details": {
+      "Processor": "AMD Ryzen 7",
+      "RAM": "16GB DDR4",
+      "Storage": "1TB SSD",
+      "Graphics": "NVIDIA GeForce RTX 3050",
+      "Display": "15.6\" Full HD 120Hz",
+      "Battery": "Up to 8 hours",
+      "Weight": "2.4kg"
+    },
+    "description": "The Lenovo Legion 5 is a versatile gaming laptop with powerful performance and immersive visuals. With an AMD Ryzen 7 processor, NVIDIA GeForce RTX 3050 graphics, and a high-refresh-rate 15.6\" Full HD display, it's perfect for gaming and multitasking.",
+    "colors": ["#ffffff", "#000000", "#0000ff"],
+    "size": ["Large"],
+    "sku": "LL5XY6162Z",
+    "soldCount": 120,
+    "quantities": 80
+  },
+  {
+    "name": "Geometric Wall Art Set",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&1",
+      "https://source.unsplash.com/random/360x265?homedecor&2",
+      "https://source.unsplash.com/random/360x265?homedecor&3",
+      "https://source.unsplash.com/random/360x265?homedecor&4",
+      "https://source.unsplash.com/random/360x265?homedecor&5"
+    ],
+    "price": 59.99,
+    "discount_price": 49.99,
+    "reviewsNumber": 95,
+    "rating": 4.8,
+    "availability": true,
+    "brand": "ModernHome",
+    "category": "home decor",
+    "details": {
+      "Material": "Wood",
+      "Style": "Geometric",
+      "Set Includes": "3 Pieces",
+      "Dimensions": "12x12 inches each"
+    },
+    "description": "Enhance your living space with this stylish Geometric Wall Art Set. Crafted from high-quality wood, these pieces feature modern geometric designs that will add a touch of elegance to any room.",
+    "colors": ["#ffffff", "#000000", "#808080"],
+    "size": ["Medium"],
+    "sku": "GHGWA01XY123Z",
+    "soldCount": 120,
+    "quantities": 100
+  },
+  {
+    "name": "Vintage Persian Rug",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&6",
+      "https://source.unsplash.com/random/360x265?homedecor&7",
+      "https://source.unsplash.com/random/360x265?homedecor&8",
+      "https://source.unsplash.com/random/360x265?homedecor&9",
+      "https://source.unsplash.com/random/360x265?homedecor&10"
+    ],
+    "price": 299.99,
+    "discount_price": 249.99,
+    "reviewsNumber": 90,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "RugEmporium",
+    "category": "home decor",
+    "details": {
+      "Material": "Wool",
+      "Style": "Vintage Persian",
+      "Size": "5x8 feet",
+      "Origin": "Iran"
+    },
+    "description": "Add a touch of luxury to your home with this exquisite Vintage Persian Rug. Handcrafted from premium wool, this rug features traditional Persian designs and rich colors that will complement any decor.",
+    "colors": ["#5e2612", "#f4a460", "#b8860b"],
+    "size": ["Large"],
+    "sku": "VRVPR02XY456Z",
+    "soldCount": 150,
+    "quantities": 120
+  },
+  {
+    "name": "Marble Table Lamp",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&11",
+      "https://source.unsplash.com/random/360x265?homedecor&12",
+      "https://source.unsplash.com/random/360x265?homedecor&13",
+      "https://source.unsplash.com/random/360x265?homedecor&14",
+      "https://source.unsplash.com/random/360x265?homedecor&15"
+    ],
+    "price": 79.99,
+    "discount_price": 69.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "LuxDeco",
+    "category": "home decor",
+    "details": {
+      "Material": "Marble, Metal",
+      "Style": "Modern",
+      "Dimensions": "18 inches tall"
+    },
+    "description": "Illuminate your space with this elegant Marble Table Lamp. Featuring a sleek marble base and a modern design, this lamp will add a sophisticated touch to your bedside table or desk.",
+    "colors": ["#ffffff", "#000000", "#c0c0c0"],
+    "size": ["Medium"],
+    "sku": "LTLM03XY789Z",
+    "soldCount": 100,
+    "quantities": 80
+  },
+  {
+    "name": "Velvet Throw Pillow Set",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&16",
+      "https://source.unsplash.com/random/360x265?homedecor&17",
+      "https://source.unsplash.com/random/360x265?homedecor&18",
+      "https://source.unsplash.com/random/360x265?homedecor&19",
+      "https://source.unsplash.com/random/360x265?homedecor&20"
+    ],
+    "price": 39.99,
+    "discount_price": 29.99,
+    "reviewsNumber": 80,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "VelvetVibes",
+    "category": "home decor",
+    "details": {
+      "Material": "Velvet",
+      "Style": "Modern",
+      "Set Includes": "2 Pillows",
+      "Dimensions": "18x18 inches each"
+    },
+    "description": "Add a pop of color and texture to your living room or bedroom with this luxurious Velvet Throw Pillow Set. These soft and stylish pillows are perfect for cozying up on the couch or adding a decorative accent to your bed.",
+    "colors": ["#800080", "#ff0000", "#ffff00"],
+    "size": ["Medium"],
+    "sku": "VTPS04XY1011Z",
+    "soldCount": 120,
+    "quantities": 100
+  },
+  {
+    "name": "Metal Wall Shelf",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&21",
+      "https://source.unsplash.com/random/360x265?homedecor&22",
+      "https://source.unsplash.com/random/360x265?homedecor&23",
+      "https://source.unsplash.com/random/360x265?homedecor&24",
+      "https://source.unsplash.com/random/360x265?homedecor&25"
+    ],
+    "price": 49.99,
+    "discount_price": 39.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "MetalWorks",
+    "category": "home decor",
+    "details": {
+      "Material": "Metal",
+      "Style": "Industrial",
+      "Dimensions": "24x12 inches"
+    },
+    "description": "Maximize your wall space with this sleek Metal Wall Shelf. Crafted from durable metal, this industrial-style shelf provides the perfect display space for plants, books, and decorative items.",
+    "colors": ["#ffffff", "#000000", "#808080"],
+    "size": ["Large"],
+    "sku": "MWSH05XY1213Z",
+    "soldCount": 150,
+    "quantities": 120
+  },
+  {
+    "name": "Bohemian Macrame Wall Hanging",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&26",
+      "https://source.unsplash.com/random/360x265?homedecor&27",
+      "https://source.unsplash.com/random/360x265?homedecor&28",
+      "https://source.unsplash.com/random/360x265?homedecor&29",
+      "https://source.unsplash.com/random/360x265?homedecor&30"
+    ],
+    "price": 29.99,
+    "discount_price": 24.99,
+    "reviewsNumber": 90,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "BohoChic",
+    "category": "home decor",
+    "details": {
+      "Material": "Cotton",
+      "Style": "Bohemian",
+      "Dimensions": "36x24 inches"
+    },
+    "description": "Add a touch of bohemian charm to your space with this beautiful Macrame Wall Hanging. Handcrafted from soft cotton, this intricate piece features intricate knotwork and fringe details that will elevate any room.",
+    "colors": ["#ffff00", "#8b4513", "#000000"],
+    "size": ["Medium"],
+    "sku": "BMWH06XY1415Z",
+    "soldCount": 100,
+    "quantities": 80
+  },
+  {
+    "name": "Scandinavian Throw Blanket",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&31",
+      "https://source.unsplash.com/random/360x265?homedecor&32",
+      "https://source.unsplash.com/random/360x265?homedecor&33",
+      "https://source.unsplash.com/random/360x265?homedecor&34",
+      "https://source.unsplash.com/random/360x265?homedecor&35"
+    ],
+    "price": 34.99,
+    "discount_price": 29.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "ScandiStyle",
+    "category": "home decor",
+    "details": {
+      "Material": "Cotton",
+      "Style": "Scandinavian",
+      "Dimensions": "50x60 inches"
+    },
+    "description": "Stay cozy and stylish with this Scandinavian Throw Blanket. Made from soft cotton, this blanket features a minimalist design and neutral colors that will complement any decor.",
+    "colors": ["#ffffff", "#000000", "#add8e6"],
+    "size": ["Medium"],
+    "sku": "STB07XY1617Z",
+    "soldCount": 120,
+    "quantities": 100
+  },
+  {
+    "name": "Ceramic Vase Set",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&36",
+      "https://source.unsplash.com/random/360x265?homedecor&37",
+      "https://source.unsplash.com/random/360x265?homedecor&38",
+      "https://source.unsplash.com/random/360x265?homedecor&39",
+      "https://source.unsplash.com/random/360x265?homedecor&40"
+    ],
+    "price": 44.99,
+    "discount_price": 39.99,
+    "reviewsNumber": 80,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "Ceramica",
+    "category": "home decor",
+    "details": {
+      "Material": "Ceramic",
+      "Style": "Modern",
+      "Set Includes": "3 Vases",
+      "Dimensions": "6 inches tall each"
+    },
+    "description": "Add a touch of elegance to your home with this Ceramic Vase Set. Featuring a modern design and glossy finish, these vases are perfect for displaying flowers or as standalone decor pieces.",
+    "colors": ["#ffffff", "#000000", "#ffffff"],
+    "size": ["Medium"],
+    "sku": "CVS08XY1819Z",
+    "soldCount": 100,
+    "quantities": 80
+  },
+  {
+    "name": "Wooden Floating Shelves",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&41",
+      "https://source.unsplash.com/random/360x265?homedecor&42",
+      "https://source.unsplash.com/random/360x265?homedecor&43",
+      "https://source.unsplash.com/random/360x265?homedecor&44",
+      "https://source.unsplash.com/random/360x265?homedecor&45"
+    ],
+    "price": 39.99,
+    "discount_price": 34.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "WoodCraft",
+    "category": "home decor",
+    "details": {
+      "Material": "Wood",
+      "Style": "Rustic",
+      "Set Includes": "3 Shelves",
+      "Dimensions": "12x4 inches each"
+    },
+    "description": "Create a stunning display with these Wooden Floating Shelves. Crafted from reclaimed wood, these rustic shelves are perfect for showcasing your favorite books, plants, and decorative items.",
+    "colors": ["#8b4513", "#deb887", "#ffffff"],
+    "size": ["Large"],
+    "sku": "WFS09XY2021Z",
+    "soldCount": 120,
+    "quantities": 100
+  },
+  {
+    "name": "Moroccan Pouf Ottoman",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&46",
+      "https://source.unsplash.com/random/360x265?homedecor&47",
+      "https://source.unsplash.com/random/360x265?homedecor&48",
+      "https://source.unsplash.com/random/360x265?homedecor&49",
+      "https://source.unsplash.com/random/360x265?homedecor&50"
+    ],
+    "price": 64.99,
+    "discount_price": 54.99,
+    "reviewsNumber": 90,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "MoroccanTrends",
+    "category": "home decor",
+    "details": {
+      "Material": "Leather",
+      "Style": "Moroccan",
+      "Dimensions": "18x18 inches"
+    },
+    "description": "Add a touch of exotic flair to your space with this Moroccan Pouf Ottoman. Handcrafted from genuine leather, this pouf features traditional Moroccan designs and vibrant colors that will liven up any room.",
+    "colors": ["#ff0000", "#228b22", "#ffff00"],
+    "size": ["Medium"],
+    "sku": "MPO10XY2223Z",
+    "soldCount": 150,
+    "quantities": 120
+  },
+  {
+    "name": "Glass Terrarium Set",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&51",
+      "https://source.unsplash.com/random/360x265?homedecor&52",
+      "https://source.unsplash.com/random/360x265?homedecor&53",
+      "https://source.unsplash.com/random/360x265?homedecor&54",
+      "https://source.unsplash.com/random/360x265?homedecor&55"
+    ],
+    "price": 49.99,
+    "discount_price": 39.99,
+    "reviewsNumber": 85,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "GlassGarden",
+    "category": "home decor",
+    "details": {
+      "Material": "Glass, Metal",
+      "Style": "Modern",
+      "Set Includes": "3 Terrariums",
+      "Dimensions": "6x6 inches each"
+    },
+    "description": "Create your own mini garden with this Glass Terrarium Set. Featuring modern geometric designs, these terrariums are perfect for displaying succulents, air plants, or small decorative items.",
+    "colors": ["#ffffff", "#000000", "#add8e6"],
+    "size": ["Medium"],
+    "sku": "GTS11XY2425Z",
+    "soldCount": 120,
+    "quantities": 100
+  },
+  {
+    "name": "Abstract Canvas Wall Art",
+    "image": [
+      "https://source.unsplash.com/random/360x265?homedecor&56",
+      "https://source.unsplash.com/random/360x265?homedecor&57",
+      "https://source.unsplash.com/random/360x265?homedecor&58",
+      "https://source.unsplash.com/random/360x265?homedecor&59",
+      "https://source.unsplash.com/random/360x265?homedecor&60"
+    ],
+    "price": 69.99,
+    "discount_price": 59.99,
+    "reviewsNumber": 90,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "ArtisticAura",
+    "category": "home decor",
+    "details": {
+      "Material": "Canvas",
+      "Style": "Abstract",
+      "Dimensions": "24x36 inches"
+    },
+    "description": "Make a statement in any room with this stunning Abstract Canvas Wall Art. Featuring bold colors and dynamic shapes, this piece will add a modern touch to your home decor.",
+    "colors": ["#ffffff", "#000000", "#808080"],
+    "size": ["Large"],
+    "sku": "ACWA12XY2627Z",
+    "soldCount": 150,
+    "quantities": 120
+  },
+
+  {
+    "name": "Samsung Galaxy S21 Ultra",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&1",
+      "https://source.unsplash.com/random/360x265?smartphone&2",
+      "https://source.unsplash.com/random/360x265?smartphone&3",
+      "https://source.unsplash.com/random/360x265?smartphone&4",
+      "https://source.unsplash.com/random/360x265?smartphone&5",
+      "https://source.unsplash.com/random/360x265?smartphone&6",
+      "https://source.unsplash.com/random/360x265?smartphone&7"
+    ],
+    "price": 1199,
+    "discount_price": 1099,
+    "reviewsNumber": 158,
+    "rating": 4.7,
+    "availability": true,
+    "brand": "samsung",
+    "category": "smartphone",
+    "details": {
+      "display": "6.8 inches Dynamic AMOLED 2X",
+      "processor": "Exynos 2100 (Global) / Snapdragon 888 (USA/China)",
+      "ram": "12GB / 16GB",
+      "storage": "128GB / 256GB / 512GB"
+    },
+    "description": "The Samsung Galaxy S21 Ultra is the ultimate flagship smartphone with a stunning display, powerful performance, and exceptional camera capabilities.",
+    "sizes": ["128GB", "256GB", "512GB"],
+    "colors": ["#000000", "#9e9e9e", "#bdbdbd", "#ffffff"],
+    "sku": "XY456Z",
+    "soldCount": 890,
+    "quantities": 120
+  },
+  {
+    "name": "iPhone 13 Pro Max",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&8",
+      "https://source.unsplash.com/random/360x265?smartphone&9",
+      "https://source.unsplash.com/random/360x265?smartphone&10"
+    ],
+    "price": 1299,
+    "discount_price": 1249,
+    "reviewsNumber": 198,
+    "rating": 4.8,
+    "availability": true,
+    "brand": "apple",
+    "category": "smartphone",
+    "details": {
+      "display": "6.7 inches Super Retina XDR OLED",
+      "processor": "A15 Bionic",
+      "ram": "6GB",
+      "storage": "128GB / 256GB / 512GB / 1TB"
+    },
+    "description": "Experience the power of the A15 Bionic chip and the beauty of the Super Retina XDR display with the iPhone 13 Pro Max. Capture stunning photos and videos with the advanced camera system.",
+    "sizes": ["128GB", "256GB", "512GB", "1TB"],
+    "colors": ["#1d1d1d", "#ffd700", "#c0c0c0", "#6699cc"],
+    "sku": "AB123C",
+    "soldCount": 750,
+    "quantities": 100
+  },
+  {
+    "name": "Google Pixel 6 Pro",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&11",
+      "https://source.unsplash.com/random/360x265?smartphone&12",
+      "https://source.unsplash.com/random/360x265?smartphone&13",
+      "https://source.unsplash.com/random/360x265?smartphone&14",
+      "https://source.unsplash.com/random/360x265?smartphone&15"
+    ],
+    "price": 899,
+    "discount_price": 849,
+    "reviewsNumber": 122,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "google",
+    "category": "smartphone",
+    "details": {
+      "display": "6.7 inches LTPO OLED",
+      "processor": "Google Tensor",
+      "ram": "12GB",
+      "storage": "128GB / 256GB"
+    },
+    "description": "The Google Pixel 6 Pro combines advanced AI features with a stunning design and exceptional camera capabilities, making it the perfect smartphone for capturing and sharing your life's moments.",
+    "sizes": ["128GB", "256GB"],
+    "colors": ["#000000", "#ffffff", "#ffd700"],
+    "sku": "CD456E",
+    "soldCount": 420,
+    "quantities": 80
+  },
+  {
+    "name": "OnePlus 9 Pro",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&16",
+      "https://source.unsplash.com/random/360x265?smartphone&17",
+      "https://source.unsplash.com/random/360x265?smartphone&18",
+      "https://source.unsplash.com/random/360x265?smartphone&19",
+      "https://source.unsplash.com/random/360x265?smartphone&20"
+    ],
+    "price": 1069,
+    "discount_price": 999,
+    "reviewsNumber": 140,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "oneplus",
+    "category": "smartphone",
+    "details": {
+      "display": "6.7 inches Fluid AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "8GB / 12GB",
+      "storage": "128GB / 256GB"
+    },
+    "description": "The OnePlus 9 Pro delivers a smooth and fast experience with its Fluid AMOLED display and Snapdragon 888 processor. Capture stunning photos with Hasselblad's advanced camera technology.",
+    "sizes": ["128GB", "256GB"],
+    "colors": ["#000000", "#008000", "#0000ff"],
+    "sku": "EF789G",
+    "soldCount": 680,
+    "quantities": 90
+  },
+  {
+    "name": "Xiaomi Mi 11 Ultra",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&21",
+      "https://source.unsplash.com/random/360x265?smartphone&22",
+      "https://source.unsplash.com/random/360x265?smartphone&23",
+      "https://source.unsplash.com/random/360x265?smartphone&24",
+      "https://source.unsplash.com/random/360x265?smartphone&25",
+      "https://source.unsplash.com/random/360x265?smartphone&26",
+      "https://source.unsplash.com/random/360x265?smartphone&27",
+      "https://source.unsplash.com/random/360x265?smartphone&28"
+    ],
+    "price": 1099,
+    "discount_price": 999,
+    "reviewsNumber": 128,
+    "rating": 4.6,
+    "availability": true,
+    "brand": "xiaomi",
+    "category": "smartphone",
+    "details": {
+      "display": "6.81 inches AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "8GB / 12GB",
+      "storage": "256GB / 512GB"
+    },
+    "description": "The Xiaomi Mi 11 Ultra redefines smartphone photography with its powerful camera system featuring a 50MP main sensor. Enjoy a stunning display and fast performance with the Snapdragon 888 processor.",
+    "sizes": ["256GB", "512GB"],
+    "colors": ["#000000", "#ffffff"],
+    "sku": "GH012I",
+    "soldCount": 520,
+    "quantities": 70
+  },
+  {
+    "name": "Sony Xperia 1 III",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&29",
+      "https://source.unsplash.com/random/360x265?smartphone&30",
+      "https://source.unsplash.com/random/360x265?smartphone&31"
+    ],
+    "price": 1299,
+    "discount_price": 1199,
+    "reviewsNumber": 110,
+    "rating": 4.5,
+    "availability": true,
+    "brand": "sony",
+    "category": "smartphone",
+    "details": {
+      "display": "6.5 inches 4K HDR OLED",
+      "processor": "Snapdragon 888",
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    "description": "Experience cinema-quality entertainment on the go with the Sony Xperia 1 III's 4K HDR OLED display. Capture stunning photos and videos with its versatile camera system.",
+    "sizes": ["256GB"],
+    "colors": ["#000000", "#800080"],
+    "sku": "IJ345K",
+    "soldCount": 360,
+    "quantities": 60
+  },
+  {
+    "name": "Asus ROG Phone 5",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&32",
+      "https://source.unsplash.com/random/360x265?smartphone&33",
+      "https://source.unsplash.com/random/360x265?smartphone&34",
+      "https://source.unsplash.com/random/360x265?smartphone&35"
+    ],
+    "price": 999,
+    "discount_price": 899,
+    "reviewsNumber": 90,
+    "rating": 4.4,
+    "availability": true,
+    "brand": "asus",
+    "category": "smartphone",
+    "details": {
+      "display": "6.78 inches AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "8GB / 12GB / 16GB",
+      "storage": "128GB / 256GB / 512GB"
+    },
+    "description": "Unleash your gaming potential with the Asus ROG Phone 5. Featuring a 144Hz AMOLED display and Snapdragon 888 processor, it delivers smooth and responsive gaming performance.",
+    "sizes": ["128GB", "256GB", "512GB"],
+    "colors": ["#000000", "#ffffff"],
+    "sku": "KL678M",
+    "soldCount": 280,
+    "quantities": 50
+  },
+  {
+    "name": "Motorola Edge 20 Pro",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&36",
+      "https://source.unsplash.com/random/360x265?smartphone&37",
+      "https://source.unsplash.com/random/360x265?smartphone&38"
+    ],
+    "price": 899,
+    "discount_price": 849,
+    "reviewsNumber": 95,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "motorola",
+    "category": "smartphone",
+    "details": {
+      "display": "6.7 inches OLED",
+      "processor": "Snapdragon 870",
+      "ram": "8GB",
+      "storage": "128GB / 256GB"
+    },
+    "description": "The Motorola Edge 20 Pro combines style and performance with its sleek design and Snapdragon 870 processor. Capture stunning photos and videos with its advanced camera system.",
+    "sizes": ["128GB", "256GB"],
+    "colors": ["#000000", "#4b0082"],
+    "sku": "MN789O",
+    "soldCount": 320,
+    "quantities": 60
+  },
+  {
+    "name": "LG Wing",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&39",
+      "https://source.unsplash.com/random/360x265?smartphone&40",
+      "https://source.unsplash.com/random/360x265?smartphone&41",
+      "https://source.unsplash.com/random/360x265?smartphone&42"
+    ],
+    "price": 999,
+    "discount_price": 899,
+    "reviewsNumber": 85,
+    "rating": 4.2,
+    "availability": true,
+    "brand": "lg",
+    "category": "smartphone",
+    "details": {
+      "display": "6.8 inches P-OLED",
+      "processor": "Snapdragon 765G",
+      "ram": "8GB",
+      "storage": "128GB / 256GB"
+    },
+    "description": "Experience multitasking like never before with the LG Wing's unique swivel design. Enjoy immersive entertainment and smooth performance with its P-OLED display and Snapdragon 765G processor.",
+    "sizes": ["128GB", "256GB"],
+    "colors": ["#000000", "#87ceeb"],
+    "sku": "OP890P",
+    "soldCount": 240,
+    "quantities": 40
+  },
+  {
+    "name": "Realme GT 5G",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&43",
+      "https://source.unsplash.com/random/360x265?smartphone&44",
+      "https://source.unsplash.com/random/360x265?smartphone&45",
+      "https://source.unsplash.com/random/360x265?smartphone&46",
+      "https://source.unsplash.com/random/360x265?smartphone&47",
+      "https://source.unsplash.com/random/360x265?smartphone&48"
+    ],
+    "price": 499,
+    "discount_price": 449,
+    "reviewsNumber": 75,
+    "rating": 4.1,
+    "availability": true,
+    "brand": "realme",
+    "category": "smartphone",
+    "details": {
+      "display": "6.43 inches Super AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "8GB",
+      "storage": "128GB / 256GB"
+    },
+    "description": "The Realme GT 5G offers blazing-fast performance and a stunning display at an affordable price. Capture clear and detailed photos with its advanced camera system.",
+    "sizes": ["128GB", "256GB"],
+    "colors": ["#000000", "#ffffff", "#ff0000"],
+    "sku": "QR901S",
+    "soldCount": 180,
+    "quantities": 30
+  },
+  {
+    "name": "Huawei Mate 40 Pro",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&67",
+      "https://source.unsplash.com/random/360x265?smartphone&68",
+      "https://source.unsplash.com/random/360x265?smartphone&69"
+    ],
+    "price": 999,
+    "discount_price": 899,
+    "reviewsNumber": 90,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "huawei",
+    "category": "smartphone",
+    "details": {
+      "display": "6.76 inches OLED",
+      "processor": "Kirin 9000",
+      "ram": "8GB",
+      "storage": "256GB / 512GB"
+    },
+    "description": "Experience flagship-level performance and photography with the Huawei Mate 40 Pro. Its powerful Kirin 9000 processor and Leica quad-camera system deliver stunning results in every shot.",
+    "sizes": ["256GB", "512GB"],
+    "colors": ["#000000", "#ffffff", "#ff0000"],
+    "sku": "ST234U",
+    "soldCount": 250,
+    "quantities": 40
+  },
+  {
+    "name": "Nokia 8.3 5G",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&70",
+      "https://source.unsplash.com/random/360x265?smartphone&71",
+      "https://source.unsplash.com/random/360x265?smartphone&72",
+      "https://source.unsplash.com/random/360x265?smartphone&73"
+    ],
+    "price": 699,
+    "discount_price": 649,
+    "reviewsNumber": 85,
+    "rating": 4.2,
+    "availability": true,
+    "brand": "nokia",
+    "category": "smartphone",
+    "details": {
+      "display": "6.81 inches IPS LCD",
+      "processor": "Snapdragon 765G",
+      "ram": "6GB",
+      "storage": "64GB / 128GB"
+    },
+    "description": "Stay connected with the Nokia 8.3 5G's high-quality display and fast performance. Capture clear and detailed photos with its versatile quad-camera system.",
+    "sizes": ["64GB", "128GB"],
+    "colors": ["#000000", "#ffffff", "#008000"],
+    "sku": "UV567W",
+    "soldCount": 180,
+    "quantities": 30
+  },
+  {
+    "name": "Black Shark 4 Pro",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&74",
+      "https://source.unsplash.com/random/360x265?smartphone&75",
+      "https://source.unsplash.com/random/360x265?smartphone&76"
+    ],
+    "price": 899,
+    "discount_price": 849,
+    "reviewsNumber": 80,
+    "rating": 4.1,
+    "availability": true,
+    "brand": "blackshark",
+    "category": "smartphone",
+    "details": {
+      "display": "6.67 inches AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "8GB / 12GB",
+      "storage": "128GB / 256GB / 512GB"
+    },
+    "description": "Immerse yourself in gaming with the Black Shark 4 Pro's high-refresh-rate display and powerful hardware. Its Snapdragon 888 processor ensures smooth and responsive gaming performance.",
+    "sizes": ["8GB/128GB", "12GB/256GB", "12GB/512GB"],
+    "colors": ["#000000", "#ff4500"],
+    "sku": "WX890X",
+    "soldCount": 150,
+    "quantities": 20
+  },
+  {
+    "name": "Lenovo Legion Phone Duel 2",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&77",
+      "https://source.unsplash.com/random/360x265?smartphone&78",
+      "https://source.unsplash.com/random/360x265?smartphone&79"
+    ],
+    "price": 999,
+    "discount_price": 949,
+    "reviewsNumber": 75,
+    "rating": 4.0,
+    "availability": true,
+    "brand": "lenovo",
+    "category": "smartphone",
+    "details": {
+      "display": "6.92 inches AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "12GB / 16GB",
+      "storage": "256GB / 512GB / 1TB"
+    },
+    "description": "Unleash your gaming potential with the Lenovo Legion Phone Duel 2. Its unique design and powerful hardware provide an immersive gaming experience like no other.",
+    "sizes": ["12GB/256GB", "16GB/512GB", "16GB/1TB"],
+    "colors": ["#000000", "#ffffff", "#f0e68c"],
+    "sku": "YZ123Q",
+    "soldCount": 120,
+    "quantities": 20
+  },
+  {
+    "name": "ZTE Axon 30 Ultra",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&80",
+      "https://source.unsplash.com/random/360x265?smartphone&81",
+      "https://source.unsplash.com/random/360x265?smartphone&82",
+      "https://source.unsplash.com/random/360x265?smartphone&83"
+    ],
+    "price": 899,
+    "discount_price": 849,
+    "reviewsNumber": 70,
+    "rating": 4.3,
+    "availability": true,
+    "brand": "zte",
+    "category": "smartphone",
+    "details": {
+      "display": "6.67 inches AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "8GB / 12GB",
+      "storage": "256GB / 512GB"
+    },
+    "description": "Capture every moment in stunning detail with the ZTE Axon 30 Ultra's advanced camera system. Its powerful hardware ensures smooth performance for all your tasks.",
+    "sizes": ["8GB/256GB", "12GB/512GB"],
+    "colors": ["#000000", "#ffffff", "#ff0000"],
+    "sku": "AB456R",
+    "soldCount": 90,
+    "quantities": 15
+  },
+  {
+    "name": "POCO F3",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&84",
+      "https://source.unsplash.com/random/360x265?smartphone&85",
+      "https://source.unsplash.com/random/360x265?smartphone&86",
+      "https://source.unsplash.com/random/360x265?smartphone&87"
+    ],
+    "price": 399,
+    "discount_price": 349,
+    "reviewsNumber": 65,
+    "rating": 4.2,
+    "availability": true,
+    "brand": "poco",
+    "category": "smartphone",
+    "details": {
+      "display": "6.67 inches AMOLED",
+      "processor": "Snapdragon 870",
+      "ram": "6GB / 8GB",
+      "storage": "128GB / 256GB"
+    },
+    "description": "Experience flagship-level performance at an affordable price with the POCO F3. Its high-refresh-rate display and powerful processor ensure smooth performance in gaming and multitasking.",
+    "sizes": ["6GB/128GB", "8GB/256GB"],
+    "colors": ["#000000", "#ffffff", "#008000"],
+    "sku": "CD789T",
+    "soldCount": 80,
+    "quantities": 10
+  },
+  {
+    "name": "Meizu 18 Pro",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&88",
+      "https://source.unsplash.com/random/360x265?smartphone&89",
+      "https://source.unsplash.com/random/360x265?smartphone&90"
+    ],
+    "price": 899,
+    "discount_price": 849,
+    "reviewsNumber": 60,
+    "rating": 4.1,
+    "availability": true,
+    "brand": "meizu",
+    "category": "smartphone",
+    "details": {
+      "display": "6.7 inches Super AMOLED",
+      "processor": "Snapdragon 888",
+      "ram": "8GB / 12GB",
+      "storage": "128GB / 256GB / 512GB"
+    },
+    "description": "Enjoy a premium experience with the Meizu 18 Pro's high-quality display and powerful hardware. Its advanced camera system ensures stunning photos in any lighting condition.",
+    "sizes": ["8GB/128GB", "12GB/256GB", "12GB/512GB"],
+    "colors": ["#000000", "#ffffff"],
+    "sku": "EF890U",
+    "soldCount": 70,
+    "quantities": 10
+  },
+  {
+    "name": "Infinix Zero X Pro",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&91",
+      "https://source.unsplash.com/random/360x265?smartphone&92",
+      "https://source.unsplash.com/random/360x265?smartphone&93",
+      "https://source.unsplash.com/random/360x265?smartphone&94"
+    ],
+    "price": 499,
+    "discount_price": 449,
+    "reviewsNumber": 55,
+    "rating": 4.0,
+    "availability": true,
+    "brand": "infinix",
+    "category": "smartphone",
+    "details": {
+      "display": "6.7 inches AMOLED",
+      "processor": "MediaTek Helio G95",
+      "ram": "8GB",
+      "storage": "128GB / 256GB"
+    },
+    "description": "Experience powerful performance and stunning photography with the Infinix Zero X Pro. Its AMOLED display and advanced camera system make it the perfect companion for capturing your adventures.",
+    "sizes": ["128GB", "256GB"],
+    "colors": ["#000000", "#ffffff", "#ff0000"],
+    "sku": "GH567I",
+    "soldCount": 60,
+    "quantities": 10
+  },
+  {
+    "name": "Tecno Camon 18P",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&95",
+      "https://source.unsplash.com/random/360x265?smartphone&96",
+      "https://source.unsplash.com/random/360x265?smartphone&97"
+    ],
+    "price": 299,
+    "discount_price": 249,
+    "reviewsNumber": 50,
+    "rating": 3.9,
+    "availability": true,
+    "brand": "tecno",
+    "category": "smartphone",
+    "details": {
+      "display": "6.8 inches IPS LCD",
+      "processor": "Mediatek Helio G85",
+      "ram": "6GB",
+      "storage": "128GB"
+    },
+    "description": "Capture every moment with the Tecno Camon 18P's AI-powered camera system. Its large display and long-lasting battery make it the perfect device for entertainment and productivity.",
+    "sizes": ["128GB"],
+    "colors": ["#000000", "#ffffff"],
+    "sku": "IJ678O",
+    "soldCount": 40,
+    "quantities": 5
+  },
+  {
+    "name": "Vivo Y72 5G",
+    "image": [
+      "https://source.unsplash.com/random/360x265?smartphone&98",
+      "https://source.unsplash.com/random/360x265?smartphone&99",
+      "https://source.unsplash.com/random/360x265?smartphone&100"
+    ],
+    "price": 399,
+    "discount_price": 349,
+    "reviewsNumber": 45,
+    "rating": 3.8,
+    "availability": true,
+    "brand": "vivo",
+    "category": "smartphone",
+    "details": {
+      "display": "6.58 inches IPS LCD",
+      "processor": "Mediatek Dimensity 700",
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    "description": "Experience fast and reliable performance with the Vivo Y72 5G. Its large display and 5G connectivity make it the perfect device for streaming, gaming, and multitasking.",
+    "sizes": ["128GB"],
+    "colors": ["#000000", "#ffffff", "#008000"],
+    "sku": "KL890P",
+    "soldCount": 30,
+    "quantities": 5
+  }
+]

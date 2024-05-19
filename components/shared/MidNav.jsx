@@ -5,9 +5,18 @@ import { useState } from "react";
 import { FaBars, FaPhoneAlt, FaSearch } from "react-icons/fa";
 import Link from "next/link";
 import { AiOutlineClose } from "react-icons/ai";
+import { useRouter } from "next/navigation";
 
 const MidNav = () => {
   const [sideBar, setSideBar] = useState(false);
+  const router = useRouter();
+  const searchHandler = async (e) => {
+    e.preventDefault();
+    const search = e.target[0].value;
+    if (!search) return;
+    e.target.reset();
+    router.push(`/search/${search}`);
+  };
   return (
     <>
       <div className="py-6 flex items-center px-4 md:px-0">
@@ -19,7 +28,7 @@ const MidNav = () => {
           <Logo />
         </div>
         <div className="flex items-center justify-between gap-x-12 ml-auto">
-          <form>
+          <form onSubmit={searchHandler}>
             <div className={"relative hidden md:block"}>
               <input
                 type="text"
