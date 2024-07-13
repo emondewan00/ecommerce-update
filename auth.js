@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import UserModel from "./models/UserModel";
-import connectMongo from "./lib/connectDb";
+import connectMongo from "./utils/connectDb";
 import bcrypt from "bcrypt";
 
 export const {
