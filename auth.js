@@ -1,8 +1,9 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import UserModel from "./models/UserModel";
-import connectBD from "./lib/connectDB";
+import connectBD from "./lib/connectDb";
 import bcrypt from "bcrypt";
+
 export const {
   signIn,
   signOut,
@@ -39,6 +40,7 @@ export const {
             return null;
           }
           return {
+            id: user._id.toString(),
             email: user.email,
             name: user.name,
           };
@@ -48,4 +50,20 @@ export const {
       },
     }),
   ],
+  callbacks: {
+    async jwt({ token, user }) {
+      if (user) {
+        token.id = user.id;
+        token.email = user.email;
+        token.name = user.name;
+      }
+      return token;
+    },
+    async session({ session, token }) {
+      if (token) {
+        session.user = token.user;
+      }
+      return session;
+    },
+  },
 });
