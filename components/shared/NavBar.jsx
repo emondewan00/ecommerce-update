@@ -9,6 +9,7 @@ import {
 import Logo from "./Logo";
 import Link from "next/link";
 import ScrollHandler from "./ScrollHandler";
+import NavIcons from "./NavIcons";
 
 const NavBar = () => {
   const categories = [
@@ -23,12 +24,10 @@ const NavBar = () => {
     <>
       <ScrollHandler />
       <div className="bg-blue-500">
-        <div className="py-6 flex items-center px-4 md:px-0 max-w-5xl mx-auto">
-          <div className="flex gap-4 ">
-            <FaBars className="text-white text-2xl block md:hidden cursor-pointer" />
-            <Logo />
-          </div>
-          <div className="flex items-center justify-between gap-x-12 ml-auto">
+        <div className="py-6 flex items-center px-4 md:px-0 max-w-5xl mx-auto justify-between">
+          <Logo />
+
+          <div className="flex items-center justify-between gap-x-12 ">
             {/* search input */}
             <form>
               <div className={"relative hidden md:block"}>
@@ -36,7 +35,7 @@ const NavBar = () => {
                   type="text"
                   name="title"
                   placeholder="Search..."
-                  className="w-auto md:w-80 py-2 pl-4 pr-12 md:pr-[50px] rounded-full text-sm relative"
+                  className="w-auto md:w-96 py-2 pl-4 pr-12 md:pr-[50px] rounded-full text-sm relative"
                 />
                 <button
                   type="submit"
@@ -46,34 +45,8 @@ const NavBar = () => {
                 </button>
               </div>
             </form>
-
-            <div className="md:flex items-center hidden">
-              <FaPhoneAlt className="text-2xl text-gray-100 mr-2" />
-              <div className="flex flex-col">
-                <span className="text-sm text-gray-50 font-medium">
-                  Call Us Now
-                </span>
-                <Link
-                  href={"tel:+880174123522"}
-                  className="text-white font-semibold"
-                >
-                  +880174123522
-                </Link>
-              </div>
-            </div>
-            <div className="flex gap-x-4 items-center">
-              <Link href={"/wishlist"}>
-                <FaRegHeart className="text-2xl text-white" />
-              </Link>
-              <Link href={"/cart"}>
-                <FaShoppingCart className="text-2xl text-white" />
-              </Link>
-
-              <Link href={"/dashboard/user"}>
-                <FaRegUser className="text-2xl text-white" />
-              </Link>
-            </div>
           </div>
+          <NavIcons />
         </div>
       </div>
       <div
@@ -100,18 +73,7 @@ const NavBar = () => {
             </ul>
           </div>
           <div className="hidden icons">
-            <div className="flex gap-x-4 items-center">
-              <Link href={"/wishlist"}>
-                <FaRegHeart className="text-2xl text-white" />
-              </Link>
-              <Link href={"/cart"}>
-                <FaShoppingCart className="text-2xl text-white" />
-              </Link>
-
-              <Link href={"/dashboard/user"}>
-                <FaRegUser className="text-2xl text-white" />
-              </Link>
-            </div>
+            <NavIcons />
           </div>
         </div>
       </div>

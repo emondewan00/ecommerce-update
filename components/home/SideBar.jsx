@@ -9,7 +9,7 @@ const categories = [
 ];
 const SideBar = () => {
   return (
-    <div className="border rounded md:min-w-60 h-fit">
+    <div className="border rounded md:min-w-60 h-fit hidden md:block">
       <h2 className="text-lg font-semibold py-[14px] px-5 bg-gray-100">
         TOP CATEGORIES
       </h2>
