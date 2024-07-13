@@ -2,6 +2,7 @@
 import { redirect } from "next/navigation";
 import { signIn } from "@/auth";
 import { isRedirectError } from "next/dist/client/components/redirect";
+import { revalidatePath } from "next/cache";
 const loginAction = async (formData) => {
   const email = formData.get("email");
   const password = formData.get("password");
@@ -19,7 +20,7 @@ const loginAction = async (formData) => {
       redirect: false,
       callbackUrl: "/",
     });
-    console.log(user);
+    revalidatePath("/");
     redirect("/");
   } catch (error) {
     if (isRedirectError(error)) {
