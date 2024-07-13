@@ -12,7 +12,6 @@
     "discount_price": 15.99,
     "reviewsNumber": 85,
     "rating": 4.5,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -41,7 +40,6 @@
     "discount_price": 19.99,
     "reviewsNumber": 95,
     "rating": 4.7,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -70,7 +68,6 @@
     "discount_price": 24.99,
     "reviewsNumber": 80,
     "rating": 4.4,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -99,7 +96,6 @@
     "discount_price": 29.99,
     "reviewsNumber": 90,
     "rating": 4.6,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -128,7 +124,6 @@
     "discount_price": 17.99,
     "reviewsNumber": 75,
     "rating": 4.3,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -157,7 +152,6 @@
     "discount_price": 22.99,
     "reviewsNumber": 85,
     "rating": 4.5,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -186,7 +180,6 @@
     "discount_price": 27.99,
     "reviewsNumber": 80,
     "rating": 4.4,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -215,7 +208,6 @@
     "discount_price": 24.99,
     "reviewsNumber": 75,
     "rating": 4.3,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -244,7 +236,6 @@
     "discount_price": 16.99,
     "reviewsNumber": 70,
     "rating": 4.2,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -273,7 +264,6 @@
     "discount_price": 21.99,
     "reviewsNumber": 90,
     "rating": 4.6,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -302,7 +292,6 @@
     "discount_price": 14.99,
     "reviewsNumber": 65,
     "rating": 4.1,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -331,7 +320,6 @@
     "discount_price": 16.99,
     "reviewsNumber": 70,
     "rating": 4.2,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -360,7 +348,6 @@
     "discount_price": 24.99,
     "reviewsNumber": 75,
     "rating": 4.3,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -389,7 +376,6 @@
     "discount_price": 14.99,
     "reviewsNumber": 65,
     "rating": 4.1,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -418,7 +404,6 @@
     "discount_price": 22.99,
     "reviewsNumber": 80,
     "rating": 4.4,
-    "availability": true,
     "brand": "generic",
     "category": "skincare",
     "details": {
@@ -450,7 +435,6 @@
     "discount_price": 49.99,
     "reviewsNumber": 120,
     "rating": 4.7,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -480,7 +464,6 @@
     "discount_price": 59.99,
     "reviewsNumber": 150,
     "rating": 4.8,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -511,7 +494,6 @@
     "discount_price": 39.99,
     "reviewsNumber": 100,
     "rating": 4.5,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -541,7 +523,6 @@
     "discount_price": 69.99,
     "reviewsNumber": 200,
     "rating": 4.9,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -570,7 +551,6 @@
     "discount_price": 54.99,
     "reviewsNumber": 140,
     "rating": 4.6,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -601,7 +581,6 @@
     "discount_price": 29.99,
     "reviewsNumber": 90,
     "rating": 4.4,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -631,7 +610,6 @@
     "discount_price": 49.99,
     "reviewsNumber": 120,
     "rating": 4.7,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -662,7 +640,6 @@
     "discount_price": 59.99,
     "reviewsNumber": 150,
     "rating": 4.8,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -692,7 +669,6 @@
     "discount_price": 39.99,
     "reviewsNumber": 100,
     "rating": 4.5,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -722,7 +698,6 @@
     "discount_price": 69.99,
     "reviewsNumber": 200,
     "rating": 4.9,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -751,7 +726,6 @@
     "discount_price": 54.99,
     "reviewsNumber": 140,
     "rating": 4.6,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -782,7 +756,6 @@
     "discount_price": 29.99,
     "reviewsNumber": 90,
     "rating": 4.4,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -812,7 +785,6 @@
     "discount_price": 49.99,
     "reviewsNumber": 120,
     "rating": 4.7,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -843,7 +815,6 @@
     "discount_price": 59.99,
     "reviewsNumber": 150,
     "rating": 4.8,
-    "availability": true,
     "brand": "generic",
     "category": "fragrance",
     "details": {
@@ -873,7 +844,6 @@
     "discount_price": 29.99,
     "reviewsNumber": 45,
     "rating": 4.5,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -902,7 +872,6 @@
     "discount_price": 39.99,
     "reviewsNumber": 60,
     "rating": 4.8,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -930,7 +899,6 @@
     "discount_price": 179.99,
     "reviewsNumber": 35,
     "rating": 4.6,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -958,7 +926,6 @@
     "discount_price": 59.99,
     "reviewsNumber": 55,
     "rating": 4.4,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -986,7 +953,6 @@
     "discount_price": 49.99,
     "reviewsNumber": 40,
     "rating": 4.3,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1014,7 +980,6 @@
     "discount_price": 39.99,
     "reviewsNumber": 70,
     "rating": 4.7,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1042,7 +1007,6 @@
     "discount_price": 29.99,
     "reviewsNumber": 50,
     "rating": 4.6,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1070,7 +1034,6 @@
     "discount_price": 24.99,
     "reviewsNumber": 40,
     "rating": 4.4,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1098,7 +1061,6 @@
     "discount_price": 49.99,
     "reviewsNumber": 65,
     "rating": 4.8,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1126,7 +1088,6 @@
     "discount_price": 34.99,
     "reviewsNumber": 45,
     "rating": 4.3,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1154,7 +1115,6 @@
     "discount_price": 24.99,
     "reviewsNumber": 50,
     "rating": 4.5,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1182,7 +1142,6 @@
     "discount_price": 15.99,
     "reviewsNumber": 35,
     "rating": 4.2,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1210,7 +1169,6 @@
     "discount_price": 19.99,
     "reviewsNumber": 40,
     "rating": 4.0,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1238,7 +1196,6 @@
     "discount_price": 24.99,
     "reviewsNumber": 35,
     "rating": 4.1,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1266,7 +1223,6 @@
     "discount_price": 11.99,
     "reviewsNumber": 30,
     "rating": 4.0,
-    "availability": true,
     "brand": "generic",
     "category": "clothing",
     "details": {
@@ -1295,7 +1251,6 @@
     "discount_price": 1299.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "UltraBook",
     "category": "laptop",
     "details": {
@@ -1327,7 +1282,6 @@
     "discount_price": 1199.99,
     "reviewsNumber": 90,
     "rating": 4.7,
-    "availability": true,
     "brand": "ZenBook",
     "category": "laptop",
     "details": {
@@ -1359,7 +1313,6 @@
     "discount_price": 799.99,
     "reviewsNumber": 80,
     "rating": 4.5,
-    "availability": true,
     "brand": "Swift",
     "category": "laptop",
     "details": {
@@ -1391,7 +1344,6 @@
     "discount_price": 1499.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "Surface",
     "category": "laptop",
     "details": {
@@ -1423,7 +1375,6 @@
     "discount_price": 1699.99,
     "reviewsNumber": 90,
     "rating": 4.7,
-    "availability": true,
     "brand": "ThinkPad",
     "category": "laptop",
     "details": {
@@ -1455,7 +1406,6 @@
     "discount_price": 2299.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "Apple",
     "category": "laptop",
     "details": {
@@ -1487,7 +1437,6 @@
     "discount_price": 1599.99,
     "reviewsNumber": 80,
     "rating": 4.5,
-    "availability": true,
     "brand": "ROG",
     "category": "laptop",
     "details": {
@@ -1519,7 +1468,6 @@
     "discount_price": 1899.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "Dell",
     "category": "laptop",
     "details": {
@@ -1551,7 +1499,6 @@
     "discount_price": 799.99,
     "reviewsNumber": 80,
     "rating": 4.5,
-    "availability": true,
     "brand": "Surface",
     "category": "laptop",
     "details": {
@@ -1583,7 +1530,6 @@
     "discount_price": 1499.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "HP",
     "category": "laptop",
     "details": {
@@ -1615,7 +1561,6 @@
     "discount_price": 1199.99,
     "reviewsNumber": 80,
     "rating": 4.5,
-    "availability": true,
     "brand": "Acer",
     "category": "laptop",
     "details": {
@@ -1647,7 +1592,6 @@
     "discount_price": 1299.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "Lenovo",
     "category": "laptop",
     "details": {
@@ -1679,7 +1623,6 @@
     "discount_price": 49.99,
     "reviewsNumber": 95,
     "rating": 4.8,
-    "availability": true,
     "brand": "ModernHome",
     "category": "home decor",
     "details": {
@@ -1708,7 +1651,6 @@
     "discount_price": 249.99,
     "reviewsNumber": 90,
     "rating": 4.7,
-    "availability": true,
     "brand": "RugEmporium",
     "category": "home decor",
     "details": {
@@ -1737,7 +1679,6 @@
     "discount_price": 69.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "LuxDeco",
     "category": "home decor",
     "details": {
@@ -1765,7 +1706,6 @@
     "discount_price": 29.99,
     "reviewsNumber": 80,
     "rating": 4.5,
-    "availability": true,
     "brand": "VelvetVibes",
     "category": "home decor",
     "details": {
@@ -1794,7 +1734,6 @@
     "discount_price": 39.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "MetalWorks",
     "category": "home decor",
     "details": {
@@ -1822,7 +1761,6 @@
     "discount_price": 24.99,
     "reviewsNumber": 90,
     "rating": 4.7,
-    "availability": true,
     "brand": "BohoChic",
     "category": "home decor",
     "details": {
@@ -1850,7 +1788,6 @@
     "discount_price": 29.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "ScandiStyle",
     "category": "home decor",
     "details": {
@@ -1878,7 +1815,6 @@
     "discount_price": 39.99,
     "reviewsNumber": 80,
     "rating": 4.5,
-    "availability": true,
     "brand": "Ceramica",
     "category": "home decor",
     "details": {
@@ -1907,7 +1843,6 @@
     "discount_price": 34.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "WoodCraft",
     "category": "home decor",
     "details": {
@@ -1936,7 +1871,6 @@
     "discount_price": 54.99,
     "reviewsNumber": 90,
     "rating": 4.7,
-    "availability": true,
     "brand": "MoroccanTrends",
     "category": "home decor",
     "details": {
@@ -1964,7 +1898,6 @@
     "discount_price": 39.99,
     "reviewsNumber": 85,
     "rating": 4.6,
-    "availability": true,
     "brand": "GlassGarden",
     "category": "home decor",
     "details": {
@@ -1993,7 +1926,6 @@
     "discount_price": 59.99,
     "reviewsNumber": 90,
     "rating": 4.7,
-    "availability": true,
     "brand": "ArtisticAura",
     "category": "home decor",
     "details": {
@@ -2024,7 +1956,6 @@
     "discount_price": 1099,
     "reviewsNumber": 158,
     "rating": 4.7,
-    "availability": true,
     "brand": "samsung",
     "category": "smartphone",
     "details": {
@@ -2051,7 +1982,6 @@
     "discount_price": 1249,
     "reviewsNumber": 198,
     "rating": 4.8,
-    "availability": true,
     "brand": "apple",
     "category": "smartphone",
     "details": {
@@ -2080,7 +2010,6 @@
     "discount_price": 849,
     "reviewsNumber": 122,
     "rating": 4.6,
-    "availability": true,
     "brand": "google",
     "category": "smartphone",
     "details": {
@@ -2109,7 +2038,6 @@
     "discount_price": 999,
     "reviewsNumber": 140,
     "rating": 4.5,
-    "availability": true,
     "brand": "oneplus",
     "category": "smartphone",
     "details": {
@@ -2141,7 +2069,6 @@
     "discount_price": 999,
     "reviewsNumber": 128,
     "rating": 4.6,
-    "availability": true,
     "brand": "xiaomi",
     "category": "smartphone",
     "details": {
@@ -2168,7 +2095,6 @@
     "discount_price": 1199,
     "reviewsNumber": 110,
     "rating": 4.5,
-    "availability": true,
     "brand": "sony",
     "category": "smartphone",
     "details": {
@@ -2196,7 +2122,6 @@
     "discount_price": 899,
     "reviewsNumber": 90,
     "rating": 4.4,
-    "availability": true,
     "brand": "asus",
     "category": "smartphone",
     "details": {
@@ -2223,7 +2148,6 @@
     "discount_price": 849,
     "reviewsNumber": 95,
     "rating": 4.3,
-    "availability": true,
     "brand": "motorola",
     "category": "smartphone",
     "details": {
@@ -2251,7 +2175,6 @@
     "discount_price": 899,
     "reviewsNumber": 85,
     "rating": 4.2,
-    "availability": true,
     "brand": "lg",
     "category": "smartphone",
     "details": {
@@ -2281,7 +2204,6 @@
     "discount_price": 449,
     "reviewsNumber": 75,
     "rating": 4.1,
-    "availability": true,
     "brand": "realme",
     "category": "smartphone",
     "details": {
@@ -2308,7 +2230,6 @@
     "discount_price": 899,
     "reviewsNumber": 90,
     "rating": 4.3,
-    "availability": true,
     "brand": "huawei",
     "category": "smartphone",
     "details": {
@@ -2336,7 +2257,6 @@
     "discount_price": 649,
     "reviewsNumber": 85,
     "rating": 4.2,
-    "availability": true,
     "brand": "nokia",
     "category": "smartphone",
     "details": {
@@ -2363,7 +2283,6 @@
     "discount_price": 849,
     "reviewsNumber": 80,
     "rating": 4.1,
-    "availability": true,
     "brand": "blackshark",
     "category": "smartphone",
     "details": {
@@ -2390,7 +2309,6 @@
     "discount_price": 949,
     "reviewsNumber": 75,
     "rating": 4.0,
-    "availability": true,
     "brand": "lenovo",
     "category": "smartphone",
     "details": {
@@ -2418,7 +2336,6 @@
     "discount_price": 849,
     "reviewsNumber": 70,
     "rating": 4.3,
-    "availability": true,
     "brand": "zte",
     "category": "smartphone",
     "details": {
@@ -2446,7 +2363,6 @@
     "discount_price": 349,
     "reviewsNumber": 65,
     "rating": 4.2,
-    "availability": true,
     "brand": "poco",
     "category": "smartphone",
     "details": {
@@ -2473,7 +2389,6 @@
     "discount_price": 849,
     "reviewsNumber": 60,
     "rating": 4.1,
-    "availability": true,
     "brand": "meizu",
     "category": "smartphone",
     "details": {
@@ -2501,7 +2416,6 @@
     "discount_price": 449,
     "reviewsNumber": 55,
     "rating": 4.0,
-    "availability": true,
     "brand": "infinix",
     "category": "smartphone",
     "details": {
@@ -2528,7 +2442,6 @@
     "discount_price": 249,
     "reviewsNumber": 50,
     "rating": 3.9,
-    "availability": true,
     "brand": "tecno",
     "category": "smartphone",
     "details": {
@@ -2555,7 +2468,6 @@
     "discount_price": 349,
     "reviewsNumber": 45,
     "rating": 3.8,
-    "availability": true,
     "brand": "vivo",
     "category": "smartphone",
     "details": {
