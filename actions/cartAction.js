@@ -4,23 +4,22 @@ import connectBD from "@/lib/connectDb";
 
 import { Types } from "mongoose";
 import { revalidateTag } from "next/cache";
-
-const cartAction = async ({ user, product, incOrDecNum, type }) => {
+import updateProductInventory from "@/lib/updateProductInventory";
+import { Cart } from "@/models/cart-model";
+const cartAction = async ({ user, product_id, incOrDecNum, type }) => {
   const { email, id: user_id } = user;
-  const { id: product_id, quantity } = product;
 
-  await connectMongo();
+  await connectBD();
   const updateProductQuantity = await updateProductInventory(
     product_id,
-    quantity,
     type,
     incOrDecNum
   );
   // if updateProductQuantity is not available or not updated
   if (updateProductQuantity.status === "error") return null;
 
-  if (quantity <= 0) {
-    const cart = await cartModel.updateOne(
+  if (incOrDecNum <= 0 && type === "dec") {
+    const cart = await Cart.updateOne(
       {
         user_id: new Types.ObjectId(user_id),
         "items.product_id": new Types.ObjectId(product_id),
@@ -32,19 +31,22 @@ const cartAction = async ({ user, product, incOrDecNum, type }) => {
     return null;
   }
 
-  const cart = await cartModel.findOne({
+  const cart = await Cart.findOne({
     user_id: new Types.ObjectId(user_id),
   });
 
   //   if cart is not available
   if (!cart) {
-    const newCart = await cartModel.create({
+    const newCart = await Cart.create({
       user_id,
       email,
-      items: [{ quantity, product_id }],
+      items: [{ quantity: incOrDecNum, product_id }],
     });
     revalidateTag("cartLength");
-    return { message: "Product added  successfully" };
+    return {
+      message: "Success! Your item has been added to the cart",
+      status: "success",
+    };
   }
 
   //  if cart is available
@@ -61,11 +63,14 @@ const cartAction = async ({ user, product, incOrDecNum, type }) => {
     }
   } else {
     // If the product doesn't exist, add it to the cart
-    cart.items.push({ product_id, quantity });
+    cart.items.push({ product_id, quantity: incOrDecNum });
   }
   revalidateTag("cartLength");
   // Save the cart
   await cart.save();
-  return { message: "Product added successfully" };
+  return {
+    message: "Success! Your item has been added to the cart",
+    status: "success",
+  };
 };
 export default cartAction;

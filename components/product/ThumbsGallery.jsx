@@ -27,7 +27,10 @@ export default function ThumbsGallery({ product }) {
           zoom={{ maxRatio: 3, minRatio: 1 }}
           spaceBetween={10}
           navigation={true}
-          thumbs={{ swiper: thumbsSwiper }}
+          thumbs={{
+            swiper:
+              thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+          }}
           modules={[FreeMode, Navigation, Thumbs, Zoom]}
           className="mySwiper2 "
           autoHeight={true}
