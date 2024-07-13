@@ -4,11 +4,11 @@ import { Types } from "mongoose";
 import { revalidateTag } from "next/cache";
 import updateProductInventory from "@/lib/updateProductInventory";
 import { Cart } from "@/models/cart-model";
-import connectBD from "@/lib/connectDb";
+import connectMongo from "@/lib/connectDb";
 const cartAction = async ({ user, product_id, incOrDecNum, type }) => {
   const { email, id: user_id } = user;
 
-  await connectBD();
+  await connectMongo();
   const updateProductQuantity = await updateProductInventory(
     product_id,
     type,

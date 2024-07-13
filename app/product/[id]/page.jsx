@@ -1,12 +1,12 @@
 import PDCard from "@/components/shared/PDCard";
 import Product from "@/components/product/Product";
 import TopSell from "@/components/home/TopSell";
-import connectBD from "@/lib/connectDB";
+import connectMongo from "@/lib/connectDb";
 import ProductModel from "@/models/ProductModel";
 import ProductDescription from "@/components/product/ProductDescription";
 
 const ProductDetailsPage = async ({ params: { id } }) => {
-  await connectBD();
+  await connectMongo();
   const data = await ProductModel.findById(id);
   const relatedData = await ProductModel.find({
     category: data.category,

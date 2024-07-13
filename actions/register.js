@@ -1,5 +1,5 @@
 "use server";
-import connectBD from "@/lib/connectDB";
+import connectMongo from "@/lib/connectDb";  
 import UserModel from "@/models/UserModel";
 import bcrypt from "bcrypt";
 import { isRedirectError } from "next/dist/client/components/redirect";
@@ -18,7 +18,7 @@ const registerAction = async (formData) => {
   }
   const hashedPassword = await bcrypt.hash(password, saltRound);
   try {
-    await connectBD();
+    await connectMongo();
     const user = await UserModel.create({ email, password: hashedPassword , name});
     if (!user) {
       return {

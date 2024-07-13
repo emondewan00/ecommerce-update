@@ -1,10 +1,10 @@
-import connectBD from "@/lib/connectDB";
+import connectMongo from "@/lib/connectDb";
 import RecentViewCard from "../shared/RecentViewCard";
 import ProductModel from "@/models/ProductModel";
 
 const RecentViews = async () => {
-  await connectBD();
-  const data =await ProductModel.find({}).limit(6);
+  await connectMongo();
+  const data = await ProductModel.find({}).limit(6);
   return (
     <div className="mb-10">
       <div className="py-2 border-b flex items-center justify-between">

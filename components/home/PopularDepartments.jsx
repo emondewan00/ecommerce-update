@@ -1,9 +1,9 @@
-import connectBD from "@/lib/connectDB";
+import connectMongo from "@/lib/connectDb";
 import ButtonOutline from "../shared/ButtonOutline";
 import PDCard from "../shared/PDCard";
 import ProductModel from "@/models/ProductModel";
 const PopularDepartments = async () => {
-  await connectBD();
+  await connectMongo();
   const data = await ProductModel.find({}).limit(10);
   return (
     <div className="my-20">
