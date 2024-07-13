@@ -3,6 +3,9 @@ import "./globals.css";
 import Header from "@/components/shared/Header";
 import MidNav from "@/components/shared/MidNav";
 import BottomNav from "@/components/shared/BottomNav";
+import AuthProvider from "@/providers/AuthProvider";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -17,14 +20,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${roboto.className} bg-gray-50`}>
-        <div className="bg-blue-500">
-          <div className="max-w-5xl mx-auto ">
-            <Header />
-            <MidNav />
+        <AuthProvider>
+          <div className="bg-blue-500">
+            <div className="max-w-5xl mx-auto ">
+              <Header />
+              <MidNav />
+            </div>
           </div>
-        </div>
-        <BottomNav />
-        {children}
+          <BottomNav />
+          {children}
+        </AuthProvider>
+        <ToastContainer />
       </body>
     </html>
   );

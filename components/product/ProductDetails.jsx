@@ -2,9 +2,17 @@ import { FaShoppingCart, FaStar } from "react-icons/fa";
 import Rating from "react-rating";
 
 const PdDetails = ({ product }) => {
-  const { discount_price, price, rating, name, brand, category, sku, availability } =
-    product || {};
-  const ratingArray = new Array(Math.round(rating)).fill(0);
+  const {
+    discount_price,
+    price,
+    rating,
+    name,
+    brand,
+    category,
+    sku,
+    availability,
+  } = product || {};
+  const ratingArray = new Array(Math.round(rating))?.fill(0);
 
   return (
     <div className="w-full ">

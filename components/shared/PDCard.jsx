@@ -3,22 +3,11 @@ import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 import ProductHover from "./ProductHover";
 const PDCard = ({ product }) => {
-  const {
-    _id,
-    sku,
-    image,
-    name,
-    price,
-    discount_price,
-    description,
-    category,
-    brand,
-    reviewsNumber,
-    rating,
-    availability,
-  } = product;
+  const { _id, image, name, price, discount_price, reviewsNumber, rating } =
+    product;
   const ratingArray = new Array(Math.round(rating)).fill(0);
-  const discount = Math.round((price - discount_price) / price * 100);
+  const discount = Math.round(((price - discount_price) / price) * 100);
+
   return (
     <div className=" w-fit group bg-white hover:shadow-lg transition-all duration-200">
       <div className="relative">
@@ -34,7 +23,7 @@ const PDCard = ({ product }) => {
         <span className="absolute top-4 left-4 bg-orange-400 text-white text-[12px] px-2 rounded-[2px] py-[1px]">
           {discount}% OFF
         </span>
-        <ProductHover />
+        <ProductHover product_id={_id.toString()} name={name} />
       </div>
       <div className="p-1">
         <Link href={`/product/${_id}`} className=" mt-2 inline-block">
