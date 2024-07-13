@@ -1,4 +1,4 @@
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import ButtonOutline from "../shared/ButtonOutline";
 import PDCard from "../shared/PDCard";
 import ProductModel from "@/models/ProductModel";

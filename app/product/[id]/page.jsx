@@ -1,7 +1,7 @@
 import PDCard from "@/components/shared/PDCard";
 import Product from "@/components/product/Product";
 import TopSell from "@/components/home/TopSell";
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import ProductModel from "@/models/ProductModel";
 import ProductDescription from "@/components/product/ProductDescription";
 

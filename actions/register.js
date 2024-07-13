@@ -1,5 +1,5 @@
 "use server";
-import connectMongo from "@/lib/connectDb";  
+import connectMongo from "@/utils/connectDb"; 
 import UserModel from "@/models/UserModel";
 import bcrypt from "bcrypt";
 import { isRedirectError } from "next/dist/client/components/redirect";
