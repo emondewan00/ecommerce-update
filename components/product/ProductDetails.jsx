@@ -1,8 +1,9 @@
 import { FaShoppingCart, FaStar } from "react-icons/fa";
-import Rating from "react-rating";
+import AddToCart from "./AddToCart";
 
 const PdDetails = ({ product }) => {
   const {
+    _id,
     discount_price,
     price,
     rating,
@@ -11,6 +12,7 @@ const PdDetails = ({ product }) => {
     category,
     sku,
     availability,
+    quantities,
   } = product || {};
   const ratingArray = new Array(Math.round(rating))?.fill(0);
 
@@ -26,7 +28,7 @@ const PdDetails = ({ product }) => {
       <p className="text-gray-800 font-semibold space-x-2">
         <span>Availability: </span>
         {availability ? (
-          <span className="text-green-600">In Stock</span>
+          <span className="text-green-600">In Stock ({quantities})</span>
         ) : (
           <span className="text-red-600">Out of Stock</span>
         )}
@@ -47,10 +49,7 @@ const PdDetails = ({ product }) => {
       </h3>
 
       <div className="flex  gap-4">
-        <button className="uppercase w-fit text-sm text-white bg-yellow-400 py-3 my-2 px-6 rounded flex gap-2 items-center  justify-center">
-          <FaShoppingCart />
-          add to cart
-        </button>
+        <AddToCart product_id={_id.toString()} name={name} />
       </div>
     </div>
   );
