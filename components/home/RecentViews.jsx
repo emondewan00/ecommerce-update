@@ -1,4 +1,4 @@
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import RecentViewCard from "../shared/RecentViewCard";
 import ProductModel from "@/models/ProductModel";
 

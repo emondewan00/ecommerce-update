@@ -1,4 +1,4 @@
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import PDCard from "../shared/PDCard";
 import BannerVertical from "./BannerVertical";
 import Link from "next/link";

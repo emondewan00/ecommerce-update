@@ -1,11 +1,11 @@
-import connectBD from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import { Cart } from "@/models/cart-model";
 import { Types } from "mongoose";
 import { NextResponse } from "next/server";
 
 export const GET = async (req, { params: { user_id } }) => {
   try {
-    await connectBD();
+    await connectMongo();
     const query = req.nextUrl.searchParams;
 
     if (query.get("length")) {

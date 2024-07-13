@@ -1,5 +1,5 @@
 import PDCard from "@/components/shared/PDCard";
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import ProductModel from "@/models/ProductModel";
 
 const Search = async ({ params: { title } }) => {

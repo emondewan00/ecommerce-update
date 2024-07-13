@@ -3,7 +3,7 @@ import TopBar from "@/components/category/TopBar";
 // import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import PDCard from "@/components/shared/PDCard";
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import ProductModel from "@/models/ProductModel";
 import FilterContainer from "@/components/category/FilterContainer";
 
