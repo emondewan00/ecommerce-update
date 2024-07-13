@@ -1,11 +1,10 @@
 "use server";
 
-import connectBD from "@/lib/connectDb";
-
 import { Types } from "mongoose";
 import { revalidateTag } from "next/cache";
 import updateProductInventory from "@/lib/updateProductInventory";
 import { Cart } from "@/models/cart-model";
+import connectBD from "@/lib/connectDb";
 const cartAction = async ({ user, product_id, incOrDecNum, type }) => {
   const { email, id: user_id } = user;
 
