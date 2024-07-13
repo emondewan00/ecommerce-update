@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <AuthProvider>
           <div className="bg-blue-500">
             <div className="max-w-5xl mx-auto ">
-              <Header />
+              {/* <Header /> */}
               <MidNav />
             </div>
           </div>
