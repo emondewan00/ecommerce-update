@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import UserModel from "./models/UserModel";
-import connectBD from "./lib/connectDb";
+import connectMongo from "./lib/connectDb";
 import bcrypt from "bcrypt";
 
 export const {
@@ -30,7 +30,7 @@ export const {
       },
       async authorize(credentials) {
         try {
-          await connectBD();
+          await connectMongo();
           const user = await UserModel.findOne({ email: credentials.email });
           if (!user) {
             return null;
