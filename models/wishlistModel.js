@@ -1,15 +1,17 @@
 import { Schema, model, models } from "mongoose";
+import UserModel from "./UserModel";
+import ProductModel from "./ProductModel";
 
 const wishlistSchema = new Schema(
   {
     product_id: {
       type: Schema.ObjectId,
-      ref: "User",
+      ref: ProductModel,
       required: true,
     },
     user_id: {
       type: Schema.ObjectId,
-      ref: "User",
+      ref: UserModel,
       required: true,
       index: true,
     },

@@ -1,14 +1,16 @@
-import { auth, signOut } from "@/auth";
+import { auth } from "@/auth";
 import Link from "next/link";
 import { FaRegHeart, FaRegUser, FaShoppingCart } from "react-icons/fa";
-import {
-  FaArrowRightFromBracket,
-  FaArrowRightToBracket,
-} from "react-icons/fa6";
 import LogOutBTN from "./LogOutBTN";
 const NavIcons = async () => {
   const session = await auth();
 
+  const cartItemsRes = await fetch(
+    `https://porto-ecommerce-three.vercel.app/api/cart/${session?.user?.id}?=true`
+  );
+
+  const cartItems = await cartItemsRes.json();
+  console.log(cartItems,"cartItems");
   return (
     <>
       {session?.user ? (

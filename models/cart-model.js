@@ -1,11 +1,13 @@
 import { Schema, model, models } from "mongoose";
+import ProductModel from "./ProductModel";
+import UserModel from "./UserModel";
 
 // Schema for an item in the shopping cart
 const cartItemSchema = new Schema(
   {
     product_id: {
       type: Schema.ObjectId,
-      ref: "Product",
+      ref: ProductModel,
       required: true,
     },
     quantity: {
@@ -24,7 +26,7 @@ const cartSchema = new Schema(
   {
     user_id: {
       type: Schema.ObjectId,
-      ref: "User",
+      ref: UserModel,
       required: true,
       index: true,
     },
