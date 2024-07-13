@@ -1,4 +1,4 @@
-import connectBD from "@/lib/connectDB";
+import connectMongo from "@/lib/connectDb";
 import PDCard from "../shared/PDCard";
 import BannerVertical from "./BannerVertical";
 import Link from "next/link";
@@ -6,12 +6,14 @@ import { BsArrowRight } from "react-icons/bs";
 import ProductModel from "@/models/ProductModel";
 
 const Clothing = async ({ category }) => {
-  await connectBD();
+  await connectMongo();
   const products = await ProductModel.find({ category: category }).limit(8);
   return (
     <div>
       <div className="py-2 border-b flex items-center justify-between">
-        <h3 className="text-xl text-gray-700 font-bold capitalize">{category}</h3>
+        <h3 className="text-xl text-gray-700 font-bold capitalize">
+          {category}
+        </h3>
         <Link href={"/products"} className="flex items-center gap-x-2 text-sm">
           More Products <BsArrowRight />
         </Link>

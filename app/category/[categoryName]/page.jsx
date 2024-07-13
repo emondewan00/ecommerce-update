@@ -3,7 +3,7 @@ import TopBar from "@/components/category/TopBar";
 // import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import PDCard from "@/components/shared/PDCard";
-import connectBD from "@/lib/connectDB";
+import connectMongo from "@/lib/connectDb";
 import ProductModel from "@/models/ProductModel";
 import FilterContainer from "@/components/category/FilterContainer";
 
@@ -11,7 +11,7 @@ const CategoryPage = async ({ params: { categoryName } }) => {
   //   const [openFilter, setOpenFilter] = useState(false);
   const param = categoryName.split("-").join(" ");
   console.log(param)
-  await connectBD();
+  await connectMongo();
   const products = await ProductModel.find({ category: param }).limit(
     20
   );

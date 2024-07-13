@@ -1,9 +1,9 @@
 import PDCard from "@/components/shared/PDCard";
-import connectBD from "@/lib/connectDB";
+import connectMongo from "@/lib/connectDb";
 import ProductModel from "@/models/ProductModel";
 
 const Search = async ({ params: { title } }) => {
-  await connectBD();
+  await connectMongo();
 
   const data = await ProductModel.find({
     name: { $regex: title, $options: "i" },
