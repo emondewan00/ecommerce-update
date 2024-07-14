@@ -5,13 +5,14 @@ import PDCard from "../shared/PDCard";
 const PopularDepartments = () => {
   const [data, setData] = useState([]);
   const [type, setType] = useState("createdAt");
-  // https://porto-ecommerce-three.vercel.app/
+
   useEffect(() => {
     const getData = async () => {
       const res = await fetch(
-        `http://localhost:3000/api/products?sort=${type}&order=desc&limit=10`
+        `https://porto-ecommerce-three.vercel.app/api/products?sort=${type}&order=desc&limit=10`
       );
       const json = await res.json();
+      console.log(JSON.stringify(json));
       setData(json?.products);
     };
     getData();
