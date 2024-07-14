@@ -1,14 +1,11 @@
 import { auth } from "@/auth";
 import Clothing from "@/components/home/Clothing";
 import Features from "@/components/home/Features";
-import HotDeals from "@/components/home/HotDeals";
 import PopularDepartments from "@/components/home/PopularDepartments";
-import RecentViews from "@/components/home/RecentViews";
 import SideBar from "@/components/home/SideBar";
 import Slider from "@/components/home/Slider";
 import Sponsors from "@/components/home/Sponsors";
 import TopCategories from "@/components/home/TopCategories";
-import TopSell from "@/components/home/TopSell";
 import OfferCardFullWidth from "@/components/shared/OfferCardFullWidth";
 
 export default async function Home() {
@@ -22,10 +19,6 @@ export default async function Home() {
       </div>
       <Features />
       <Sponsors />
-      <div className="flex flex-col md:flex-row gap-4">
-        <HotDeals />
-        <TopSell />
-      </div>
       <TopCategories />
       <PopularDepartments />
       <Sponsors />
@@ -33,7 +26,6 @@ export default async function Home() {
       <Clothing category={"fragrance"} />
       <OfferCardFullWidth />
       <Clothing category={"laptop"} />
-      <RecentViews />
     </div>
   );
 }
