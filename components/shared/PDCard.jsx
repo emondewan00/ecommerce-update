@@ -14,7 +14,7 @@ const PDCard = ({ product }) => {
         <Link href={`/product/${_id}`}>
           <Image
             src={image[0]}
-            className="w-[200px] h-[180px] object-cover relative"
+            className="w-[200px] h-[140px] object-cover relative"
             width={300}
             height={300}
             alt={name}
@@ -25,7 +25,7 @@ const PDCard = ({ product }) => {
         </span>
         <ProductHover product_id={_id.toString()} name={name} />
       </div>
-      <div className="p-1">
+      <div className="p-2">
         <Link href={`/product/${_id}`} className=" mt-2 inline-block">
           {name}
         </Link>
