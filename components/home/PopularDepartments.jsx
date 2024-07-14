@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import ButtonOutline from "../shared/ButtonOutline";
 import PDCard from "../shared/PDCard";
 const PopularDepartments = () => {
   const [data, setData] = useState([]);
@@ -9,7 +8,7 @@ const PopularDepartments = () => {
   useEffect(() => {
     const getData = async () => {
       const res = await fetch(
-        `https://porto-ecommerce-three.vercel.app/api/products?sort=${type}&order=desc&limit=10`
+        `http://localhost:3000/api/products?sort=${type}&order=desc&limit=10`
       );
       const json = await res.json();
       console.log(JSON.stringify(json));
