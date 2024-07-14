@@ -6,7 +6,7 @@ const RecentViewCard = ({ product }) => {
   return (
     <div className="relative group">
       <Image
-        src={image[0]}
+        src={`https://picsum.photos/200/300?id=${_id}`}
         className=" object-cover w-[190px] h-[150px] relative rounded"
         width={190}
         height={150}

@@ -43,7 +43,7 @@ export default function ThumbsGallery({ product }) {
                   height={500}
                   alt="product image"
                   className="object-cover w-full object-center "
-                  src={image}
+                  src={`https://picsum.photos/200/300?id=${idx}`}
                 />
               </div>
             </SwiperSlide>
@@ -65,7 +65,7 @@ export default function ThumbsGallery({ product }) {
                 className="object-cover"
                 width={100}
                 height={100}
-                src={image}
+                src={`https://picsum.photos/200/300?id=${idx}`}
                 alt="product image"
               />
             </SwiperSlide>
