@@ -1,6 +1,5 @@
 import PDCard from "@/components/shared/PDCard";
 import connectMongo from "@/utils/connectDb";
-import ProductModel from "@/models/ProductModel";
 import { AiOutlineClose } from "react-icons/ai";
 import FilterContainer from "@/components/category/FilterContainer";
 import TopBar from "@/components/category/TopBar";

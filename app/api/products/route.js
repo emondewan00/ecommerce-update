@@ -2,13 +2,13 @@ import connectMongo from "@/utils/connectDb";
 import ProductModel from "@/models/ProductModel";
 import { NextResponse } from "next/server";
 export async function GET(req) {
+  const searchParams = Object.fromEntries(req?.nextUrl?.searchParams);
   try {
     await connectMongo();
     let data = [];
     let query = {};
     let sortObject = {};
     let filterData = {};
-    const searchParams = Object.fromEntries(req?.nextUrl?.searchParams);
 
     if (searchParams?.q) {
       query["$or"] = [
