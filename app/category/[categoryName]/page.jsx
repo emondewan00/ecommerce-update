@@ -10,7 +10,7 @@ import FilterContainer from "@/components/category/FilterContainer";
 const CategoryPage = async ({ params: { categoryName } }) => {
   //   const [openFilter, setOpenFilter] = useState(false);
   const param = categoryName.split("-").join(" ");
-  console.log(param)
+ 
   await connectMongo();
   const products = await ProductModel.find({ category: param }).limit(
     20

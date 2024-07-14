@@ -7,7 +7,7 @@ const Card = async ({ item: { product_id, quantity } }) => {
   return (
     <div className=" flex gap-x-4 ">
       <Image
-        src={image[0]}
+        src={`https://picsum.photos/360/265?id=${_id}`}
         width={120}
         height={120}
         alt="Product Image"

@@ -12,7 +12,7 @@ const PopularDepartments = () => {
         `http://localhost:3000/api/products?sort=${type}&order=desc&limit=10`
       );
       const json = await res.json();
-      setData(json);
+      setData(json?.products);
     };
     getData();
   }, [type]);
@@ -34,7 +34,7 @@ const PopularDepartments = () => {
       query: "featured",
     },
   ];
- 
+
   return (
     <div className="my-20">
       <h3 className="text-xl font-bold text-center">Popular Departments</h3>
@@ -54,7 +54,7 @@ const PopularDepartments = () => {
         ))}
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">
-        {data.map((product) => (
+        {data?.map((product) => (
           <PDCard key={product.id} product={product} />
         ))}
       </div>

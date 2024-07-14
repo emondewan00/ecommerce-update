@@ -13,7 +13,7 @@ const PDCard = ({ product }) => {
       <div className="relative">
         <Link href={`/product/${_id}`}>
           <Image
-            src={image[0]}
+            src={`https://picsum.photos/200/300?id=${_id}`}
             className="w-[200px] h-[140px] object-cover relative"
             width={300}
             height={300}
