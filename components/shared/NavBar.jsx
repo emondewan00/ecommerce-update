@@ -10,6 +10,7 @@ import Logo from "./Logo";
 import Link from "next/link";
 import ScrollHandler from "./ScrollHandler";
 import NavIcons from "./NavIcons";
+import SearchInput from "./SearchInput";
 
 const NavBar = () => {
   const categories = [
@@ -28,23 +29,7 @@ const NavBar = () => {
           <Logo />
 
           <div className="flex items-center justify-between gap-x-12 ">
-            {/* search input */}
-            <form>
-              <div className={"relative hidden md:block"}>
-                <input
-                  type="text"
-                  name="title"
-                  placeholder="Search..."
-                  className="w-auto md:w-96 py-2 pl-4 pr-12 md:pr-[50px] rounded-full text-sm relative"
-                />
-                <button
-                  type="submit"
-                  className="border-l border-gray-200 px-4 absolute right-0 py-2 top-1 "
-                >
-                  <FaSearch className="text-gray-300" />
-                </button>
-              </div>
-            </form>
+            <SearchInput />
           </div>
           <NavIcons />
         </div>

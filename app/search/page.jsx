@@ -2,11 +2,11 @@ import PDCard from "@/components/shared/PDCard";
 import connectMongo from "@/utils/connectDb";
 import ProductModel from "@/models/ProductModel";
 
-const Search = async ({ params: { title } }) => {
+const Search = async ({ _, searchParams: { q } }) => {
   await connectMongo();
 
   const data = await ProductModel.find({
-    name: { $regex: title, $options: "i" },
+    name: { $regex: q, $options: "i" },
   });
   let content = null;
   if (data?.length === 0) {
