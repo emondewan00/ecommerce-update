@@ -6,7 +6,7 @@ import Size from "./Size";
 
 const FilterContainer = () => {
   return (
-    <div>
+    <div className="w-full">
       {/* filters */}
       <RangeFilter />
       <Availability />
