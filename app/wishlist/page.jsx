@@ -1,11 +1,17 @@
+import { auth } from "@/auth";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import WishlistCard from "@/components/wishlist/WishlistCard";
 
-const Wishlist = () => {
+const Wishlist = async () => {
+  const session = await auth();
+  const wishlistItemsRes = await fetch(
+    `http://localhost:3000/api/wishlist/${session?.user?.id}`
+  );
+  const data = await wishlistItemsRes.json();
   return (
     <div>
       <Breadcrumb page={"Wishlist"} location={"/wishlist"} />
-      <div className="container gap-6 pt-4 pb-16">
+      <div className="max-w-5xl mx-auto pt-8 pb-16">
         <div className="mx-auto space-y-4 max-w-6xl">
           {data?.length ? (
             data?.map((item) => <WishlistCard key={item._id} data={item} />)
