@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { auth } from "@/auth";
 import DeleteWishList from "./DeleteToWishList";
+import AddToCart from "./AddToCart";
 const WishlistCard = async ({ data: { product_id } }) => {
-  const { name, image, discount_price, quantities, _id } = product_id || {};
+  const { name, discount_price, quantities, _id } = product_id || {};
   const session = await auth();
   const stringID = _id.toString();
   return (
@@ -12,7 +13,7 @@ const WishlistCard = async ({ data: { product_id } }) => {
           <Image
             width={115}
             height={85}
-            src={image[0]}
+            src={`https://picsum.photos/115/115?id=${_id}`}
             alt={name}
             className="w-full"
           />
@@ -24,7 +25,7 @@ const WishlistCard = async ({ data: { product_id } }) => {
           <p className="text-gray-500 text-sm">
             Availability:
             {quantities ? (
-              <span className="text-green-600">In Stock</span>
+              <span className="text-green-600">In Stock ({quantities}) </span>
             ) : (
               <span className="text-red-600">Out of Stock</span>
             )}
@@ -37,6 +38,7 @@ const WishlistCard = async ({ data: { product_id } }) => {
       </div>
       <div className="flex items-center gap-8">
         <DeleteWishList user_id={session?.user?.id} product_id={stringID} />
+        <AddToCart name={name} product_id={stringID} />
       </div>
     </div>
   );
