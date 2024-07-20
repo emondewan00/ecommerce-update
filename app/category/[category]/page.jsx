@@ -2,19 +2,18 @@ import TopBar from "@/components/category/TopBar";
 // import FilterContainer from "@/components/category/FilterContainer";
 // import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
-import PDCard from "@/components/shared/PDCard";
-import connectMongo from "@/utils/connectDb";
-import ProductModel from "@/models/ProductModel";
 import FilterContainer from "@/components/category/FilterContainer";
-
-const CategoryPage = async ({ params: { categoryName } }) => {
+import { getProductsBySearchParams } from "@/utils/getProductsBySearchParams";
+import PDCard from "@/components/shared/PDCard";
+const CategoryPage = async ({ params, searchParams }) => {
   //   const [openFilter, setOpenFilter] = useState(false);
-  const param = categoryName.split("-").join(" ");
- 
-  await connectMongo();
-  const products = await ProductModel.find({ category: param }).limit(
-    20
-  );
+
+  const products = await getProductsBySearchParams({
+    ...params,
+    ...searchParams,
+    filterData: true,
+  });
+
   const className = `h-full bg-gray-100 p-4 shadow-lg shadow-purple-400 overflow-y-scroll min-w-64 md:hidden left-0`;
   return (
     <div className="max-w-5xl mx-auto my-10">
@@ -33,7 +32,7 @@ const CategoryPage = async ({ params: { categoryName } }) => {
         <div className="full">
           <TopBar onClick={() => {}} />
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {products.map((product) => (
+            {products?.products?.map((product) => (
               <PDCard key={product._id} product={product} />
             ))}
           </div>

@@ -5,10 +5,6 @@ import RangeFilter from "./RangeFilter";
 import Size from "./Size";
 
 const FilterContainer = ({ filterData }) => {
-  if (filterData.colors) {
-  
-  }
-
   return (
     <div className="w-full">
       {/* filters */}
