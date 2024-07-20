@@ -9,7 +9,7 @@ import Link from "next/link";
 const CartPage = async () => {
   const session = await auth();
   const cartItemsRes = await fetch(
-    `https://porto-ecommerce-three.vercel.app/api/cart/${session?.user?.id}`,
+    `http://localhost:3000/api/cart/${session?.user?.id}`,
     {
       next: {
         tags: ["cartLength"],

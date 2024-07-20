@@ -7,7 +7,7 @@ import TopBar from "@/components/category/TopBar";
 const Search = async ({ _, searchParams }) => {
   await connectMongo();
   const res = await fetch(
-    `https://porto-ecommerce-three.vercel.app/api/products?q=${searchParams.q}`
+    `http://localhost:3000/api/products?q=${searchParams.q}`
   );
   const data = await res.json();
 
@@ -31,7 +31,7 @@ const Search = async ({ _, searchParams }) => {
             <AiOutlineClose className="text-3xl" />
           </div>
           <h4 className="text-gray-600 mb-4">Filter:</h4>
-          <FilterContainer />
+          <FilterContainer filterData={{}} />
         </div>
         <div className="grow">
           <TopBar onClick={() => {}} />

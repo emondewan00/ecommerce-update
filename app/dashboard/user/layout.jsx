@@ -1,7 +1,11 @@
 // import
+import { auth } from "@/auth";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Link from "next/link";
-const UserLayout = ({ children }) => {
+import { redirect } from "next/navigation";
+const UserLayout = async ({ children }) => {
+  const session = await auth();
+  if (!session) return redirect("/");
   return (
     <div>
       <Breadcrumb location={"/dashboard/user"} page={"My Account"} />

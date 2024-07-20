@@ -4,7 +4,11 @@ import Color from "./Color";
 import RangeFilter from "./RangeFilter";
 import Size from "./Size";
 
-const FilterContainer = () => {
+const FilterContainer = ({ filterData }) => {
+  if (filterData.colors) {
+  
+  }
+
   return (
     <div className="w-full">
       {/* filters */}
