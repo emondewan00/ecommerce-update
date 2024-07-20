@@ -1,11 +1,14 @@
 import { auth } from "@/auth";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import WishlistCard from "@/components/wishlist/WishlistCard";
+import { redirect } from "next/navigation";
 
 const Wishlist = async () => {
   const session = await auth();
+  if (!session) return redirect("/");
+
   const wishlistItemsRes = await fetch(
-    `https://porto-ecommerce-three.vercel.app/api/wishlist/${session?.user?.id}`
+    `http://localhost:3000/api/wishlist/${session?.user?.id}`
   );
   const data = await wishlistItemsRes.json();
   return (
