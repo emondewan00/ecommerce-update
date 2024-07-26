@@ -6,7 +6,7 @@ const NavIcons = async () => {
   const session = await auth();
 
   const cartItemsRes = await fetch(
-    `http://localhost:3000/api/cart/${session?.user?.id}?length=true`,
+    `https://porto-ecommerce-three.vercel.app/api/cart/${session?.user?.id}?length=true`,
     {
       next: {
         tags: ["cartLength"],
@@ -14,7 +14,7 @@ const NavIcons = async () => {
     }
   );
   const wishlistItemsRes = await fetch(
-    `http://localhost:3000/api/wishlist/${session?.user?.id}`
+    `https://porto-ecommerce-three.vercel.app/api/wishlist/${session?.user?.id}`
   );
 
   const cartItems = await cartItemsRes.json();
