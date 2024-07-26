@@ -7,7 +7,7 @@ import TopBar from "@/components/category/TopBar";
 const Search = async ({ _, searchParams }) => {
   await connectMongo();
   const res = await fetch(
-    `http://localhost:3000/api/products?q=${searchParams.q}`
+    `https://porto-ecommerce-three.vercel.app/api/products?q=${searchParams.q}`
   );
   const data = await res.json();
 
