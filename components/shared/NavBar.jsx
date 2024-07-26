@@ -34,6 +34,7 @@ const NavBar = () => {
           <NavIcons />
         </div>
       </div>
+      {/* bottom nav start */}
       <div
         className={` shadow transition-all duration-300 delay-75 scroll-smooth text-[16px] hidden md:block  nav-wrapper
          `}

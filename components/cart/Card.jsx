@@ -1,5 +1,6 @@
 import Image from "next/image";
 import QuantityAdjust from "./QuantityAdjust";
+import Link from "next/link";
 
 const Card = async ({ item: { product_id, quantity } }) => {
   const { name, image, price, discount_price, category, quantities, _id } =
@@ -15,7 +16,9 @@ const Card = async ({ item: { product_id, quantity } }) => {
       />
 
       <div className=" my-auto">
-        <p className=" font-semibold">{name}</p>
+        <Link href={`/product/${_id}`} className=" font-semibold">
+          {name}
+        </Link>
         <p className="text-xs text-zinc-500 dark:text-zinc-400 capitalize">
           {category}
         </p>

@@ -3,12 +3,14 @@ import connectMongo from "@/utils/connectDb";
 import { AiOutlineClose } from "react-icons/ai";
 import FilterContainer from "@/components/category/FilterContainer";
 import TopBar from "@/components/category/TopBar";
+import SideBarMobile from "@/components/shared/SideBarMobile";
 
 const Search = async ({ _, searchParams }) => {
   await connectMongo();
   const res = await fetch(
     `https://porto-ecommerce-three.vercel.app/api/products?q=${searchParams.q}`
   );
+  console.log(searchParams);
   const data = await res.json();
 
   if (!data.success) {
@@ -22,19 +24,12 @@ const Search = async ({ _, searchParams }) => {
   return (
     <div className="max-w-5xl mx-auto my-10">
       <div className="md:flex  gap-4 px-4 md:px-0">
-        <div
-          className={`fixed md:static transition-all z-30 duration-500 delay-150 ease-linear top-0 w-full ${
-            false ? className : "-left-96  md:block md:basis-72 "
-          }`}
-        >
-          <div className="absolute md:hidden top-2 right-3 bg-rose-500 rounded ">
-            <AiOutlineClose className="text-3xl" />
-          </div>
+        <SideBarMobile>
           <h4 className="text-gray-600 mb-4">Filter:</h4>
-          <FilterContainer filterData={{}} />
-        </div>
+          <FilterContainer filterData={data?.filters} />
+        </SideBarMobile>
         <div className="grow">
-          <TopBar onClick={() => {}} />
+          <TopBar />
           {data?.products.length > 0 && (
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {data?.products?.map((product) => (
