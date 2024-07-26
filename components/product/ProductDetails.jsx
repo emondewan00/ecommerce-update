@@ -11,7 +11,6 @@ const PdDetails = ({ product }) => {
     brand,
     category,
     sku,
-    availability,
     quantities,
   } = product || {};
   const ratingArray = new Array(Math.round(rating))?.fill(0);
@@ -27,7 +26,7 @@ const PdDetails = ({ product }) => {
       </div>
       <p className="text-gray-800 font-semibold space-x-2">
         <span>Availability: </span>
-        {availability ? (
+        {quantities ? (
           <span className="text-green-600">In Stock ({quantities})</span>
         ) : (
           <span className="text-red-600">Out of Stock</span>

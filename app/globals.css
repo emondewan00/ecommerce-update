@@ -56,3 +56,10 @@
 .scroll .icons {
   @apply block;
 }
+
+.sidebar-container.open {
+  @apply h-full bg-white p-4 shadow-lg overflow-y-scroll min-w-[280px]  left-0 top-0;
+}
+.sidebar-container {
+  @apply -left-96  md:block md:basis-72;
+}

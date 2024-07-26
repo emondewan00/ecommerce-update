@@ -20,7 +20,7 @@ const Clothing = async ({ category }) => {
       </div>
       <div className="flex flex-col md:flex-row gap-4 my-8 items-center">
         <BannerVertical url={category} />
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 self-start">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-2 gap-y-4 self-start">
           {products.map((product) => (
             <PDCard key={product.id} product={product} />
           ))}

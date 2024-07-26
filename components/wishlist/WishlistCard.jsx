@@ -2,6 +2,7 @@ import Image from "next/image";
 import { auth } from "@/auth";
 import DeleteWishList from "./DeleteToWishList";
 import AddToCart from "./AddToCart";
+import Link from "next/link";
 const WishlistCard = async ({ data: { product_id } }) => {
   const { name, discount_price, quantities, _id } = product_id || {};
   const session = await auth();
@@ -19,9 +20,12 @@ const WishlistCard = async ({ data: { product_id } }) => {
           />
         </div>
         <div className="w-1/3">
-          <h2 className="text-gray-800 text-xl font-medium uppercase">
+          <Link
+            href={`/product/${_id}`}
+            className="text-gray-800 text-xl font-medium uppercase"
+          >
             {name}
-          </h2>
+          </Link>
           <p className="text-gray-500 text-sm">
             Availability:
             {quantities ? (
