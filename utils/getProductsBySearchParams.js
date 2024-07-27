@@ -45,6 +45,9 @@ export const getProductsBySearchParams = async (searchParams) => {
       query.brand = searchParams.brand;
     }
 
+    if (searchParams?.rating) {
+      query.rating = { $gte: parseInt(searchParams.rating) };
+    }
     if (searchParams?.sort) {
       const sortOrder = searchParams?.order === "desc" ? -1 : 1;
       sortObject[searchParams.sort] = sortOrder;
@@ -80,10 +83,10 @@ export const getProductsBySearchParams = async (searchParams) => {
             acc.categories.push(item.category);
             acc.categories.sort();
           }
-          if (!acc.ratings.includes(item.rating)) {
-            acc.ratings.push(item.rating);
-            acc.ratings.sort((a, b) => b - a);
-          }
+          // if (!acc.ratings.includes(item.rating)) {
+          //   acc.ratings.push(item.rating);
+          //   acc.ratings.sort((a, b) => b - a);
+          // }
           item.size.forEach((item) => {
             if (!acc.sizes.includes(item)) {
               acc.sizes.push(item);
@@ -100,14 +103,13 @@ export const getProductsBySearchParams = async (searchParams) => {
         {
           brands: [],
           categories: [],
-          ratings: [],
           colors: [],
           sizes: [],
         }
       );
     }
     // creating filter data object end
-
+    console.log(query);
     return {
       products: data,
       filters: filterData,

@@ -8,7 +8,7 @@ const filters = {
 };
 
 const RadioFilterContainer = ({ title, items = [] }) => {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("all");
   const router = useRouter();
   const searchParams = useSearchParams();
   const pathName = usePathname();
