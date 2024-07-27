@@ -1,5 +1,6 @@
 import CheckBoxFilterContainer from "../shared/CheckBoxFilterContainer";
 import RadioFilterContainer from "../shared/RadioFilterContainer";
+import RatingFilter from "../shared/RatingFilter";
 import RangeFilter from "./RangeFilter";
 
 const FilterContainer = ({ filterData }) => {
@@ -22,6 +23,7 @@ const FilterContainer = ({ filterData }) => {
   return (
     <div className="w-full">
       <RangeFilter />
+      <RatingFilter />
       {filters.map((filter) => filter)}
     </div>
   );

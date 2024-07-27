@@ -9,12 +9,12 @@ const PDCard = ({ product }) => {
   const discount = Math.round(((price - discount_price) / price) * 100);
 
   return (
-    <div className=" w-fit group bg-white hover:shadow-lg transition-all duration-200 ">
+    <div className=" border group bg-white hover:shadow-lg transition-all duration-200 w-full ">
       <div className="relative">
         <Link href={`/product/${_id}`}>
           <Image
-            src={`https://picsum.photos/200/300?id=${_id}`}
-            className="max-w-[172px] max-h-[140px] object-cover relative"
+            src={`https://picsum.photos/400/400?id=${_id}`}
+            className=" max-h-[140px] object-cover relative w-full"
             width={300}
             height={300}
             alt={name}
