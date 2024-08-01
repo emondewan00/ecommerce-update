@@ -11,6 +11,7 @@ import Link from "next/link";
 import ScrollHandler from "./ScrollHandler";
 import NavIcons from "./NavIcons";
 import SearchInput from "./SearchInput";
+import MenuMobile from "./MobileSideBar";
 
 const NavBar = () => {
   const categories = [
@@ -63,6 +64,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+      <MenuMobile />
     </>
   );
 };
