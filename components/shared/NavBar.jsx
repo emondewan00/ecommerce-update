@@ -1,27 +1,12 @@
-import {
-  FaBars,
-  FaPhoneAlt,
-  FaRegHeart,
-  FaRegUser,
-  FaSearch,
-  FaShoppingCart,
-} from "react-icons/fa";
 import Logo from "./Logo";
 import Link from "next/link";
 import ScrollHandler from "./ScrollHandler";
 import NavIcons from "./NavIcons";
 import SearchInput from "./SearchInput";
 import MenuMobile from "./MobileSideBar";
+import categories from "@/lib/categoryLinks";
 
 const NavBar = () => {
-  const categories = [
-    "smartphone",
-    "laptop",
-    "fragrance",
-    "skincare",
-    "groceries",
-    "home-decor",
-  ];
   return (
     <>
       <ScrollHandler />
@@ -50,10 +35,10 @@ const NavBar = () => {
               <li>
                 <Link href={"/"}>HOME</Link>
               </li>
-              {categories.map((category, idx) => (
-                <li key={idx}>
-                  <Link className="capitalize" href={`/category/${category}`}>
-                    {category}
+              {categories.map((category) => (
+                <li key={category.id}>
+                  <Link className="capitalize" href={category.url}>
+                    {category.text}
                   </Link>
                 </li>
               ))}

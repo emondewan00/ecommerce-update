@@ -1,38 +1,6 @@
 import Link from "next/link";
 import { FaHome, FaTimes } from "react-icons/fa";
-
-const links = [
-  {
-    id: 1,
-    text: "Smartphones",
-    url: "/category/smartphone",
-  },
-  {
-    id: 2,
-    text: "Laptops",
-    url: "/category/laptop",
-  },
-  {
-    id: 3,
-    text: "Fragrances",
-    url: "/category/fragrance",
-  },
-  {
-    id: 4,
-    text: "skincare's",
-    url: "/category/skincare",
-  },
-  {
-    id: 5,
-    text: "Groceries",
-    url: "/category/grocery",
-  },
-  {
-    id: 6,
-    text: "Home Decor",
-    url: "/category/home decor",
-  },
-];
+import categories from "@/lib/categoryLinks";
 
 const MenuMobile = () => {
   return (
@@ -52,7 +20,7 @@ const MenuMobile = () => {
         </div>
 
         <div className="*:p-3 *:font-semibold *:text-xl *:text-gray-600 *:block p-2 mt-2">
-          {links.map((link) => (
+          {categories.map((link) => (
             <Link href={link.url} key={link.id}>
               {link.text}
             </Link>

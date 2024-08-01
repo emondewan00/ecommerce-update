@@ -109,7 +109,7 @@ export const getProductsBySearchParams = async (searchParams) => {
       );
     }
     // creating filter data object end
-    console.log(query);
+
     return {
       products: data,
       filters: filterData,

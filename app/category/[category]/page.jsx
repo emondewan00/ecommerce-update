@@ -5,8 +5,10 @@ import PDCard from "@/components/shared/PDCard";
 import Pagination from "@/components/shared/Pagination";
 import SideBarMobile from "@/components/shared/SideBarMobile";
 const CategoryPage = async ({ params, searchParams }) => {
+  const decodeURI = decodeURIComponent(params.category);
+
   const products = await getProductsBySearchParams({
-    ...params,
+    category: decodeURI,
     limit: 12,
     ...searchParams,
     filterData: true,

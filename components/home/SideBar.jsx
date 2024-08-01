@@ -1,12 +1,6 @@
 import Link from "next/link";
-const categories = [
-  "smartphone",
-  "laptop",
-  "fragrance",
-  "skincare",
-  "groceries",
-  "home-decor",
-];
+import categories from "@/lib/categoryLinks";
+
 const SideBar = () => {
   return (
     <div className="border rounded md:min-w-60 h-fit hidden md:block">
@@ -16,9 +10,9 @@ const SideBar = () => {
       <div className="px-4 mb-4">
         <ul className="sidebar">
           {categories?.slice(0, 6)?.map((category) => (
-            <li key={category}>
-              <Link className="capitalize" href={`/category/${category}`}>
-                {category}
+            <li key={category.id}>
+              <Link className="capitalize" href={category.url}>
+                {category.text}
               </Link>
             </li>
           ))}
