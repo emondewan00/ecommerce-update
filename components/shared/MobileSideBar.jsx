@@ -6,8 +6,8 @@ const MenuMobile = () => {
   return (
     <div
       className={`fixed z-20 h-full top-0 w-full transition-all duration-300 delay-75 ease-linear bg-black/40 md:hidden backdrop-blur-sm ${
-        true ? "left-0" : "-left-96"
-      }`}
+        false ? "left-0" : "-left-[500px]"
+      } mobile-nav`}
     >
       <div className="bg-white w-3/4 h-full">
         <div className="text-xl font-semibold text-white bg-blue-500 p-4 flex justify-between items-center">
@@ -26,7 +26,6 @@ const MenuMobile = () => {
             </Link>
           ))}
         </div>
-        <div className="absolute top-1 -right-3 bg-rose-500 rounded ">x</div>
       </div>
     </div>
   );
