@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const Logo = () => {
   const openSidebar = () => {
-    const element = document.querySelector(".mobile-nav");
+    const element = document.querySelector(".sidebar-nav");
     element.classList.add("open-sidebar");
   };
   return (
     <div className="flex gap-x-2">
       <div
-        className="space-y-1 *:w-6 *:h-1 *:rounded *:block *:bg-white"
+        className="space-y-1 *:w-6 *:h-1 *:rounded *:block *:bg-white block md:hidden"
         onClick={openSidebar}
       >
         <span />

@@ -63,3 +63,7 @@
 .sidebar-container {
   @apply -left-96  md:block md:basis-72;
 }
+
+.open-sidebar {
+  @apply left-0;
+}
