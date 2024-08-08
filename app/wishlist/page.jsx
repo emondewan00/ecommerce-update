@@ -8,7 +8,7 @@ const Wishlist = async () => {
   if (!session) return redirect("/");
 
   const wishlistItemsRes = await fetch(
-    `https://porto-ecommerce-three.vercel.app/wishlist/${session?.user?.id}`
+    `https://porto-ecommerce-three.vercel.app/api/wishlist/${session?.user?.id}`
   );
   const data = await wishlistItemsRes.json();
   return (
