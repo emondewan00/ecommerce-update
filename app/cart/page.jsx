@@ -7,7 +7,7 @@ const CartPage = async () => {
   const session = await auth();
   if (!session) redirect("/");
   const cartList = await fetch(
-    `http://localhost:3000/api/cart/${session?.user?.id}`,
+    `https://porto-ecommerce-three.vercel.app/api/cart/${session?.user?.id}`,
     {
       next: {
         tags: ["cartItems"],
