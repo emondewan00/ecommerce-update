@@ -18,11 +18,11 @@ export default async function Home() {
         <Slider />
       </div>
       <Features />
-      <Sponsors />
       <TopCategories />
       <PopularDepartments />
       <Sponsors />
       <Clothing category="clothing" />
+      <Sponsors />
       <Clothing category={"fragrance"} />
       <OfferCardFullWidth />
       <Clothing category={"laptop"} />
