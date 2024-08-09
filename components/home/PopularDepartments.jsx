@@ -36,7 +36,7 @@ const PopularDepartments = () => {
   ];
 
   return (
-    <div className="my-20">
+    <div className="my-10 ">
       <h3 className="text-xl font-bold text-center">Popular Departments</h3>
       <div className="flex flex-wrap gap-2 justify-center mt-4 mb-6">
         {buttons.map((btn) => (

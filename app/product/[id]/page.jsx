@@ -10,15 +10,15 @@ const ProductDetailsPage = async ({ params: { id } }) => {
   await connectMongo();
   const data = await ProductModel.findById(id);
   const relatedData = await ProductModel.find({
-    category: data.category,
+    category: data?.category,
   }).limit(10);
 
   return (
     <div className="max-w-5xl mx-auto my-4 px-4 md:px-0">
       <Product product={data} />
       <ProductDescription product={data} />
-      <div className="my-10 shadow-lg p-4 bg-slate-50">
-        <h1>Related Products </h1>
+      <div className="my-10">
+        <h1 className="text-xl mb-3">Related Products </h1>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 ">
           {relatedData.map((product) => (
             <PDCard key={product.id} product={product} />
