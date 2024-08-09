@@ -4,7 +4,7 @@ const CartSummary = ({ data }) => {
     0
   );
   return (
-    <div className="h-fit col-span-2 w-full shadow-md self-start bg-gray-50">
+    <div className="h-fit col-span-2 w-full shadow-md self-start bg-white">
       <div className="p-4">
         <h4 className="text-gray-800 text-lg pb-4 mb-4 font-medium uppercase border-b">
           order summary

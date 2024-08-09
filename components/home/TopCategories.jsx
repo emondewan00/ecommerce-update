@@ -4,7 +4,7 @@ import categories from "@/lib/categoryLinks";
 const TopCategories = () => {
   return (
     <div className="my-10">
-      <div className="bg-gray-100 py-10">
+      <div className="bg-white p-4 shadow">
         <h2 className="text-lg text-center font-semibold mb-4">
           Top Categories Of The Month{" "}
         </h2>
