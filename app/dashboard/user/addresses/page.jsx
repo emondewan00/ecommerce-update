@@ -26,9 +26,6 @@ const AddressBook = () => {
             <strong>Name:</strong> John Doe
           </p>
           <p>
-            <strong>Company:</strong> Conia
-          </p>
-          <p>
             <strong>Address:</strong> Wall Street
           </p>
           <p>
