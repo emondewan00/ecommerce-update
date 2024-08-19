@@ -1,6 +1,5 @@
 import PDCard from "@/components/shared/PDCard";
 import connectMongo from "@/utils/connectDb";
-import { AiOutlineClose } from "react-icons/ai";
 import FilterContainer from "@/components/category/FilterContainer";
 import TopBar from "@/components/category/TopBar";
 import SideBarMobile from "@/components/shared/SideBarMobile";
@@ -8,9 +7,9 @@ import SideBarMobile from "@/components/shared/SideBarMobile";
 const Search = async ({ _, searchParams }) => {
   await connectMongo();
   const res = await fetch(
-    `https://porto-ecommerce-three.vercel.app/api/products?q=${searchParams.q}`
+    `https://porto-ecommerce-three.vercel.app/api/products?q=${searchParams.q}&filterData=true`
   );
-  console.log(searchParams);
+
   const data = await res.json();
 
   if (!data.success) {
