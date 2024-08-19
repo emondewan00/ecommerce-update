@@ -7,7 +7,6 @@ const SearchInput = () => {
       action={async (formData) => {
         "use server";
         const q = formData.get("q");
-
         redirect(`/search?q=${q}`);
       }}
     >

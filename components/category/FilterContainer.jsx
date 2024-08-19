@@ -24,7 +24,9 @@ const FilterContainer = ({ filterData }) => {
     <div className="w-full">
       <RangeFilter />
       <RatingFilter />
-      {filters.map((filter) => filter)}
+      {filters.map((filter, index) => (
+        <div key={index}> {filter}</div>
+      ))}
     </div>
   );
 };
