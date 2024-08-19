@@ -23,7 +23,7 @@ const UserLayout = async ({ children }) => {
               <Link href={"/"}>Downloads</Link>
             </li>
             <li>
-              <Link href={"/"}>Address</Link>
+              <Link href={"/"}>Addresses</Link>
             </li>
             <li>
               <Link href={"/dashboard/user/details"}>Account Details</Link>
