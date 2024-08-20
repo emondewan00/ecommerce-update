@@ -1,4 +1,3 @@
-// import
 import { auth } from "@/auth";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Link from "next/link";
@@ -14,7 +13,7 @@ const UserLayout = async ({ children }) => {
           <h3 className="text-lg font-semibold uppercase my-2">My Account</h3>
           <ul className="dashboard-menu text-slate-700 nav-link ">
             <li>
-              <Link href={"/"}>Dashboard</Link>
+              <Link href={"/dashboard/user"}>Dashboard</Link>
             </li>
             <li>
               <Link href={"/dashboard/user/orders"}>Orders</Link>
@@ -23,19 +22,18 @@ const UserLayout = async ({ children }) => {
               <Link href={"/"}>Downloads</Link>
             </li>
             <li>
-              <Link href={"/"}>Addresses</Link>
+              <Link href={"/dashboard/user/addresses"}>Addresses</Link>
             </li>
             <li>
               <Link href={"/dashboard/user/details"}>Account Details</Link>
             </li>
             <li>
-              <Link href={"/"}>Cart</Link>
+              <Link href={"/cart"}>Cart</Link>
             </li>
             <li>
-              <Link href={"/"}>Wish List</Link>
-            </li>
-            <li>
-              <Link href={"/"}>Log Out</Link>
+              <Link className="last:border-b-0" href={"/wishlist"}>
+                Wish List
+              </Link>
             </li>
           </ul>
         </div>

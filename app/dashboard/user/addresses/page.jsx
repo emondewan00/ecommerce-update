@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const AddressBook = () => {
   return (
     <div class="p-6">
@@ -40,10 +42,21 @@ const AddressBook = () => {
           <p>
             <strong>Phone:</strong> 1112223334
           </p>
-          <a href="#" class="text-sky-600 font-semibold mt-2 inline-block">
+          <Link
+            href="addresses/edit/1"
+            class="text-sky-600 font-semibold mt-2 inline-block"
+          >
             EDIT YOUR BILLING ADDRESS →
-          </a>
+          </Link>
         </div>
+      </div>
+      <div className="flex">
+        <Link
+          href="addresses/create"
+          className="bg-blue-500 px-4 py-2 rounded text-white hover:scale-105 transition-all duration-150 delay-100 ml-auto"
+        >
+          Add Address
+        </Link>
       </div>
     </div>
   );
