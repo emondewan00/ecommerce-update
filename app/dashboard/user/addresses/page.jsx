@@ -1,29 +1,19 @@
 import Link from "next/link";
+import { FaLocationDot } from "react-icons/fa6";
 
 const AddressBook = () => {
   return (
-    <div class="p-6">
-      <h2 class="text-lg font-semibold mb-2">
-        <span class="inline-flex items-center">
-          <svg
-            class="w-5 h-5 mr-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            aria-hidden="true"
-          >
-            <path d="M10 2a8 8 0 00-8 8 8 8 0 0016 0 8 8 0 00-8-8zm0 14a6 6 0 110-12 6 6 0 010 12z" />
-            <path d="M10 4a6 6 0 00-6 6 6 6 0 0012 0 6 6 0 00-6-6zm0 10a4 4 0 110-8 4 4 0 010 8z" />
-          </svg>
-          Addresses
-        </span>
-      </h2>
-      <p class="mb-4">
+    <div className="p-6">
+      <div className="flex items-center gap-x-2 ">
+        <FaLocationDot className="text-xl" />
+        <h1 className="text-2xl font-bold">Address</h1>
+      </div>
+      <p>
         The following addresses will be used on the checkout page by default.
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="p-4">
-          <h3 class="font-semibold mb-2">Billing Address</h3>
-          <hr class="mb-2" />
+      <hr className="my-4" />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="p-4 shadow">
           <p>
             <strong>Name:</strong> John Doe
           </p>
@@ -44,13 +34,13 @@ const AddressBook = () => {
           </p>
           <Link
             href="addresses/edit/1"
-            class="text-sky-600 font-semibold mt-2 inline-block"
+            className="text-sky-600 font-semibold mt-2 inline-block"
           >
             EDIT YOUR BILLING ADDRESS →
           </Link>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex mt-4">
         <Link
           href="addresses/create"
           className="bg-blue-500 px-4 py-2 rounded text-white hover:scale-105 transition-all duration-150 delay-100 ml-auto"
