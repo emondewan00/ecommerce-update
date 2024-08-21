@@ -36,7 +36,7 @@ const AddressBook = () => {
             href="addresses/edit/1"
             className="text-sky-600 font-semibold mt-2 inline-block"
           >
-            EDIT YOUR BILLING ADDRESS →
+            EDIT YOUR ADDRESS →
           </Link>
         </div>
       </div>
