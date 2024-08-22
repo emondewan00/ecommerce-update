@@ -5,7 +5,7 @@ import UserModel from "@/models/UserModel";
 const addAddress = async (data) => {
   try {
     await connectMongo();
-    const user = await UserModel.findById(data?.id);
+    const user = await UserModel.findById(data?.userId);
     if (!user) {
       return {
         message: "Couldn't find user",
