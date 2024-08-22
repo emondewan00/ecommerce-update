@@ -1,7 +1,12 @@
+import { auth } from "@/auth";
+import { getUser } from "@/queries/user";
 import Link from "next/link";
 import { FaLocationDot } from "react-icons/fa6";
 
-const AddressBook = () => {
+const AddressBook = async () => {
+  const session = await auth();
+  const user = await getUser(session.user.id);
+
   return (
     <div className="p-6">
       <div className="flex items-center gap-x-2 ">
@@ -13,32 +18,43 @@ const AddressBook = () => {
       </p>
       <hr className="my-4" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="p-4 shadow">
-          <p>
-            <strong>Name:</strong> John Doe
-          </p>
-          <p>
-            <strong>Address:</strong> Wall Street
-          </p>
-          <p>
-            <strong>City:</strong> California
-          </p>
-          <p>
-            <strong>Country:</strong> United States (US)
-          </p>
-          <p>
-            <strong>Postcode:</strong> 92020
-          </p>
-          <p>
-            <strong>Phone:</strong> 1112223334
-          </p>
-          <Link
-            href="addresses/edit/1"
-            className="text-sky-600 font-semibold mt-2 inline-block"
-          >
-            EDIT YOUR ADDRESS →
-          </Link>
-        </div>
+        {user?.addresses.length > 1 &&
+          user?.addresses?.map((address) => (
+            <div key={address._id} className="p-4 shadow">
+              <p className="capitalize">
+                <strong>Name:</strong> {address.name}
+              </p>
+              <p>
+                <strong>Address:</strong> {address.address}
+              </p>
+              <p>
+                <strong>City:</strong> {address.city}
+              </p>
+              <p>
+                <strong>Country:</strong> {address.country}
+              </p>
+              <p>
+                <strong>Postcode:</strong> {address.postcode}
+              </p>
+              <p>
+                <strong>Phone:</strong> {address.phone}
+              </p>
+              {address.isShippingDefault && (
+                <p className="text-green-500"> Default shipping address </p>
+              )}
+              <div className="flex justify-between items-center">
+                <Link
+                  href="addresses/edit/1"
+                  className="text-sky-600 font-semibold mt-2 inline-block"
+                >
+                  EDIT YOUR ADDRESS →
+                </Link>
+                <button className="bg-red-400 px-3 py-1 rounded text-white">
+                  Delete
+                </button>
+              </div>
+            </div>
+          ))}
       </div>
       <div className="flex mt-4">
         <Link
