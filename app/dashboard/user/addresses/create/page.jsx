@@ -1,30 +1,58 @@
+"use client";
+
+import { useForm } from "react-hook-form";
+
 const CreateAddress = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <div className="px-8">
       <p className="font-bold">Add address</p>
-      <form action="" className="mt-4 *:mt-3">
+      <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
         <div className="grid grid-cols-2 gap-x-4">
           <div>
             <label htmlFor="name" className="text-slate-600">
-              Name
+              Name <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
               id="name"
               placeholder="Enter your name"
-              className="border w-full outline-none p-1 border-gray-200 mt-2"
+              className={`border w-full outline-none p-1 mt-2 ${
+                errors.name ? "border-red-500" : "border-gray-200"
+              }`}
+              {...register("name", { required: "Name is required" })}
             />
+            {errors.name && (
+              <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>
+            )}
           </div>
           <div>
             <label htmlFor="address" className="text-slate-600">
-              Address
+              Address <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
               id="address"
               placeholder="Enter your address"
-              className="border w-full outline-none p-1 border-gray-200 mt-2"
+              className={`border w-full outline-none p-1 mt-2 ${
+                errors.address ? "border-red-500" : "border-gray-200"
+              }`}
+              {...register("address", { required: "Address is required" })}
             />
+            {errors.address && (
+              <p className="text-red-500 text-sm mt-1">
+                {errors.address.message}
+              </p>
+            )}
           </div>
         </div>
         <div>
@@ -35,8 +63,14 @@ const CreateAddress = () => {
             type="text"
             id="city"
             placeholder="Enter your city"
-            className="border w-full outline-none p-1 border-gray-200 mt-2"
+            className={`border w-full outline-none p-1 mt-2 ${
+              errors.city ? "border-red-500" : "border-gray-200"
+            }`}
+            {...register("city", { required: "City is required" })}
           />
+          {errors.city && (
+            <p className="text-red-500 text-sm mt-1">{errors.city.message}</p>
+          )}
         </div>
         <div className="grid grid-cols-2 gap-x-4">
           <div>
@@ -47,8 +81,22 @@ const CreateAddress = () => {
               type="number"
               id="postcode"
               placeholder="Enter your postcode"
-              className="border w-full outline-none p-1 border-gray-200 mt-2"
+              className={`border w-full outline-none p-1 mt-2 ${
+                errors.postcode ? "border-red-500" : "border-gray-200"
+              }`}
+              {...register("postcode", {
+                required: "Postcode is required",
+                pattern: {
+                  value: /^[0-9]{4,6}$/,
+                  message: "Invalid postcode",
+                },
+              })}
             />
+            {errors.postcode && (
+              <p className="text-red-500 text-sm mt-1">
+                {errors.postcode.message}
+              </p>
+            )}
           </div>
           <div>
             <label htmlFor="country" className="text-slate-600">
@@ -58,24 +106,44 @@ const CreateAddress = () => {
               type="text"
               id="country"
               placeholder="Enter your country"
-              className="border w-full outline-none p-1 border-gray-200 mt-2"
+              className={`border w-full outline-none p-1 mt-2 ${
+                errors.country ? "border-red-500" : "border-gray-200"
+              }`}
+              {...register("country", { required: "Country is required" })}
             />
+            {errors.country && (
+              <p className="text-red-500 text-sm mt-1">
+                {errors.country.message}
+              </p>
+            )}
           </div>
         </div>
 
         <div>
-          <label htmlFor="Phone" className="text-slate-600">
+          <label htmlFor="phone" className="text-slate-600">
             Phone <span className="text-red-500">*</span>
           </label>
           <input
-            type="number"
-            id="Phone"
-            placeholder="Enter your Phone"
-            className="border w-full outline-none p-1 border-gray-200 mt-2"
+            type="tel"
+            id="phone"
+            placeholder="Enter your phone number"
+            className={`border w-full outline-none p-1 mt-2 ${
+              errors.phone ? "border-red-500" : "border-gray-200"
+            }`}
+            {...register("phone", {
+              required: "Phone number is required",
+              pattern: {
+                value: /^\d{10}$/,
+                message: "Invalid phone number",
+              },
+            })}
           />
+          {errors.phone && (
+            <p className="text-red-500 text-sm mt-1">{errors.phone.message}</p>
+          )}
         </div>
         {/* radio */}
-        <div className="md:grid grid-cols-2 ">
+        <div className="md:grid grid-cols-2">
           <div>
             <h3>Default shipping address</h3>
             <div className="flex gap-x-4 mt-2">
@@ -84,7 +152,8 @@ const CreateAddress = () => {
                   type="radio"
                   id="yesDefault"
                   className="mr-2"
-                  name="defaultShipping"
+                  value="yes"
+                  {...register("defaultShipping", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="yesDefault">
                   Yes
@@ -95,7 +164,8 @@ const CreateAddress = () => {
                   type="radio"
                   id="noDefault"
                   className="mr-2"
-                  name="defaultShipping"
+                  value="no"
+                  {...register("defaultShipping", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="noDefault">
                   No
@@ -111,7 +181,8 @@ const CreateAddress = () => {
                   type="radio"
                   id="yesDefaultBilling"
                   className="mr-2"
-                  name="defaultBilling"
+                  value="yes"
+                  {...register("defaultBilling", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="yesDefaultBilling">
                   Yes
@@ -122,7 +193,8 @@ const CreateAddress = () => {
                   type="radio"
                   id="noDefaultBilling"
                   className="mr-2"
-                  name="defaultBilling"
+                  value="no"
+                  {...register("defaultBilling", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="noDefaultBilling">
                   No
@@ -133,7 +205,10 @@ const CreateAddress = () => {
         </div>
 
         <div className="flex justify-end mt-4">
-          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+          <button
+            type="submit"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          >
             Save
           </button>
         </div>
