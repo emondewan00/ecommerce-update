@@ -1,22 +1,51 @@
 "use client";
 
+import addAddress from "@/actions/addAddress";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
+
+const SubmitForm = () => {
+  return (
+    <div className="flex justify-end mt-4">
+      <button
+        type="submit"
+        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+      >
+        Save
+      </button>
+    </div>
+  );
+};
 
 const CreateAddress = () => {
+  const session = useSession();
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({});
+  const router = useRouter();
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = async (data) => {
+    const userId = session?.data?.user?.id;
+    data.defaultShipping = data.defaultShipping === "true";
+    data.defaultBilling = data.defaultBilling === "true";
+
+    const result = await addAddress({ ...data, userId });
+    if (result.success) {
+      router.push("/dashboard/user/addresses");
+      toast.success("Address added successfully!");
+    } else {
+      toast.error("Failed to add address.");
+    }
   };
 
   return (
     <div className="px-8">
       <p className="font-bold">Add address</p>
-      <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
+      <form onSubmit={handleSubmit(onSubmit)} className="mt-4 *:mt-2">
         <div className="grid grid-cols-2 gap-x-4">
           <div>
             <label htmlFor="name" className="text-slate-600">
@@ -142,7 +171,7 @@ const CreateAddress = () => {
             <p className="text-red-500 text-sm mt-1">{errors.phone.message}</p>
           )}
         </div>
-        {/* radio */}
+        {/* Radio for Default Shipping Address */}
         <div className="md:grid grid-cols-2">
           <div>
             <h3>Default shipping address</h3>
@@ -151,8 +180,7 @@ const CreateAddress = () => {
                 <input
                   type="radio"
                   id="yesDefault"
-                  className="mr-2"
-                  value="yes"
+                  value="true"
                   {...register("defaultShipping", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="yesDefault">
@@ -163,8 +191,7 @@ const CreateAddress = () => {
                 <input
                   type="radio"
                   id="noDefault"
-                  className="mr-2"
-                  value="no"
+                  value="false"
                   {...register("defaultShipping", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="noDefault">
@@ -173,6 +200,8 @@ const CreateAddress = () => {
               </div>
             </div>
           </div>
+
+          {/* Radio for Default Billing Address */}
           <div>
             <h3>Default billing address</h3>
             <div className="flex gap-x-4 mt-2">
@@ -180,8 +209,7 @@ const CreateAddress = () => {
                 <input
                   type="radio"
                   id="yesDefaultBilling"
-                  className="mr-2"
-                  value="yes"
+                  value="true"
                   {...register("defaultBilling", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="yesDefaultBilling">
@@ -192,8 +220,7 @@ const CreateAddress = () => {
                 <input
                   type="radio"
                   id="noDefaultBilling"
-                  className="mr-2"
-                  value="no"
+                  value="false"
                   {...register("defaultBilling", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="noDefaultBilling">
@@ -203,15 +230,7 @@ const CreateAddress = () => {
             </div>
           </div>
         </div>
-
-        <div className="flex justify-end mt-4">
-          <button
-            type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-          >
-            Save
-          </button>
-        </div>
+        <SubmitForm />
       </form>
     </div>
   );
