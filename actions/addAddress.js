@@ -1,6 +1,6 @@
 "use server";
 
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import UserModel from "@/models/UserModel";
 const addAddress = async (data) => {
   try {

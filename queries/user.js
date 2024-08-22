@@ -1,4 +1,4 @@
-import connectMongo from "@/lib/connectDb";
+import connectMongo from "@/utils/connectDb";
 import UserModel from "@/models/UserModel";
 
 export const getUser = async (userId) => {
