@@ -14,6 +14,8 @@ const loginAction = async (formData) => {
   }
 
   try {
+    // TODO:get user from server and check password and call signIn method
+
     const user = await signIn("credentials", {
       email,
       password,
