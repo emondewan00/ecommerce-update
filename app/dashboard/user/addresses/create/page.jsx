@@ -32,8 +32,8 @@ const CreateAddress = () => {
 
   const onSubmit = async (data) => {
     const userId = session?.data?.user?.id;
-    data.defaultShipping = data.defaultShipping === "true";
-    data.defaultBilling = data.defaultBilling === "true";
+    data.isShippingDefault = data.isShippingDefault === "true";
+    data.isBillingDefault = data.isBillingDefault === "true";
 
     const result = await addAddress({ ...data, userId });
     if (result.success) {
@@ -183,7 +183,7 @@ const CreateAddress = () => {
                   type="radio"
                   id="yesDefault"
                   value="true"
-                  {...register("defaultShipping", { required: true })}
+                  {...register("isShippingDefault", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="yesDefault">
                   Yes
@@ -194,7 +194,7 @@ const CreateAddress = () => {
                   type="radio"
                   id="noDefault"
                   value="false"
-                  {...register("defaultShipping", { required: true })}
+                  {...register("isShippingDefault", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="noDefault">
                   No
@@ -212,7 +212,7 @@ const CreateAddress = () => {
                   type="radio"
                   id="yesDefaultBilling"
                   value="true"
-                  {...register("defaultBilling", { required: true })}
+                  {...register("isBillingDefault", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="yesDefaultBilling">
                   Yes
@@ -223,7 +223,7 @@ const CreateAddress = () => {
                   type="radio"
                   id="noDefaultBilling"
                   value="false"
-                  {...register("defaultBilling", { required: true })}
+                  {...register("isBillingDefault", { required: true })}
                 />
                 <label className="text-slate-600" htmlFor="noDefaultBilling">
                   No

@@ -1,45 +1,42 @@
 import mongoose, { Schema, model } from "mongoose";
 
-const addressSchema = new Schema(
-  {
-    name: {
-      type: String,
-      required: true,
-    },
-    address: {
-      type: String,
-      required: true,
-    },
-    city: {
-      type: String,
-      required: true,
-    },
-    country: {
-      type: String,
-      required: true,
-      default: "Bangladesh",
-    },
-    postcode: {
-      type: String,
-      required: true,
-    },
-    phone: {
-      type: String,
-      required: true,
-    },
-    isBillingDefault: {
-      type: Boolean,
-      required: true,
-      default: false,
-    },
-    isShippingDefault: {
-      type: Boolean,
-      required: true,
-      default: false,
-    },
+const addressSchema = new Schema({
+  name: {
+    type: String,
+    required: true,
   },
-  { timestamps: true }
-);
+  address: {
+    type: String,
+    required: true,
+  },
+  city: {
+    type: String,
+    required: true,
+  },
+  country: {
+    type: String,
+    required: true,
+    default: "Bangladesh",
+  },
+  postcode: {
+    type: String,
+    required: true,
+  },
+  phone: {
+    type: String,
+    required: true,
+  },
+  isBillingDefault: {
+    type: Boolean,
+    required: true,
+    default: false,
+  },
+  isShippingDefault: {
+    type: Boolean,
+    required: true,
+    default: false,
+  },
+});
 
 const userSchema = new Schema(
   {
@@ -66,4 +63,4 @@ const userSchema = new Schema(
   { timestamps: true }
 );
 
-export default mongoose.models.User || model("User", userSchema);
+export default mongoose.models?.User || model("User", userSchema);
