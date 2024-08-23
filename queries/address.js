@@ -4,18 +4,19 @@ import UserModel from "@/models/UserModel";
 export async function findAddressById(userId, addressId) {
   try {
     await connectMongo();
-    const user = await UserModel.findById(userId);
-    if (user) {
-      const address = user.addresses.id(addressId); // Find the address by ID
-      if (address) {
-        console.log("Address found:", address);
-      } else {
-        console.log("No address found with this ID.");
-      }
-    } else {
-      console.log("No user found with this ID.");
+    const user = await UserModel.findById(userId).lean();
+    if (!user) {
+      return [];
     }
+    const address = user.addresses.find(
+      (address) => address._id.toString() === addressId
+    );
+
+    const _id = address._id.toString();
+
+    return { ...address, _id, userId };
   } catch (err) {
     console.error("Error finding address:", err);
+    return [];
   }
 }
