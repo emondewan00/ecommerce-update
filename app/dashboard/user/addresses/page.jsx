@@ -7,6 +7,9 @@ const AddressBook = async () => {
   const session = await auth();
   const user = await getUser(session.user.id);
 
+  const addresses = user?.addresses;
+  addresses.sort((a, b) => b.isShippingDefault - a.isShippingDefault);
+
   return (
     <div className="p-6">
       <div className="flex items-center gap-x-2 ">
@@ -18,8 +21,8 @@ const AddressBook = async () => {
       </p>
       <hr className="my-4" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {user?.addresses.length > 1 &&
-          user?.addresses?.map((address) => (
+        {addresses.length > 1 &&
+          addresses?.map((address) => (
             <div key={address._id} className="p-4 shadow">
               <p className="capitalize">
                 <strong>Name:</strong> {address.name}
@@ -44,7 +47,7 @@ const AddressBook = async () => {
               )}
               <div className="flex justify-between items-center">
                 <Link
-                  href="addresses/edit/1"
+                  href={`addresses/edit/${address._id}`}
                   className="text-sky-600 font-semibold mt-2 inline-block"
                 >
                   EDIT YOUR ADDRESS →
