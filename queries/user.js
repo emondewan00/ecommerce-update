@@ -1,3 +1,4 @@
+"use server";
 import connectMongo from "@/utils/connectDb";
 import UserModel from "@/models/UserModel";
 

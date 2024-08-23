@@ -1,10 +1,10 @@
 "use client";
 
 import { useFormState } from "react-dom";
-import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
+import { updateAddress } from "@/queries/address";
 
 const SubmitForm = () => {
   const { pending } = useFormState();
@@ -21,7 +21,6 @@ const SubmitForm = () => {
 };
 
 const EditAddress = ({ address }) => {
-  const session = useSession();
   const {
     register,
     handleSubmit,
@@ -36,7 +35,13 @@ const EditAddress = ({ address }) => {
   const router = useRouter();
 
   const onSubmit = async (data) => {
-    console.log(data);
+    const result = await updateAddress(data);
+    if (result.success) {
+      router.push("/dashboard/user/addresses");
+      toast.success(result.message);
+    } else {
+      toast.error(result.message);
+    }
   };
 
   return (
