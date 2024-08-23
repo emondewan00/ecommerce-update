@@ -1,11 +1,13 @@
 import { auth } from "@/auth";
+import DeleteAddress from "@/components/address/DeleteAddress";
 import { getUser } from "@/queries/user";
 import Link from "next/link";
 import { FaLocationDot } from "react-icons/fa6";
 
 const AddressBook = async () => {
   const session = await auth();
-  const user = await getUser(session.user.id);
+  const userId = session?.user?.id;
+  const user = await getUser(userId);
 
   const addresses = user?.addresses;
   addresses.sort((a, b) => b.isShippingDefault - a.isShippingDefault);
@@ -52,9 +54,10 @@ const AddressBook = async () => {
                 >
                   EDIT YOUR ADDRESS →
                 </Link>
-                <button className="bg-red-400 px-3 py-1 rounded text-white">
-                  Delete
-                </button>
+                <DeleteAddress
+                  addressId={address._id.toString()}
+                  userId={userId}
+                />
               </div>
             </div>
           ))}

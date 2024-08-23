@@ -1,6 +1,7 @@
 "use server";
 import connectMongo from "@/utils/connectDb";
 import UserModel from "@/models/UserModel";
+import { revalidatePath } from "next/cache";
 
 export async function findAddressById(userId, addressId) {
   try {
@@ -56,6 +57,42 @@ export async function updateAddress(address) {
     console.error("Error updating address:", err);
     return {
       message: err.message || "An error occurred while updating the address",
+      status: "error",
+      success: false,
+    };
+  }
+}
+
+export async function deleteAddress(userId, addressId) {
+  try {
+    await connectMongo();
+
+    const updateResult = await UserModel.updateOne(
+      { _id: userId },
+      {
+        $pull: {
+          addresses: { _id: addressId },
+        },
+      }
+    );
+    if (updateResult.modifiedCount === 0) {
+      return {
+        message: "Couldn't find user or address",
+        status: "error",
+        success: false,
+      };
+    }
+    revalidatePath("/dashboard/user/addresses");
+
+    return {
+      message: "Address deleted successfully",
+      status: "success",
+      success: true,
+    };
+  } catch (err) {
+    console.error("Error deleting address:", err);
+    return {
+      message: err.message || "An error occurred while deleting the address",
       status: "error",
       success: false,
     };
