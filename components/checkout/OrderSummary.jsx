@@ -3,7 +3,7 @@ import PlaceOrder from "./PlaceOrder";
 
 const OrderSummary = ({ data }) => {
   const totalPrice = data?.items?.reduce(
-    (sum, item) => item?.product_id?.price * item?.quantity + sum,
+    (sum, item) => item?.product_id?.discount_price * item?.quantity + sum,
     0
   );
   return (
@@ -23,7 +23,7 @@ const OrderSummary = ({ data }) => {
                   </h5>
                 </div>
                 <p className="text-gray-800 font-medium">
-                  ${item?.product_id?.price}
+                  ${item?.product_id?.discount_price}
                 </p>
               </div>
             ))}
