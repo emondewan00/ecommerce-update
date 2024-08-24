@@ -10,6 +10,7 @@ export const createOrder = async (data) => {
       success: true,
       message: "Order created successfully!",
       status: "success",
+      _id: newOrder._id.toString(),
     };
   } catch (error) {
     return {
