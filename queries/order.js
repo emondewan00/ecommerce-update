@@ -20,3 +20,28 @@ export const createOrder = async (data) => {
     };
   }
 };
+
+export const getOrdersByUserId = async (userId) => {
+  try {
+    const orders = await Order.find({ userId })
+      .select({
+        _id: 1,
+        createdAt: 1,
+        totalPrice: 1,
+        status: 1,
+      })
+      .sort({ createdAt: -1 });
+    return {
+      status: "success",
+      message: "Orders data was successfully retrieved",
+      success: true,
+      orders,
+    };
+  } catch (error) {
+    return {
+      success: false,
+      message: error.message || "Failed to get orders. Please try again.",
+      status: "error",
+    };
+  }
+};
