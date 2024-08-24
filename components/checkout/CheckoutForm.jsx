@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
 const CheckoutForm = ({ initialAddress, products }) => {
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -16,31 +17,42 @@ const CheckoutForm = ({ initialAddress, products }) => {
   });
 
   const onSubmit = async (data) => {
-    const totalPrice = products?.reduce(
-      (sum, item) => item?.product_id?.price * item?.quantity + sum,
-      0
+    const productsFormate = products.reduce(
+      (pds, product) => {
+        return {
+          totalPrice: pds.totalPrice + product.product_id?.discount_price,
+          products: [
+            {
+              productId: product.product_id?._id,
+              price: product.product_id?.price,
+              discount_price: product.product_id?.discount_price,
+              quantity: product.quantity,
+            },
+            ...pds.products,
+          ],
+        };
+      },
+      {
+        totalPrice: 0,
+        products: [],
+      }
     );
-    const productsFormate = products.reduce((pds, product) => {
-      return [
-        {
-          productId: product.product_id?._id,
-          price: product.product_id?.price,
-          discount_price: product.product_id?.discount_price,
-          quantity: product.quantity,
-        },
-        ...pds,
-      ];
-    }, []);
+
     const result = await createOrder({
-      products: productsFormate,
-      totalPrice,
       paymentMethod: "cash_on_delivery",
       shippingAddress: data,
       userId: data?.userId,
+      ...productsFormate,
     });
-    console.log(result, "created order");
+
+    if (result.success) {
+      toast.success(result.message);
+      router.push(`/invoice/${result._id}`);
+    } else {
+      toast.error(result.message);
+    }
   };
-  // console.log(products);
+
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="mt-4 *:mt-2">
       <div className="grid grid-cols-2 gap-x-4">
