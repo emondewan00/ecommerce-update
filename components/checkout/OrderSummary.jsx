@@ -1,6 +1,7 @@
 import Link from "next/link";
+import PlaceOrder from "./PlaceOrder";
 
-const CartSummary = ({ data }) => {
+const OrderSummary = ({ data }) => {
   const totalPrice = data?.items?.reduce(
     (sum, item) => item?.product_id?.price * item?.quantity + sum,
     0
@@ -43,14 +44,10 @@ const CartSummary = ({ data }) => {
           <p>${totalPrice?.toFixed(2)}</p>
         </div>
       </div>
-      <Link
-        href={"/checkout"}
-        className="w-full py-2 bg-blue-500 text-white rounded-b uppercase font-semibold inline-block text-center"
-      >
-        checkout
-      </Link>
+
+      <PlaceOrder />
     </div>
   );
 };
 
-export default CartSummary;
+export default OrderSummary;

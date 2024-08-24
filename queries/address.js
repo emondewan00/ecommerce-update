@@ -3,6 +3,26 @@ import connectMongo from "@/utils/connectDb";
 import UserModel from "@/models/UserModel";
 import { revalidatePath } from "next/cache";
 
+export async function getDefaultAddress(userId) {
+  try {
+    await connectMongo();
+    const user = await UserModel.findById(userId).lean();
+    if (!user) {
+      return null;
+    }
+    const defaultAddress = user.addresses.find(
+      (address) => address.isShippingDefault
+    );
+
+    const _id = defaultAddress._id.toString();
+
+    return { ...defaultAddress, _id, userId };
+  } catch (err) {
+    console.error("Error finding default address:", err);
+    return null;
+  }
+}
+
 export async function findAddressById(userId, addressId) {
   try {
     await connectMongo();
