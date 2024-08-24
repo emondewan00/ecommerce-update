@@ -1,4 +1,4 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Schema, model, models } from "mongoose";
 import UserModel from "./UserModel";
 import ProductModel from "./ProductModel";
 
@@ -41,6 +41,9 @@ const product = {
     required: true,
     min: 1,
   },
+  discount_price: {
+    type: Number,
+  },
   price: {
     type: Number,
     required: true,
@@ -57,7 +60,7 @@ const orderSchema = new Schema({
     type: [product],
     required: true,
   },
-  totalAmount: {
+  totalPrice: {
     type: Number,
     required: true,
   },
@@ -85,6 +88,6 @@ const orderSchema = new Schema({
   },
 });
 
-const Order = mongoose.model("Order", orderSchema);
+const Order = models.Order || model("Order", orderSchema);
 
-module.exports = Order;
+export default Order;

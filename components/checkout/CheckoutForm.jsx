@@ -1,19 +1,46 @@
 "use client";
+import { createOrder } from "@/queries/order";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
-const CheckoutForm = () => {
+const CheckoutForm = ({ initialAddress, products }) => {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    defaultValues: {
+      ...initialAddress,
+    },
+  });
 
   const onSubmit = async (data) => {
-    console.log(data);
+    const totalPrice = products?.reduce(
+      (sum, item) => item?.product_id?.price * item?.quantity + sum,
+      0
+    );
+    const productsFormate = products.reduce((pds, product) => {
+      return [
+        {
+          productId: product.product_id?._id,
+          price: product.product_id?.price,
+          discount_price: product.product_id?.discount_price,
+          quantity: product.quantity,
+        },
+        ...pds,
+      ];
+    }, []);
+    const result = await createOrder({
+      products: productsFormate,
+      totalPrice,
+      paymentMethod: "cash_on_delivery",
+      shippingAddress: data,
+      userId: data?.userId,
+    });
+    console.log(result, "created order");
   };
-
+  // console.log(products);
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="mt-4 *:mt-2">
       <div className="grid grid-cols-2 gap-x-4">

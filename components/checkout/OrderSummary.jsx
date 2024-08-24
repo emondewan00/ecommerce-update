@@ -15,7 +15,7 @@ const OrderSummary = ({ data }) => {
         <div className="space-y-2">
           {data?.items?.length > 0 &&
             data?.items?.map((item) => (
-              <div key={item._id} className="flex justify-between">
+              <div key={item.product_id?._id} className="flex justify-between">
                 <div className="flex gap-x-2">
                   <p className="text-gray-600">x{item?.quantity}</p>
                   <h5 className="text-gray-800 font-medium truncate w-32">
