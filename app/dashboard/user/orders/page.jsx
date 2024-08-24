@@ -11,7 +11,7 @@ const OrderPage = async () => {
     <div className="w-full">
       <div className="mb-2">
         <h1 className="text-xl font-bold">Orders</h1>
-        <p>You have {orders?.orders.length} Orders.</p>
+        <p>You have {orders?.orders?.length} Orders.</p>
       </div>
       <table className="w-full">
         <thead>
@@ -24,7 +24,7 @@ const OrderPage = async () => {
           </tr>
         </thead>
         <tbody className="*:border-b ">
-          {orders?.orders.map((order, idx) => (
+          {orders?.orders?.map((order, idx) => (
             <tr key={order._id} className="*:py-2">
               <td>
                 <Link href={`/dashboard/user/order/${order._id}`}>

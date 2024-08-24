@@ -1,9 +1,11 @@
 "use server";
 
 import Order from "@/models/Order-model";
+import connectMongo from "@/utils/connectDb";
 
 export const createOrder = async (data) => {
   try {
+    await connectMongo();
     const newOrder = new Order(data);
     await newOrder.save();
     return {
@@ -23,6 +25,7 @@ export const createOrder = async (data) => {
 
 export const getOrdersByUserId = async (userId) => {
   try {
+    await connectMongo();
     const orders = await Order.find({ userId })
       .select({
         _id: 1,
