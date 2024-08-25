@@ -1,5 +1,6 @@
 "use server";
 
+import Product from "@/components/product/Product";
 import Order from "@/models/Order-model";
 import connectMongo from "@/utils/connectDb";
 
@@ -44,6 +45,44 @@ export const getOrdersByUserId = async (userId) => {
     return {
       success: false,
       message: error.message || "Failed to get orders. Please try again.",
+      status: "error",
+    };
+  }
+};
+
+export const findOrderById = async (orderId) => {
+  try {
+    await connectMongo();
+    const order = await Order.findById(orderId)
+      .populate({
+        path: "products.productId",
+        select: "name",
+      })
+      .select({
+        _id: 1,
+        createdAt: 1,
+        totalPrice: 1,
+        products: 1,
+        shippingAddress: 1,
+      })
+      .lean();
+    if (!order) {
+      return {
+        success: false,
+        message: "Order not found",
+        status: "error",
+      };
+    }
+    return {
+      status: "success",
+      message: "Order data was successfully retrieved",
+      success: true,
+      data: order,
+    };
+  } catch (error) {
+    return {
+      success: false,
+      message: error.message || "Failed to get order. Please try again.",
       status: "error",
     };
   }
