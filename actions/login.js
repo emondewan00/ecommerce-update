@@ -1,11 +1,10 @@
 "use server";
-import { redirect } from "next/navigation";
 import { signIn } from "@/auth";
 import { isRedirectError } from "next/dist/client/components/redirect";
-import { revalidatePath } from "next/cache";
-const loginAction = async (formData) => {
-  const email = formData.get("email");
-  const password = formData.get("password");
+
+const loginAction = async (data) => {
+  const { email, password } = data;
+
   if (!email || !password) {
     return {
       success: false,
@@ -16,21 +15,22 @@ const loginAction = async (formData) => {
   try {
     // TODO:get user from server and check password and call signIn method
 
-    const user = await signIn("credentials", {
+    await signIn("credentials", {
       email,
       password,
       redirect: false,
-      callbackUrl: "/",
     });
-    revalidatePath("/");
-    redirect("/");
+    return {
+      success: true,
+      message: "Logged in successfully",
+    };
   } catch (error) {
     if (isRedirectError(error)) {
       throw error;
     }
     return {
       success: false,
-      message: error.message,
+      message: "Email or password maybe incorrect! Please try again",
     };
   }
 };
