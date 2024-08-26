@@ -20,6 +20,7 @@ const OrderPage = async () => {
             <th>Date</th>
             <th>Status</th>
             <th>Total</th>
+            <th>Invoice</th>
             <th>Action</th>
           </tr>
         </thead>
@@ -34,6 +35,14 @@ const OrderPage = async () => {
               <td>{new Date(order.createdAt).toLocaleString()}</td>
               <td className="capitalize">{order.status}</td>
               <td>${order.totalPrice}</td>
+              <td>
+                <Link
+                  href={`/invoice/${order._id}`}
+                  className="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-lg border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm"
+                >
+                  Invoice
+                </Link>
+              </td>
               <td>
                 <td>
                   <Link

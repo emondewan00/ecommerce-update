@@ -19,9 +19,6 @@ const UserLayout = async ({ children }) => {
               <Link href={"/dashboard/user/orders"}>Orders</Link>
             </li>
             <li>
-              <Link href={"/"}>Downloads</Link>
-            </li>
-            <li>
               <Link href={"/dashboard/user/addresses"}>Addresses</Link>
             </li>
             <li>
