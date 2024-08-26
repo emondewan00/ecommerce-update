@@ -1,14 +1,29 @@
 "use server";
 
-import Product from "@/components/product/Product";
+import { Cart } from "@/models/cart-model";
 import Order from "@/models/Order-model";
 import connectMongo from "@/utils/connectDb";
+import { revalidateTag } from "next/cache";
 
 export const createOrder = async (data) => {
   try {
     await connectMongo();
     const newOrder = new Order(data);
+
+    // Attempt to delete the user's cart
+    const removeToCart = await Cart.deleteOne({
+      user_id: data.userId,
+    });
+
+    // Check if the cart deletion was acknowledged by MongoDB
+    if (removeToCart.deletedCount === 0) {
+      throw new Error("Please try again.");
+    }
+
+    // Save the new order to the database
     await newOrder.save();
+    revalidateTag("cartLength");
+    // Return a success response
     return {
       success: true,
       message: "Order created successfully!",
