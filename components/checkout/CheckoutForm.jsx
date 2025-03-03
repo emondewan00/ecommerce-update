@@ -1,5 +1,6 @@
 "use client";
 import { createOrder } from "@/queries/order";
+import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
@@ -15,6 +16,7 @@ const CheckoutForm = ({ initialAddress, products }) => {
       ...initialAddress,
     },
   });
+  const { data: session } = useSession();
 
   const onSubmit = async (data) => {
     const productsFormate = products.reduce(
@@ -41,8 +43,8 @@ const CheckoutForm = ({ initialAddress, products }) => {
     const result = await createOrder({
       paymentMethod: "cash_on_delivery",
       shippingAddress: data,
-      userId: data?.userId,
       ...productsFormate,
+      userId: session.user.id,
     });
 
     if (result.success) {
@@ -50,6 +52,7 @@ const CheckoutForm = ({ initialAddress, products }) => {
       router.push(`/invoice/${result._id}`);
     } else {
       toast.error(result.message);
+      console.log("hello world", result);
     }
   };
 
@@ -118,7 +121,7 @@ const CheckoutForm = ({ initialAddress, products }) => {
           <input
             type="number"
             id="postcode"
-            placeholder="Enter your postcode"
+            placeholder="Enter your postcode 4-6"
             className={`border w-full outline-none p-1 mt-2 ${
               errors.postcode ? "border-red-500" : "border-gray-200"
             }`}
@@ -164,7 +167,7 @@ const CheckoutForm = ({ initialAddress, products }) => {
         <input
           type="tel"
           id="phone"
-          placeholder="Enter your phone number"
+          placeholder="Enter your phone number with out 0"
           className={`border w-full outline-none p-1 mt-2 ${
             errors.phone ? "border-red-500" : "border-gray-200"
           }`}

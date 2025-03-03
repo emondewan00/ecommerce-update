@@ -14,9 +14,9 @@ export const createOrder = async (data) => {
     const removeToCart = await Cart.deleteOne({
       user_id: data.userId,
     });
-
     // Check if the cart deletion was acknowledged by MongoDB
     if (removeToCart.deletedCount === 0) {
+      console.log(removeToCart, data,"hello ");
       throw new Error("Please try again.");
     }
 
