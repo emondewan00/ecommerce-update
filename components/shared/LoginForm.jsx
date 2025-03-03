@@ -16,8 +16,8 @@ const LoginForm = () => {
     const result = await loginAction(data);
     if (result.success) {
       toast.success(result.message);
+      window.location.reload();
       router.push("/");
-      router.refresh();
     } else {
       toast.error(result.message);
     }
